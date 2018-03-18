@@ -1,0 +1,6 @@
+{
+    "dependencies": {
+        "google-closure-library": "link:../google-closure-library"
+    },
+    "version": "0.0.0"
+}

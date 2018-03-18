@@ -71,7 +71,7 @@ declare namespace goog.object {
      */
     function map<T, O extends {[key: string]: any}, R>(
         obj: O, f: (this: T, _0: O[typeof _1], _1: keyof O, _2: O) => R, opt_obj?: T
-    ): {[key: number]: R};
+    ): {[key: string]: R};
     function map<T, R>(obj: object, f: (this: T, _0: any, _1: any, _2: object) => R, opt_obj?: T): {[key: string]: R};
 
     /**
