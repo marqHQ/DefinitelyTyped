@@ -60,9 +60,18 @@ declare namespace goog {
          * an already disposed Disposable, it will be called immediately.
          * @param {function(this:T):?} callback The callback function.
          * @param {T=} opt_scope An optional scope to call the callback in.
+         * @return {function(this:T):?} A callback you can pass to
+         *     removeOnDisposeCallback to undo this addOnDisposeCallback.
          * @template T
          */
-        addOnDisposeCallback<T>(callback: (this: T) => any, opt_scope?: T): void;
+        addOnDisposeCallback<T>(callback: (this: T) => any, opt_scope?: T): (this: T) => any;
+
+        /**
+         * Remove a callback added with addOnDisposeCallback.
+         * @param {function(this:T):?} callback The callback function.
+         * @template T
+         */
+        removeOnDisposeCallback<T>(callback: (this: T) => any): void;
 
         /**
          * Deletes or nulls out any references to COM objects, DOM nodes, or other
