@@ -607,6 +607,11 @@ declare namespace goog.date {
          * @return {string} The time label.
          */
         toIsoTimeString(opt_showSeconds?: boolean): string;
+
+        /**
+         * @return {!goog.date.DateTime} A clone of the DateTime object.
+         */
+        clone():  goog.date.DateTime;
     }
 
     /**
