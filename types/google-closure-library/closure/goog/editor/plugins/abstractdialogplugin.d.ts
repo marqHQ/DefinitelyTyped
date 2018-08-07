@@ -4,6 +4,16 @@
 /// <reference path="../../ui/editor/abstractdialog.d.ts"/>
 /// <reference path="../../events/event.d.ts"/>
 
+declare module 'goog:goog.editor.plugins.AbstractDialogPlugin' {
+    import alias = goog.editor.plugins.AbstractDialogPlugin;
+    export default alias;
+}
+
+declare module 'goog:goog.editor.plugins.AbstractDialogPlugin.EventType' {
+    import alias = goog.editor.plugins.AbstractDialogPlugin.EventType;
+    export default alias;
+}
+
 declare namespace goog.editor.plugins {
     /**
      * An abstract superclass for a Trogedit plugin that creates exactly one

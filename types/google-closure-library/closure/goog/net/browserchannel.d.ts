@@ -10,6 +10,66 @@
 /// <reference path="../events/eventtarget.d.ts"/>
 /// <reference path="../log/log.d.ts"/>
 
+declare module 'goog:goog.net.BrowserChannel' {
+    import alias = goog.net.BrowserChannel;
+    export default alias;
+}
+
+declare module 'goog:goog.net.BrowserChannel.TimingEvent' {
+    import alias = goog.net.BrowserChannel.TimingEvent;
+    export default alias;
+}
+
+declare module 'goog:goog.net.BrowserChannel.State' {
+    import alias = goog.net.BrowserChannel.State;
+    export default alias;
+}
+
+declare module 'goog:goog.net.BrowserChannel.StatEvent' {
+    import alias = goog.net.BrowserChannel.StatEvent;
+    export default alias;
+}
+
+declare module 'goog:goog.net.BrowserChannel.Stat' {
+    import alias = goog.net.BrowserChannel.Stat;
+    export default alias;
+}
+
+declare module 'goog:goog.net.BrowserChannel.ServerReachabilityEvent' {
+    import alias = goog.net.BrowserChannel.ServerReachabilityEvent;
+    export default alias;
+}
+
+declare module 'goog:goog.net.BrowserChannel.ServerReachability' {
+    import alias = goog.net.BrowserChannel.ServerReachability;
+    export default alias;
+}
+
+declare module 'goog:goog.net.BrowserChannel.QueuedMap' {
+    import alias = goog.net.BrowserChannel.QueuedMap;
+    export default alias;
+}
+
+declare module 'goog:goog.net.BrowserChannel.LogSaver' {
+    import alias = goog.net.BrowserChannel.LogSaver;
+    export default alias;
+}
+
+declare module 'goog:goog.net.BrowserChannel.Handler' {
+    import alias = goog.net.BrowserChannel.Handler;
+    export default alias;
+}
+
+declare module 'goog:goog.net.BrowserChannel.Event' {
+    import alias = goog.net.BrowserChannel.Event;
+    export default alias;
+}
+
+declare module 'goog:goog.net.BrowserChannel.Error' {
+    import alias = goog.net.BrowserChannel.Error;
+    export default alias;
+}
+
 declare namespace goog.net {
     /**
      * Encapsulates the logic for a single BrowserChannel.

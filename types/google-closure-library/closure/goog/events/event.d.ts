@@ -1,6 +1,16 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./eventid.d.ts"/>
 
+declare module 'goog:goog.events.EventLike' {
+    import alias = goog.events.EventLike;
+    export default alias;
+}
+
+declare module 'goog:goog.events.Event' {
+    import alias = goog.events.Event;
+    export default alias;
+}
+
 declare namespace goog.events {
     /**
      * A base class for event objects, so that they can support preventDefault and

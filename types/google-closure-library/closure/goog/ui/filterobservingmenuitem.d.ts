@@ -4,6 +4,11 @@
 /// <reference path="../dom/dom.d.ts"/>
 /// <reference path="./menuitemrenderer.d.ts"/>
 
+declare module 'goog:goog.ui.FilterObservingMenuItem' {
+    import alias = goog.ui.FilterObservingMenuItem;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Class representing a filter observing menu item.

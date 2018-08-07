@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.graphics.AffineTransform' {
+    import alias = goog.graphics.AffineTransform;
+    export default alias;
+}
+
 declare namespace goog.graphics {
     /**
      * Creates a 2D affine transform. An affine transform performs a linear

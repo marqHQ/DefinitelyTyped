@@ -2,6 +2,11 @@
 /// <reference path="./element.d.ts"/>
 /// <reference path="./group.d.ts"/>
 
+declare module 'goog:goog.graphics.ext.Image' {
+    import alias = goog.graphics.ext.Image;
+    export default alias;
+}
+
 declare namespace goog.graphics.ext {
     /**
      * Wrapper for a graphics image element.

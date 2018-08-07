@@ -6,6 +6,11 @@
 /// <reference path="../events/eventhandler.d.ts"/>
 /// <reference path="../events/browserevent.d.ts"/>
 
+declare module 'goog:goog.editor.ClickToEditWrapper' {
+    import alias = goog.editor.ClickToEditWrapper;
+    export default alias;
+}
+
 declare namespace goog.editor {
     /**
      * Initialize the wrapper, and begin listening to mouse events immediately.

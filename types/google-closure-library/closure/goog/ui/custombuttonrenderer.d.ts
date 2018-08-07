@@ -4,6 +4,11 @@
 /// <reference path="../dom/dom.d.ts"/>
 /// <reference path="./button.d.ts"/>
 
+declare module 'goog:goog.ui.CustomButtonRenderer' {
+    import alias = goog.ui.CustomButtonRenderer;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Custom renderer for {@link goog.ui.Button}s.  Custom buttons can contain

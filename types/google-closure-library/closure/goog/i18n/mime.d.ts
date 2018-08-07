@@ -1,5 +1,13 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.i18n.mime.encode' {
+    export = goog.i18n.mime.encode;
+}
+
+declare module 'goog:goog.i18n.mime' {
+    export = goog.i18n.mime;
+}
+
 declare namespace goog.i18n.mime {
     /**
      * Encodes a string for inclusion in a MIME header. The string is encoded

@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../iter/iter.d.ts"/>
 
+declare module 'goog:goog.structs.StringSet' {
+    import alias = goog.structs.StringSet;
+    export default alias;
+}
+
 declare namespace goog.structs {
     /**
      * Creates a set of strings.

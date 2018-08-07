@@ -2,6 +2,11 @@
 /// <reference path="./field.d.ts"/>
 /// <reference path="../events/events.d.ts"/>
 
+declare module 'goog:goog.editor.SeamlessField' {
+    import alias = goog.editor.SeamlessField;
+    export default alias;
+}
+
 declare namespace goog.editor {
     /**
      * This class encapsulates an editable field that blends in with the

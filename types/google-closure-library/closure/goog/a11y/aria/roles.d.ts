@@ -1,5 +1,10 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.a11y.aria.Role' {
+    import alias = goog.a11y.aria.Role;
+    export default alias;
+}
+
 declare namespace goog.a11y.aria {
     /**
      * ARIA role values.

@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="../plugin.d.ts"/>
 
+declare module 'goog:goog.editor.plugins.LinkShortcutPlugin' {
+    import alias = goog.editor.plugins.LinkShortcutPlugin;
+    export default alias;
+}
+
 declare namespace goog.editor.plugins {
     /**
      * Plugin to add a keyboard shortcut for the link command

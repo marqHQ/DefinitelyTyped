@@ -1,6 +1,16 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./testcase.d.ts"/>
 
+declare module 'goog:goog.testing.AsyncTestCase' {
+    import alias = goog.testing.AsyncTestCase;
+    export default alias;
+}
+
+declare module 'goog:goog.testing.AsyncTestCase.ControlBreakingException' {
+    import alias = goog.testing.AsyncTestCase.ControlBreakingException;
+    export default alias;
+}
+
 declare namespace goog.testing {
     /**
      * A test case that is capable of running tests that contain asynchronous logic.

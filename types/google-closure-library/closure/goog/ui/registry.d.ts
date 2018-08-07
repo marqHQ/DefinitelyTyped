@@ -2,6 +2,10 @@
 /// <reference path="./controlrenderer.d.ts"/>
 /// <reference path="./component.d.ts"/>
 
+declare module 'goog:goog.ui.registry' {
+    export = goog.ui.registry;
+}
+
 declare namespace goog.ui.registry {
     /**
      * Given a {@link goog.ui.Component} constructor, returns an instance of its

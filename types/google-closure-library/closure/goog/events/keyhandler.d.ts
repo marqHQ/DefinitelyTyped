@@ -3,6 +3,21 @@
 /// <reference path="./events.d.ts"/>
 /// <reference path="./browserevent.d.ts"/>
 
+declare module 'goog:goog.events.KeyHandler' {
+    import alias = goog.events.KeyHandler;
+    export default alias;
+}
+
+declare module 'goog:goog.events.KeyHandler.EventType' {
+    import alias = goog.events.KeyHandler.EventType;
+    export default alias;
+}
+
+declare module 'goog:goog.events.KeyEvent' {
+    import alias = goog.events.KeyEvent;
+    export default alias;
+}
+
 declare namespace goog.events {
     /**
      * A wrapper around an element that you want to listen to keyboard events on.

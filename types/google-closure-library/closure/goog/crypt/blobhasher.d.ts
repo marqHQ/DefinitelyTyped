@@ -3,6 +3,16 @@
 /// <reference path="./hash.d.ts"/>
 /// <reference path="../log/log.d.ts"/>
 
+declare module 'goog:goog.crypt.BlobHasher' {
+    import alias = goog.crypt.BlobHasher;
+    export default alias;
+}
+
+declare module 'goog:goog.crypt.BlobHasher.EventType' {
+    import alias = goog.crypt.BlobHasher.EventType;
+    export default alias;
+}
+
 declare namespace goog.crypt {
     /**
      * Construct the hash computer.

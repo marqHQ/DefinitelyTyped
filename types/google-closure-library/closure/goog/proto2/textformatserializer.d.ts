@@ -3,6 +3,11 @@
 /// <reference path="./message.d.ts"/>
 /// <reference path="./fielddescriptor.d.ts"/>
 
+declare module 'goog:goog.proto2.TextFormatSerializer' {
+    import alias = goog.proto2.TextFormatSerializer;
+    export default alias;
+}
+
 declare namespace goog.proto2 {
     /**
      * TextFormatSerializer, a serializer which turns Messages into the human

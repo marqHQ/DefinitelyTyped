@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./iterablemechanism.d.ts"/>
 
+declare module 'goog:goog.storage.mechanism.HTML5WebStorage' {
+    import alias = goog.storage.mechanism.HTML5WebStorage;
+    export default alias;
+}
+
 declare namespace goog.storage.mechanism {
     /**
      * Provides a storage mechanism that uses HTML5 Web storage.

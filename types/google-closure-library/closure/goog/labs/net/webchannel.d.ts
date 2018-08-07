@@ -2,6 +2,11 @@
 /// <reference path="../../events/event.d.ts"/>
 /// <reference path="../../net/xmlhttpfactory.d.ts"/>
 
+declare module 'goog:goog.net.WebChannel' {
+    import alias = goog.net.WebChannel;
+    export default alias;
+}
+
 declare namespace goog.net {
     interface WebChannel extends EventTarget {
         /**

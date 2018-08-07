@@ -3,6 +3,11 @@
 /// <reference path="../../html/safehtml.d.ts"/>
 /// <reference path="../../dom/dom.d.ts"/>
 
+declare module 'goog:goog.ui.tree.TreeNode' {
+    import alias = goog.ui.tree.TreeNode;
+    export default alias;
+}
+
 declare namespace goog.ui.tree {
     /**
      * A single node in the tree.

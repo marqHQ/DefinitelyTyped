@@ -2,6 +2,15 @@
 /// <reference path="./vec.d.ts"/>
 /// <reference path="./vec3d.d.ts"/>
 
+declare module 'goog:goog.vec.mat3d' {
+    export = goog.vec.mat3d;
+}
+
+declare module 'goog:goog.vec.mat3d.Type' {
+    import alias = goog.vec.mat3d.Type;
+    export default alias;
+}
+
 declare namespace goog.vec.mat3d {
     /** @typedef {goog.vec.Float64} */
     type Type = goog.vec.Float64;

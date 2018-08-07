@@ -1,6 +1,10 @@
 /// <reference path="../../../../../globals.d.ts"/>
 /// <reference path="../../tagiterator.d.ts"/>
 
+declare module 'goog:goog.dom.pattern.callback' {
+    export = goog.dom.pattern.callback;
+}
+
 declare namespace goog.dom.pattern.callback {
     /**
      * Callback function for use in {@link goog.dom.pattern.Matcher.addPattern}

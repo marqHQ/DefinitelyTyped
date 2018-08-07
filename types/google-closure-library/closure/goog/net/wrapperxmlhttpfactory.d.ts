@@ -2,6 +2,11 @@
 /// <reference path="./xmlhttpfactory.d.ts"/>
 /// <reference path="./xhrlike.d.ts"/>
 
+declare module 'goog:goog.net.WrapperXmlHttpFactory' {
+    import alias = goog.net.WrapperXmlHttpFactory;
+    export default alias;
+}
+
 declare namespace goog.net {
     /**
      * An xhr factory subclass which can be constructed using two factory methods.

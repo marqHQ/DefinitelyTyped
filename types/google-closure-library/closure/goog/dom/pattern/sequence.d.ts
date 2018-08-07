@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./abstractpattern.d.ts"/>
 
+declare module 'goog:goog.dom.pattern.Sequence' {
+    import alias = goog.dom.pattern.Sequence;
+    export default alias;
+}
+
 declare namespace goog.dom.pattern {
     /**
      * Pattern object that matches a sequence of other patterns.

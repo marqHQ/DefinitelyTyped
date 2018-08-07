@@ -2,6 +2,11 @@
 /// <reference path="./sliderbase.d.ts"/>
 /// <reference path="../dom/dom.d.ts"/>
 
+declare module 'goog:goog.ui.TwoThumbSlider' {
+    import alias = goog.ui.TwoThumbSlider;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * This creates a TwoThumbSlider object.

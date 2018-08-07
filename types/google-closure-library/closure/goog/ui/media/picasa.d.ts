@@ -3,6 +3,16 @@
 /// <reference path="./mediamodel.d.ts"/>
 /// <reference path="../../dom/dom.d.ts"/>
 
+declare module 'goog:goog.ui.media.PicasaAlbumModel' {
+    import alias = goog.ui.media.PicasaAlbumModel;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.media.PicasaAlbum' {
+    import alias = goog.ui.media.PicasaAlbum;
+    export default alias;
+}
+
 declare namespace goog.ui.media {
     /**
      * Subclasses a goog.ui.media.MediaRenderer to provide a Picasa specific media

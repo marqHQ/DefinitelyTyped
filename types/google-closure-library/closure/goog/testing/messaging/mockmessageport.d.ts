@@ -2,6 +2,11 @@
 /// <reference path="../../events/eventtarget.d.ts"/>
 /// <reference path="../mockcontrol.d.ts"/>
 
+declare module 'goog:goog.testing.messaging.MockMessagePort' {
+    import alias = goog.testing.messaging.MockMessagePort;
+    export default alias;
+}
+
 declare namespace goog.testing.messaging {
     /**
      * Class for unit-testing code that uses MessagePorts.

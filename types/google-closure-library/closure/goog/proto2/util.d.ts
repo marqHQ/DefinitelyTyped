@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.proto2.Util' {
+    import alias = goog.proto2.Util;
+    export default alias;
+}
+
 declare namespace goog.proto2.Util {
     /**
      * Asserts that the given condition is true, if and only if the PBCHECK

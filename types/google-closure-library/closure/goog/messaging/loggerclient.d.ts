@@ -3,6 +3,11 @@
 /// <reference path="./messagechannel.d.ts"/>
 /// <reference path="../debug/logrecord.d.ts"/>
 
+declare module 'goog:goog.messaging.LoggerClient' {
+    import alias = goog.messaging.LoggerClient;
+    export default alias;
+}
+
 declare namespace goog.messaging {
     /**
      * Creates a logger client that sends messages along a message channel for the

@@ -2,6 +2,11 @@
 /// <reference path="../../messaging/abstractchannel.d.ts"/>
 /// <reference path="../mockcontrol.d.ts"/>
 
+declare module 'goog:goog.testing.messaging.MockMessageChannel' {
+    import alias = goog.testing.messaging.MockMessageChannel;
+    export default alias;
+}
+
 declare namespace goog.testing.messaging {
     /**
      * Class for unit-testing code that communicates over a MessageChannel.

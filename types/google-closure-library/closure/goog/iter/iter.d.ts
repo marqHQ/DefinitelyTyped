@@ -1,5 +1,24 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.iter' {
+    export = goog.iter;
+}
+
+declare module 'goog:goog.iter.StopIteration' {
+    import alias = goog.iter.StopIteration;
+    export default alias;
+}
+
+declare module 'goog:goog.iter.Iterator' {
+    import alias = goog.iter.Iterator;
+    export default alias;
+}
+
+declare module 'goog:goog.iter.Iterable' {
+    import alias = goog.iter.Iterable;
+    export default alias;
+}
+
 declare namespace goog.iter {
     /**
      * Class/interface for iterators.  An iterator needs to implement a `next`

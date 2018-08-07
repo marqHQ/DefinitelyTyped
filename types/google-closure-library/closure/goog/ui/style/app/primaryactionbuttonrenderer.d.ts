@@ -1,6 +1,11 @@
 /// <reference path="../../../../../globals.d.ts"/>
 /// <reference path="./buttonrenderer.d.ts"/>
 
+declare module 'goog:goog.ui.style.app.PrimaryActionButtonRenderer' {
+    import alias = goog.ui.style.app.PrimaryActionButtonRenderer;
+    export default alias;
+}
+
 declare namespace goog.ui.style.app {
     /**
      * Custom renderer for {@link goog.ui.Button}s. This renderer supports the

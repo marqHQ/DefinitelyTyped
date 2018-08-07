@@ -3,6 +3,11 @@
 /// <reference path="../uri/uri.d.ts"/>
 /// <reference path="./xmlhttp.d.ts"/>
 
+declare module 'goog:goog.net.ChannelDebug' {
+    import alias = goog.net.ChannelDebug;
+    export default alias;
+}
+
 declare namespace goog.net {
     /**
      * Logs and keeps a buffer of debugging info for the Channel.

@@ -1,5 +1,9 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.labs.userAgent.util' {
+    export = goog.labs.userAgent.util;
+}
+
 declare namespace goog.labs.userAgent.util {
     /**
      * Applications may override browser detection on the built in

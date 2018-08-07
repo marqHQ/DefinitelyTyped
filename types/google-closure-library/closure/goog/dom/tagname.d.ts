@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./htmlelement.d.ts"/>
 
+declare module 'goog:goog.dom.TagName' {
+    import alias = goog.dom.TagName;
+    export default alias;
+}
+
 declare namespace goog.dom {
     /**
      * A tag name with the type of the element stored in the generic.

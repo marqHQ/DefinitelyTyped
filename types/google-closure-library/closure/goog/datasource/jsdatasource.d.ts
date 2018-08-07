@@ -1,6 +1,16 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./datasource.d.ts"/>
 
+declare module 'goog:goog.ds.JsPropertyDataSource' {
+    import alias = goog.ds.JsPropertyDataSource;
+    export default alias;
+}
+
+declare module 'goog:goog.ds.JsDataSource' {
+    import alias = goog.ds.JsDataSource;
+    export default alias;
+}
+
 declare namespace goog.ds {
     /**
      * Data source whose backing is JavaScript data

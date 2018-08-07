@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./coordinate.d.ts"/>
 
+declare module 'goog:goog.math.Bezier' {
+    import alias = goog.math.Bezier;
+    export default alias;
+}
+
 declare namespace goog.math {
     /**
      * Object representing a cubic bezier curve.

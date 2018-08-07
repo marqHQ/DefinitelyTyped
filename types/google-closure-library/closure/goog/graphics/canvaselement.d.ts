@@ -12,6 +12,36 @@
 /// <reference path="./font.d.ts"/>
 /// <reference path="./imageelement.d.ts"/>
 
+declare module 'goog:goog.graphics.CanvasTextElement' {
+    import alias = goog.graphics.CanvasTextElement;
+    export default alias;
+}
+
+declare module 'goog:goog.graphics.CanvasRectElement' {
+    import alias = goog.graphics.CanvasRectElement;
+    export default alias;
+}
+
+declare module 'goog:goog.graphics.CanvasPathElement' {
+    import alias = goog.graphics.CanvasPathElement;
+    export default alias;
+}
+
+declare module 'goog:goog.graphics.CanvasImageElement' {
+    import alias = goog.graphics.CanvasImageElement;
+    export default alias;
+}
+
+declare module 'goog:goog.graphics.CanvasGroupElement' {
+    import alias = goog.graphics.CanvasGroupElement;
+    export default alias;
+}
+
+declare module 'goog:goog.graphics.CanvasEllipseElement' {
+    import alias = goog.graphics.CanvasEllipseElement;
+    export default alias;
+}
+
 declare namespace goog.graphics {
     /**
      * Object representing a group of objects in a canvas.

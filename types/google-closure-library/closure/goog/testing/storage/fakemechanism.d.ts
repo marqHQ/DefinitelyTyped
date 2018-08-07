@@ -2,6 +2,11 @@
 /// <reference path="../../storage/mechanism/iterablemechanism.d.ts"/>
 /// <reference path="../../structs/map.d.ts"/>
 
+declare module 'goog:goog.testing.storage.FakeMechanism' {
+    import alias = goog.testing.storage.FakeMechanism;
+    export default alias;
+}
+
 declare namespace goog.testing.storage {
     /**
      * Creates a fake iterable mechanism.

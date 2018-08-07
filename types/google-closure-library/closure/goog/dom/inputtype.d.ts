@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.dom.InputType' {
+    import alias = goog.dom.InputType;
+    export default alias;
+}
+
 declare namespace goog.dom {
     /**
      * Enum of all input types (for INPUT, BUTTON, SELECT and TEXTAREA elements)

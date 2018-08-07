@@ -1,6 +1,21 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../iter/iter.d.ts"/>
 
+declare module 'goog:goog.dom.iter.SiblingIterator' {
+    import alias = goog.dom.iter.SiblingIterator;
+    export default alias;
+}
+
+declare module 'goog:goog.dom.iter.ChildIterator' {
+    import alias = goog.dom.iter.ChildIterator;
+    export default alias;
+}
+
+declare module 'goog:goog.dom.iter.AncestorIterator' {
+    import alias = goog.dom.iter.AncestorIterator;
+    export default alias;
+}
+
 declare namespace goog.dom.iter {
     /**
      * Iterator over a Node's siblings.

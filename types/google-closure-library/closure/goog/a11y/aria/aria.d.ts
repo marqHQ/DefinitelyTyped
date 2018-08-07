@@ -2,6 +2,10 @@
 /// <reference path="./roles.d.ts"/>
 /// <reference path="./attributes.d.ts"/>
 
+declare module 'goog:goog.a11y.aria' {
+    export = goog.a11y.aria;
+}
+
 declare namespace goog.a11y.aria {
     /**
      * Sets the role of an element. If the roleName is

@@ -1,6 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../html/safeurl.d.ts"/>
 
+declare module 'goog:goog.window' {
+    export = goog.window;
+}
+
 declare namespace goog.window {
     /**
      * Default height for popup windows

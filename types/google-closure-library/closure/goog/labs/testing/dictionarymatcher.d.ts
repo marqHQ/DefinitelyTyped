@@ -1,6 +1,26 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./matcher.d.ts"/>
 
+declare module 'goog:goog.labs.testing.HasValueMatcher' {
+    import alias = goog.labs.testing.HasValueMatcher;
+    export default alias;
+}
+
+declare module 'goog:goog.labs.testing.HasKeyMatcher' {
+    import alias = goog.labs.testing.HasKeyMatcher;
+    export default alias;
+}
+
+declare module 'goog:goog.labs.testing.HasEntryMatcher' {
+    import alias = goog.labs.testing.HasEntryMatcher;
+    export default alias;
+}
+
+declare module 'goog:goog.labs.testing.HasEntriesMatcher' {
+    import alias = goog.labs.testing.HasEntriesMatcher;
+    export default alias;
+}
+
 declare namespace goog.labs.testing {
     /**
      * The HasEntries matcher.

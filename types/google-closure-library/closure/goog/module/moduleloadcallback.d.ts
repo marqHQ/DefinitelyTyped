@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.module.ModuleLoadCallback' {
+    import alias = goog.module.ModuleLoadCallback;
+    export default alias;
+}
+
 declare namespace goog.module {
     /**
      * Class used to encapsulate the callbacks to be called when a module loads.

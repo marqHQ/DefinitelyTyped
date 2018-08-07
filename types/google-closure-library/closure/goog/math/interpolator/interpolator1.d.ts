@@ -1,5 +1,10 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.math.interpolator.Interpolator1' {
+    import alias = goog.math.interpolator.Interpolator1;
+    export default alias;
+}
+
 declare namespace goog.math.interpolator {
     interface Interpolator1 {
         /**

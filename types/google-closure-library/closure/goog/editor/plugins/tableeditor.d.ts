@@ -3,6 +3,11 @@
 /// <reference path="../../dom/abstractrange.d.ts"/>
 /// <reference path="../table.d.ts"/>
 
+declare module 'goog:goog.editor.plugins.TableEditor' {
+    import alias = goog.editor.plugins.TableEditor;
+    export default alias;
+}
+
 declare namespace goog.editor.plugins {
     /**
      * Plugin that adds support for table creation and editing commands.

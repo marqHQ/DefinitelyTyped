@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.dom.tags' {
+    export = goog.dom.tags;
+}
+
 declare namespace goog.dom.tags {
     /**
      * The void elements specified by

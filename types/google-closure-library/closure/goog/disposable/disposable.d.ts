@@ -1,6 +1,20 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./idisposable.d.ts"/>
 
+declare module 'goog:goog.dispose' {
+    export = goog.dispose;
+}
+
+declare module 'goog:goog.disposeAll' {
+    import alias = goog.disposeAll;
+    export default alias;
+}
+
+declare module 'goog:goog.Disposable' {
+    import alias = goog.Disposable;
+    export default alias;
+}
+
 declare namespace goog {
     /**
      * Class that provides the basic implementation for disposable objects. If your

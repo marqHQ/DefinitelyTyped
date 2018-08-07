@@ -1,6 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
-declare namespace goog._string.path {
+declare module 'goog:goog.string.path' {
+    export = goog.string.path;
+}
+
+declare namespace goog.string.path {
     /**
      * Returns the final component of a pathname.
      * See http://docs.python.org/library/os.path.html#os.path.basename

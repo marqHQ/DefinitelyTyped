@@ -3,6 +3,16 @@
 /// <reference path="../../events/event.d.ts"/>
 /// <reference path="./renderoptions.d.ts"/>
 
+declare module 'goog:goog.ui.ac.AutoComplete' {
+    import alias = goog.ui.ac.AutoComplete;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.ac.AutoComplete.EventType' {
+    import alias = goog.ui.ac.AutoComplete.EventType;
+    export default alias;
+}
+
 declare namespace goog.ui.ac {
     /**
      * This is the central manager class for an AutoComplete instance. The matcher

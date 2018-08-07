@@ -5,6 +5,11 @@
 /// <reference path="../../structs/map.d.ts"/>
 /// <reference path="../../events/events.d.ts"/>
 
+declare module 'goog:goog.i18n.uChar.RemoteNameFetcher' {
+    import alias = goog.i18n.uChar.RemoteNameFetcher;
+    export default alias;
+}
+
 declare namespace goog.i18n.uChar {
     /**
      * Builds the RemoteNameFetcher object. This object retrieves codepoint names

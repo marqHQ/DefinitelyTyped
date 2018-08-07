@@ -3,6 +3,11 @@
 /// <reference path="../math/size.d.ts"/>
 /// <reference path="../math/box.d.ts"/>
 
+declare module 'goog:goog.fx.CssSpriteAnimation' {
+    import alias = goog.fx.CssSpriteAnimation;
+    export default alias;
+}
+
 declare namespace goog.fx {
     /**
      * This animation class is used to animate a CSS sprite (moving a background

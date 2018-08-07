@@ -1,6 +1,25 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../debug/logger.d.ts"/>
 
+declare module 'goog:goog.log' {
+    export = goog.log;
+}
+
+declare module 'goog:goog.log.Logger' {
+    import alias = goog.log.Logger;
+    export default alias;
+}
+
+declare module 'goog:goog.log.LogRecord' {
+    import alias = goog.log.LogRecord;
+    export default alias;
+}
+
+declare module 'goog:goog.log.Level' {
+    import alias = goog.log.Level;
+    export default alias;
+}
+
 declare namespace goog.log {
     /**
      * @final

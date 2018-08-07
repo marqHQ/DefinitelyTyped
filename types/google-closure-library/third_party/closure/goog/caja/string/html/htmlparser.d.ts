@@ -1,5 +1,34 @@
 /// <reference path="../../../../../../globals.d.ts"/>
 
+declare module 'goog:goog.string.html' {
+    export = goog.string.html;
+}
+
+declare module 'goog:goog.string.html.HtmlSaxHandler' {
+    import alias = goog.string.html.HtmlSaxHandler;
+    export default alias;
+}
+
+declare module 'goog:goog.string.html.HtmlParser' {
+    import alias = goog.string.html.HtmlParser;
+    export default alias;
+}
+
+declare module 'goog:goog.string.html.HtmlParser.Entities' {
+    import alias = goog.string.html.HtmlParser.Entities;
+    export default alias;
+}
+
+declare module 'goog:goog.string.html.HtmlParser.Elements' {
+    import alias = goog.string.html.HtmlParser.Elements;
+    export default alias;
+}
+
+declare module 'goog:goog.string.html.HtmlParser.EFlags' {
+    import alias = goog.string.html.HtmlParser.EFlags;
+    export default alias;
+}
+
 declare namespace goog._string.html {
     /**
      * An Html parser: `parse` takes a string and calls methods on

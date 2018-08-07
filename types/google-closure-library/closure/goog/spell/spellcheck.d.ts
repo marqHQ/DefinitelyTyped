@@ -3,6 +3,16 @@
 /// <reference path="../structs/set.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.spell.SpellCheck' {
+    import alias = goog.spell.SpellCheck;
+    export default alias;
+}
+
+declare module 'goog:goog.spell.SpellCheck.WordChangedEvent' {
+    import alias = goog.spell.SpellCheck.WordChangedEvent;
+    export default alias;
+}
+
 declare namespace goog.spell {
     /**
      * Support class for spell checker components. Provides basic functionality

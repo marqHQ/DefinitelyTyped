@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.math' {
+    export = goog.math;
+}
+
 declare namespace goog.math {
     /**
      * Returns a random integer greater than or equal to 0 and less than `a`.

@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.dom.BrowserFeature' {
+    import alias = goog.dom.BrowserFeature;
+    export default alias;
+}
+
 declare namespace goog.dom {
     /**
      * Enum of browser capabilities.

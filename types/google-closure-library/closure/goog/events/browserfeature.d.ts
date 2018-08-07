@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.events.BrowserFeature' {
+    import alias = goog.events.BrowserFeature;
+    export default alias;
+}
+
 declare namespace goog.events {
     /**
      * Enum of browser capabilities.

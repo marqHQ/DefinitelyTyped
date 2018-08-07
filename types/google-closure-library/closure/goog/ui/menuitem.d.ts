@@ -5,6 +5,11 @@
 /// <reference path="./menuitemrenderer.d.ts"/>
 /// <reference path="../events/keycodes.d.ts"/>
 
+declare module 'goog:goog.ui.MenuItem' {
+    import alias = goog.ui.MenuItem;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Class representing an item in a menu.

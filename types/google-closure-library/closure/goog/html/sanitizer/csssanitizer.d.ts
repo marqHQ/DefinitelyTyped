@@ -3,6 +3,11 @@
 /// <reference path="../safestylesheet.d.ts"/>
 /// <reference path="../safestyle.d.ts"/>
 
+declare module 'goog:goog.html.sanitizer.CssSanitizer' {
+    import alias = goog.html.sanitizer.CssSanitizer;
+    export default alias;
+}
+
 declare namespace goog.html.sanitizer.CssSanitizer {
     /**
      * The set of characters that need to be normalized inside url("...").

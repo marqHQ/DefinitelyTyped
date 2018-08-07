@@ -4,6 +4,16 @@
 /// <reference path="../events/event.d.ts"/>
 /// <reference path="../net/xhrio.d.ts"/>
 
+declare module 'goog:goog.ds.XmlHttpDataSource' {
+    import alias = goog.ds.XmlHttpDataSource;
+    export default alias;
+}
+
+declare module 'goog:goog.ds.XmlDataSource' {
+    import alias = goog.ds.XmlDataSource;
+    export default alias;
+}
+
 declare namespace goog.ds {
     /**
      * Data source whose backing is an xml node

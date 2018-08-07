@@ -1,5 +1,10 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.html.sanitizer.TagBlacklist' {
+    import alias = goog.html.sanitizer.TagBlacklist;
+    export default alias;
+}
+
 declare namespace goog.html.sanitizer {
     /**
      * A list of tags which should be removed entirely from the DOM, rather than

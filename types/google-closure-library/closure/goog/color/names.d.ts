@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.color.names' {
+    export = goog.color.names;
+}
+
 declare namespace goog.color {
     /**
      * A map that contains a lot of colors that are recognised by various browsers.

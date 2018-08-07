@@ -5,6 +5,11 @@
 /// <reference path="../tabpane.d.ts"/>
 /// <reference path="./emoji.d.ts"/>
 
+declare module 'goog:goog.ui.emoji.EmojiPicker' {
+    import alias = goog.ui.emoji.EmojiPicker;
+    export default alias;
+}
+
 declare namespace goog.ui.emoji {
     /**
      * Creates a new, empty emoji picker. An emoji picker is a grid of emoji, each

@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./datasource.d.ts"/>
 
+declare module 'goog:goog.ds.Expr' {
+    import alias = goog.ds.Expr;
+    export default alias;
+}
+
 declare namespace goog.ds {
     /**
      * Create a new expression. An expression uses a string expression language, and

@@ -5,6 +5,56 @@
 /// <reference path="../html/trustedresourceurl.d.ts"/>
 /// <reference path="../html/safestylesheet.d.ts"/>
 
+declare module 'goog:goog.soy.data.UnsanitizedText' {
+    import alias = goog.soy.data.UnsanitizedText;
+    export default alias;
+}
+
+declare module 'goog:goog.soy.data.SanitizedUri' {
+    import alias = goog.soy.data.SanitizedUri;
+    export default alias;
+}
+
+declare module 'goog:goog.soy.data.SanitizedTrustedResourceUri' {
+    import alias = goog.soy.data.SanitizedTrustedResourceUri;
+    export default alias;
+}
+
+declare module 'goog:goog.soy.data.SanitizedStyle' {
+    import alias = goog.soy.data.SanitizedStyle;
+    export default alias;
+}
+
+declare module 'goog:goog.soy.data.SanitizedJs' {
+    import alias = goog.soy.data.SanitizedJs;
+    export default alias;
+}
+
+declare module 'goog:goog.soy.data.SanitizedHtmlAttribute' {
+    import alias = goog.soy.data.SanitizedHtmlAttribute;
+    export default alias;
+}
+
+declare module 'goog:goog.soy.data.SanitizedHtml' {
+    import alias = goog.soy.data.SanitizedHtml;
+    export default alias;
+}
+
+declare module 'goog:goog.soy.data.SanitizedCss' {
+    import alias = goog.soy.data.SanitizedCss;
+    export default alias;
+}
+
+declare module 'goog:goog.soy.data.SanitizedContentKind' {
+    import alias = goog.soy.data.SanitizedContentKind;
+    export default alias;
+}
+
+declare module 'goog:goog.soy.data.SanitizedContent' {
+    import alias = goog.soy.data.SanitizedContent;
+    export default alias;
+}
+
 declare namespace goog.soy.data {
     /**
      * A string-like object that carries a content-type and a content direction.

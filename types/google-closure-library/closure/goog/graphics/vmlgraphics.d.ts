@@ -8,6 +8,11 @@
 /// <reference path="./imageelement.d.ts"/>
 /// <reference path="./path.d.ts"/>
 
+declare module 'goog:goog.graphics.VmlGraphics' {
+    import alias = goog.graphics.VmlGraphics;
+    export default alias;
+}
+
 declare namespace goog.graphics {
     /**
      * A Graphics implementation for drawing using VML.

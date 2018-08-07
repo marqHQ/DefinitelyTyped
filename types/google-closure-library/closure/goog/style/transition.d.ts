@@ -1,5 +1,14 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.style.transition' {
+    export = goog.style.transition;
+}
+
+declare module 'goog:goog.style.transition.Css3Property' {
+    import alias = goog.style.transition.Css3Property;
+    export default alias;
+}
+
 declare namespace goog.style.transition {
     /**
      * A typedef to represent a CSS3 transition property. Duration and delay

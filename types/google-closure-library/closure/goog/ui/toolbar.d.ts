@@ -3,6 +3,11 @@
 /// <reference path="./toolbarrenderer.d.ts"/>
 /// <reference path="../dom/dom.d.ts"/>
 
+declare module 'goog:goog.ui.Toolbar' {
+    import alias = goog.ui.Toolbar;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * A toolbar class, implemented as a {@link goog.ui.Container} that defaults to

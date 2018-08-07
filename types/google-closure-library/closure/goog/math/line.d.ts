@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./coordinate.d.ts"/>
 
+declare module 'goog:goog.math.Line' {
+    import alias = goog.math.Line;
+    export default alias;
+}
+
 declare namespace goog.math {
     /**
      * Object representing a line.

@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./starttag.d.ts"/>
 
+declare module 'goog:goog.dom.pattern.FullTag' {
+    import alias = goog.dom.pattern.FullTag;
+    export default alias;
+}
+
 declare namespace goog.dom.pattern {
     /**
      * Pattern object that matches a full tag including all its children.

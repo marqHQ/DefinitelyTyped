@@ -10,6 +10,16 @@
 /// <reference path="../math/coordinate.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.AbstractSpellChecker' {
+    import alias = goog.ui.AbstractSpellChecker;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.AbstractSpellChecker.AsyncResult' {
+    import alias = goog.ui.AbstractSpellChecker.AsyncResult;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Abstract base class for spell checker editor implementations. Provides basic

@@ -9,6 +9,11 @@
 /// <reference path="../positioning/anchoredposition.d.ts"/>
 /// <reference path="../math/box.d.ts"/>
 
+declare module 'goog:goog.ui.Bubble' {
+    import alias = goog.ui.Bubble;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * The Bubble provides a general purpose bubble implementation that can be

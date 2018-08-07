@@ -3,6 +3,11 @@
 /// <reference path="./controlcontent.d.ts"/>
 /// <reference path="../dom/dom.d.ts"/>
 
+declare module 'goog:goog.ui.Option' {
+    import alias = goog.ui.Option;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Class representing a menu option.  This is just a convenience class that

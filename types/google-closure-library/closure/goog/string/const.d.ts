@@ -1,7 +1,12 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./typedstring.d.ts"/>
 
-declare namespace goog._string {
+declare module 'goog:goog.string.Const' {
+    import alias = goog.string.Const;
+    export default alias;
+}
+
+declare namespace goog.string {
     /**
      * Wrapper for compile-time-constant strings.
      *

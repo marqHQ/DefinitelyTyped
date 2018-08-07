@@ -4,6 +4,11 @@
 /// <reference path="./mockmessagechannel.d.ts"/>
 /// <reference path="../../messaging/messagechannel.d.ts"/>
 
+declare module 'goog:goog.testing.messaging.MockPortNetwork' {
+    import alias = goog.testing.messaging.MockPortNetwork;
+    export default alias;
+}
+
 declare namespace goog.testing.messaging {
     /**
      * The fake PortNetwork.

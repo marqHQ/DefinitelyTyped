@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.fx.easing' {
+    export = goog.fx.easing;
+}
+
 declare namespace goog.fx.easing {
     /**
      * Ease in - Start slow and speed up.

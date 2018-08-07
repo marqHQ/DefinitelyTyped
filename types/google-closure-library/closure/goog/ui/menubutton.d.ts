@@ -16,6 +16,11 @@
 /// <reference path="./menuseparator.d.ts"/>
 /// <reference path="./control.d.ts"/>
 
+declare module 'goog:goog.ui.MenuButton' {
+    import alias = goog.ui.MenuButton;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * A menu button control.  Extends {@link goog.ui.Button} by composing a button

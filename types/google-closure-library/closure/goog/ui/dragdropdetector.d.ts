@@ -5,6 +5,26 @@
 /// <reference path="../events/browserevent.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.DragDropDetector' {
+    import alias = goog.ui.DragDropDetector;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.DragDropDetector.LinkDropEvent' {
+    import alias = goog.ui.DragDropDetector.LinkDropEvent;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.DragDropDetector.ImageDropEvent' {
+    import alias = goog.ui.DragDropDetector.ImageDropEvent;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.DragDropDetector.EventType' {
+    import alias = goog.ui.DragDropDetector.EventType;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Creates a new drag and drop detector.

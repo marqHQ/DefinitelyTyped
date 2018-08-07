@@ -1,5 +1,24 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.i18n.bidi' {
+    export = goog.i18n.bidi;
+}
+
+declare module 'goog:goog.i18n.bidi.Format' {
+    import alias = goog.i18n.bidi.Format;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.bidi.DirectionalString' {
+    import alias = goog.i18n.bidi.DirectionalString;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.bidi.Dir' {
+    import alias = goog.i18n.bidi.Dir;
+    export default alias;
+}
+
 declare namespace goog.i18n.bidi {
     interface DirectionalString {
         /**

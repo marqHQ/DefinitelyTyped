@@ -4,6 +4,11 @@
 /// <reference path="./controlcontent.d.ts"/>
 /// <reference path="./tabbar.d.ts"/>
 
+declare module 'goog:goog.ui.RoundedTabRenderer' {
+    import alias = goog.ui.RoundedTabRenderer;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Rounded corner tab renderer for {@link goog.ui.Tab}s.

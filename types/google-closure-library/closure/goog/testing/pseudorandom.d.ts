@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../disposable/disposable.d.ts"/>
 
+declare module 'goog:goog.testing.PseudoRandom' {
+    import alias = goog.testing.PseudoRandom;
+    export default alias;
+}
+
 declare namespace goog.testing {
     /**
      * Class for unit testing code that uses Math.random. Generates deterministic

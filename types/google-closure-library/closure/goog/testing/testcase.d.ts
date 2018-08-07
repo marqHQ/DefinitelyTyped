@@ -3,6 +3,31 @@
 /// <reference path="./jsunitexception.d.ts"/>
 /// <reference path="../promise/promise.d.ts"/>
 
+declare module 'goog:goog.testing.TestCase' {
+    import alias = goog.testing.TestCase;
+    export default alias;
+}
+
+declare module 'goog:goog.testing.TestCase.Test' {
+    import alias = goog.testing.TestCase.Test;
+    export default alias;
+}
+
+declare module 'goog:goog.testing.TestCase.Result' {
+    import alias = goog.testing.TestCase.Result;
+    export default alias;
+}
+
+declare module 'goog:goog.testing.TestCase.Order' {
+    import alias = goog.testing.TestCase.Order;
+    export default alias;
+}
+
+declare module 'goog:goog.testing.TestCase.Error' {
+    import alias = goog.testing.TestCase.Error;
+    export default alias;
+}
+
 declare namespace goog.testing {
     /**
      * A class representing a JsUnit test case. A TestCase is made up of a number

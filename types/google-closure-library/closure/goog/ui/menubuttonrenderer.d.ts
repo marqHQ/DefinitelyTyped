@@ -3,6 +3,11 @@
 /// <reference path="./controlcontent.d.ts"/>
 /// <reference path="../dom/dom.d.ts"/>
 
+declare module 'goog:goog.ui.MenuButtonRenderer' {
+    import alias = goog.ui.MenuButtonRenderer;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Renderer for {@link goog.ui.MenuButton}s.  This implementation overrides

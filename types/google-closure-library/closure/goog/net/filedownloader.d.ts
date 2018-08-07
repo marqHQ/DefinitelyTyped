@@ -10,6 +10,16 @@
 /// <reference path="../debug/error.d.ts"/>
 /// <reference path="./errorcode.d.ts"/>
 
+declare module 'goog:goog.net.FileDownloader' {
+    import alias = goog.net.FileDownloader;
+    export default alias;
+}
+
+declare module 'goog:goog.net.FileDownloader.Error' {
+    import alias = goog.net.FileDownloader.Error;
+    export default alias;
+}
+
 declare namespace goog.net {
     /**
      * A class for downloading remote files and storing them locally using the

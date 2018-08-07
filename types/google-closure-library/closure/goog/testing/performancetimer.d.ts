@@ -1,6 +1,16 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../../../third_party/closure/goog/mochikit/async/deferred.d.ts"/>
 
+declare module 'goog:goog.testing.PerformanceTimer' {
+    import alias = goog.testing.PerformanceTimer;
+    export default alias;
+}
+
+declare module 'goog:goog.testing.PerformanceTimer.Task' {
+    import alias = goog.testing.PerformanceTimer.Task;
+    export default alias;
+}
+
 declare namespace goog.testing {
     /**
      * Creates a performance timer that runs test functions a number of times to

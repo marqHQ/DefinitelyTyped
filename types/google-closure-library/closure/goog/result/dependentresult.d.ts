@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./result_interface.d.ts"/>
 
+declare module 'goog:goog.result.DependentResult' {
+    import alias = goog.result.DependentResult;
+    export default alias;
+}
+
 declare namespace goog.result {
     interface DependentResult extends goog.result.Result {
         /**

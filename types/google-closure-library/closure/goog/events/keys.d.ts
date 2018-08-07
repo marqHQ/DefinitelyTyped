@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.events.Keys' {
+    import alias = goog.events.Keys;
+    export default alias;
+}
+
 declare namespace goog.events {
     /**
      * Key values for common characters.

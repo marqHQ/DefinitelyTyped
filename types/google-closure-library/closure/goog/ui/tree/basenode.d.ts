@@ -6,6 +6,16 @@
 /// <reference path="../../html/safestyle.d.ts"/>
 /// <reference path="../../events/browserevent.d.ts"/>
 
+declare module 'goog:goog.ui.tree.BaseNode' {
+    import alias = goog.ui.tree.BaseNode;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.tree.BaseNode.EventType' {
+    import alias = goog.ui.tree.BaseNode.EventType;
+    export default alias;
+}
+
 declare namespace goog.ui.tree {
     /**
      * An abstract base class for a node in the tree.

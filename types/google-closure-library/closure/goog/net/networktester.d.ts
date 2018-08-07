@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../uri/uri.d.ts"/>
 
+declare module 'goog:goog.net.NetworkTester' {
+    import alias = goog.net.NetworkTester;
+    export default alias;
+}
+
 declare namespace goog.net {
     /**
      * Creates an instance of goog.net.NetworkTester which can be used to test

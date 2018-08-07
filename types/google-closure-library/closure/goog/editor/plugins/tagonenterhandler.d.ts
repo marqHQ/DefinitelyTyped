@@ -3,6 +3,11 @@
 /// <reference path="../../dom/tagname.d.ts"/>
 /// <reference path="../../dom/abstractrange.d.ts"/>
 
+declare module 'goog:goog.editor.plugins.TagOnEnterHandler' {
+    import alias = goog.editor.plugins.TagOnEnterHandler;
+    export default alias;
+}
+
 declare namespace goog.editor.plugins {
     /**
      * Plugin to handle enter keys. This subclass normalizes all browsers to use

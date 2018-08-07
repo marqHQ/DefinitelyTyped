@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.locale.genericFontNames' {
+    import alias = goog.locale.genericFontNames;
+    export default alias;
+}
+
 declare namespace goog.locale.genericFontNames {
     /**
      * Gets the list of fonts and their generic names for the given locale.

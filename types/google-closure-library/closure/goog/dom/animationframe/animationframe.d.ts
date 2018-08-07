@@ -1,5 +1,20 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.dom.animationFrame' {
+    import alias = goog.dom.animationFrame;
+    export default alias;
+}
+
+declare module 'goog:goog.dom.animationFrame.State' {
+    import alias = goog.dom.animationFrame.State;
+    export default alias;
+}
+
+declare module 'goog:goog.dom.animationFrame.Spec' {
+    import alias = goog.dom.animationFrame.Spec;
+    export default alias;
+}
+
 declare namespace goog.dom.animationFrame {
     /**
      * A type to represent state. Users may add properties as desired.

@@ -5,6 +5,11 @@
 /// <reference path="../../dom/dom.d.ts"/>
 /// <reference path="../../events/browserevent.d.ts"/>
 
+declare module 'goog:goog.editor.plugins.AbstractBubblePlugin' {
+    import alias = goog.editor.plugins.AbstractBubblePlugin;
+    export default alias;
+}
+
 declare namespace goog.editor.plugins {
     /**
      * Base class for bubble plugins. This is used for to connect user behavior

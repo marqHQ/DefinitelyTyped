@@ -3,6 +3,21 @@
 /// <reference path="./logrecord.d.ts"/>
 /// <reference path="../html/safehtml.d.ts"/>
 
+declare module 'goog:goog.debug.TextFormatter' {
+    import alias = goog.debug.TextFormatter;
+    export default alias;
+}
+
+declare module 'goog:goog.debug.HtmlFormatter' {
+    import alias = goog.debug.HtmlFormatter;
+    export default alias;
+}
+
+declare module 'goog:goog.debug.Formatter' {
+    import alias = goog.debug.Formatter;
+    export default alias;
+}
+
 declare namespace goog.debug {
     /**
      * Base class for Formatters. A Formatter is used to format a LogRecord into

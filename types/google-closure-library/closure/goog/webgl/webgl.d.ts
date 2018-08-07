@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.webgl' {
+    export = goog.webgl;
+}
+
 declare namespace goog.webgl {
     /**
      * @const

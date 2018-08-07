@@ -2,6 +2,11 @@
 /// <reference path="../structs/prioritypool.d.ts"/>
 /// <reference path="../structs/map.d.ts"/>
 
+declare module 'goog:goog.net.XhrIoPool' {
+    import alias = goog.net.XhrIoPool;
+    export default alias;
+}
+
 declare namespace goog.net {
     /**
      * A pool of XhrIo objects.

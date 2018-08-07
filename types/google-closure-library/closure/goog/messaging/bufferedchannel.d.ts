@@ -5,6 +5,11 @@
 /// <reference path="../timer/timer.d.ts"/>
 /// <reference path="../log/log.d.ts"/>
 
+declare module 'goog:goog.messaging.BufferedChannel' {
+    import alias = goog.messaging.BufferedChannel;
+    export default alias;
+}
+
 declare namespace goog.messaging {
     /**
      * Creates a new BufferedChannel, which operates like its underlying channel

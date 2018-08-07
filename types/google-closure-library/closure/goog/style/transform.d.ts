@@ -2,6 +2,10 @@
 /// <reference path="../math/coordinate.d.ts"/>
 /// <reference path="../math/coordinate3.d.ts"/>
 
+declare module 'goog:goog.style.transform' {
+    export = goog.style.transform;
+}
+
 declare namespace goog.style.transform {
     /**
      * Whether CSS3 transform translate() is supported. IE 9 supports 2D transforms

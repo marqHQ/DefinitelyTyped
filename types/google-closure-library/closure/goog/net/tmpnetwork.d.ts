@@ -1,6 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../uri/uri.d.ts"/>
 
+declare module 'goog:goog.net.tmpnetwork' {
+    export = goog.net.tmpnetwork;
+}
+
 declare namespace goog.net.tmpnetwork {
     /**
      * Default timeout to allow for google.com pings.

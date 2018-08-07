@@ -3,6 +3,11 @@
 /// <reference path="./controlcontent.d.ts"/>
 /// <reference path="../dom/dom.d.ts"/>
 
+declare module 'goog:goog.ui.ColorMenuButtonRenderer' {
+    import alias = goog.ui.ColorMenuButtonRenderer;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Renderer for {@link goog.ui.ColorMenuButton}s.

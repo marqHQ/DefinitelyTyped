@@ -2,6 +2,11 @@
 /// <reference path="../path.d.ts"/>
 /// <reference path="../../math/rect.d.ts"/>
 
+declare module 'goog:goog.graphics.ext.Path' {
+    import alias = goog.graphics.ext.Path;
+    export default alias;
+}
+
 declare namespace goog.graphics.ext {
     /**
      * Creates a path object

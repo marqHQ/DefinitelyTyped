@@ -2,6 +2,11 @@
 /// <reference path="./logrecord.d.ts"/>
 /// <reference path="./logger.d.ts"/>
 
+declare module 'goog:goog.debug.LogBuffer' {
+    import alias = goog.debug.LogBuffer;
+    export default alias;
+}
+
 declare namespace goog.debug {
     /**
      * Creates the log buffer.

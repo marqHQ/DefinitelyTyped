@@ -3,6 +3,21 @@
 /// <reference path="../events/eventhandler.d.ts"/>
 /// <reference path="../events/eventtarget.d.ts"/>
 
+declare module 'goog:goog.testing.ContinuationTestCase' {
+    import alias = goog.testing.ContinuationTestCase;
+    export default alias;
+}
+
+declare module 'goog:goog.testing.ContinuationTestCase.Step' {
+    import alias = goog.testing.ContinuationTestCase.Step;
+    export default alias;
+}
+
+declare module 'goog:goog.testing.ContinuationTestCase.ContinuationTest' {
+    import alias = goog.testing.ContinuationTestCase.ContinuationTest;
+    export default alias;
+}
+
 declare namespace goog.testing {
     /**
      * Constructs a test case that supports tests with continuations. Test functions

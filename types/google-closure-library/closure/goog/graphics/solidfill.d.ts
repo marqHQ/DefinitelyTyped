@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./fill.d.ts"/>
 
+declare module 'goog:goog.graphics.SolidFill' {
+    import alias = goog.graphics.SolidFill;
+    export default alias;
+}
+
 declare namespace goog.graphics {
     /**
      * Creates an immutable solid color fill object.

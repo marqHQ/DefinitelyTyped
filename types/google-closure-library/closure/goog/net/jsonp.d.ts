@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../html/trustedresourceurl.d.ts"/>
 
+declare module 'goog:goog.net.Jsonp' {
+    import alias = goog.net.Jsonp;
+    export default alias;
+}
+
 declare namespace goog.net {
     /**
      * Creates a new cross domain channel that sends data to the specified

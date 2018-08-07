@@ -1,5 +1,14 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.labs.mock.verification' {
+    export = goog.labs.mock.verification;
+}
+
+declare module 'goog:goog.labs.mock.verification.VerificationMode' {
+    import alias = goog.labs.mock.verification.VerificationMode;
+    export default alias;
+}
+
 declare namespace goog.labs.mock.verification {
     interface VerificationMode {
         /**

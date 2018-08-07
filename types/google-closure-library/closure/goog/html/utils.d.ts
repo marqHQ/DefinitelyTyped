@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.html.utils' {
+    export = goog.html.utils;
+}
+
 declare namespace goog.html.utils {
     /**
      * Extracts plain text from HTML.

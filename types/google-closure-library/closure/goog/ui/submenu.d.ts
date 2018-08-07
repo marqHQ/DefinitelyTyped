@@ -9,6 +9,11 @@
 /// <reference path="./menuseparator.d.ts"/>
 /// <reference path="./component.d.ts"/>
 
+declare module 'goog:goog.ui.SubMenu' {
+    import alias = goog.ui.SubMenu;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Class representing a submenu that can be added as an item to other menus.

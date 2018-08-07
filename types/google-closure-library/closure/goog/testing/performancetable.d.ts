@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./performancetimer.d.ts"/>
 
+declare module 'goog:goog.testing.PerformanceTable' {
+    import alias = goog.testing.PerformanceTable;
+    export default alias;
+}
+
 declare namespace goog.testing {
     /**
      * A UI widget that runs performance tests and displays the results.

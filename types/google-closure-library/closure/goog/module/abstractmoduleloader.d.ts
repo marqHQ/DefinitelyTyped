@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./moduleinfo.d.ts"/>
 
+declare module 'goog:goog.module.AbstractModuleLoader' {
+    import alias = goog.module.AbstractModuleLoader;
+    export default alias;
+}
+
 declare namespace goog.module {
     interface AbstractModuleLoader {
         /**

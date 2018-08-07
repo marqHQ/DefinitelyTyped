@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./serializer.d.ts"/>
 
+declare module 'goog:goog.proto2.ObjectSerializer' {
+    import alias = goog.proto2.ObjectSerializer;
+    export default alias;
+}
+
 declare namespace goog.proto2 {
     /**
      * ObjectSerializer, a serializer which turns Messages into simplified

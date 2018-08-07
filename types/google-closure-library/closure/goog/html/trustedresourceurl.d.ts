@@ -3,6 +3,11 @@
 /// <reference path="../string/typedstring.d.ts"/>
 /// <reference path="../string/const.d.ts"/>
 
+declare module 'goog:goog.html.TrustedResourceUrl' {
+    import alias = goog.html.TrustedResourceUrl;
+    export default alias;
+}
+
 declare namespace goog.html {
     /**
      * A URL which is under application control and from which script, CSS, and

@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./filesaver.d.ts"/>
 
+declare module 'goog:goog.fs.FileWriter' {
+    import alias = goog.fs.FileWriter;
+    export default alias;
+}
+
 declare namespace goog.fs {
     /**
      * An object for monitoring the saving of files, as well as other fine-grained

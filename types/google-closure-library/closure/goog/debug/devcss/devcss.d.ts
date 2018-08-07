@@ -1,5 +1,15 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.debug.DevCss' {
+    import alias = goog.debug.DevCss;
+    export default alias;
+}
+
+declare module 'goog:goog.debug.DevCss.UserAgent' {
+    import alias = goog.debug.DevCss.UserAgent;
+    export default alias;
+}
+
 declare namespace goog.debug {
     /**
      * A class for solving development CSS issues/emulating the CSS Compiler.

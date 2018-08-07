@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.userAgent.adobeReader' {
+    import alias = goog.userAgent.adobeReader;
+    export default alias;
+}
+
 declare namespace goog.userAgent.adobeReader {
     /**
      * Whether we detect the user has the Adobe Reader browser plugin installed.

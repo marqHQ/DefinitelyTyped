@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.testing.MockInterface' {
+    import alias = goog.testing.MockInterface;
+    export default alias;
+}
+
 declare namespace goog.testing {
     interface MockInterface {
         /**

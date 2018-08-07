@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.dom.asserts' {
+    export = goog.dom.asserts;
+}
+
 declare namespace goog.dom.asserts {
     /**
      * Asserts that a given object is a Location.

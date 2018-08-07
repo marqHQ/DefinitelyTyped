@@ -7,6 +7,21 @@
 /// <reference path="../../log/log.d.ts"/>
 /// <reference path="../../html/safehtml.d.ts"/>
 
+declare module 'goog:goog.ui.media.FlashObject' {
+    import alias = goog.ui.media.FlashObject;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.media.FlashObject.Wmodes' {
+    import alias = goog.ui.media.FlashObject.Wmodes;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.media.FlashObject.ScriptAccessLevel' {
+    import alias = goog.ui.media.FlashObject.ScriptAccessLevel;
+    export default alias;
+}
+
 declare namespace goog.ui.media {
     /**
      * A very simple flash wrapper, that allows you to create flash object

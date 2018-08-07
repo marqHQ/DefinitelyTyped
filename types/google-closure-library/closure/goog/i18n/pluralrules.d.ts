@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.i18n.pluralRules' {
+    import alias = goog.i18n.pluralRules;
+    export default alias;
+}
+
 declare namespace goog.i18n.pluralRules {
     /**
      * Plural pattern keyword

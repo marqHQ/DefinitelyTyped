@@ -1,6 +1,15 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../dom/dom.d.ts"/>
 
+declare module 'goog:goog.cssom' {
+    export = goog.cssom;
+}
+
+declare module 'goog:goog.cssom.CssRuleType' {
+    import alias = goog.cssom.CssRuleType;
+    export default alias;
+}
+
 declare namespace goog.cssom {
     /**
      * Enumeration of `CSSRule` types.

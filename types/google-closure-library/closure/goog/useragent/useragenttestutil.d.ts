@@ -1,5 +1,15 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.userAgentTestUtil' {
+    import alias = goog.userAgentTestUtil;
+    export default alias;
+}
+
+declare module 'goog:goog.userAgentTestUtil.UserAgents' {
+    import alias = goog.userAgentTestUtil.UserAgents;
+    export default alias;
+}
+
 declare namespace goog.userAgentTestUtil {
     /**
      * Rerun the initialization code to set all of the goog.userAgent constants.

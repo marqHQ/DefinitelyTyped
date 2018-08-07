@@ -2,6 +2,21 @@
 /// <reference path="../events/eventtarget.d.ts"/>
 /// <reference path="./error.d.ts"/>
 
+declare module 'goog:goog.fs.FileSaver' {
+    import alias = goog.fs.FileSaver;
+    export default alias;
+}
+
+declare module 'goog:goog.fs.FileSaver.ReadyState' {
+    import alias = goog.fs.FileSaver.ReadyState;
+    export default alias;
+}
+
+declare module 'goog:goog.fs.FileSaver.EventType' {
+    import alias = goog.fs.FileSaver.EventType;
+    export default alias;
+}
+
 declare namespace goog.fs {
     /**
      * An object for monitoring the saving of files. This emits ProgressEvents of

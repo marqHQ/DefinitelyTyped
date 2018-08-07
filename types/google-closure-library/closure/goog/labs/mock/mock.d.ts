@@ -2,6 +2,15 @@
 /// <reference path="../../debug/error.d.ts"/>
 /// <reference path="./verificationmode.d.ts"/>
 
+declare module 'goog:goog.labs.mock' {
+    export = goog.labs.mock;
+}
+
+declare module 'goog:goog.labs.mock.VerificationError' {
+    import alias = goog.labs.mock.VerificationError;
+    export default alias;
+}
+
 declare namespace goog.labs.mock {
     /**
      * Error thrown when verification failed.

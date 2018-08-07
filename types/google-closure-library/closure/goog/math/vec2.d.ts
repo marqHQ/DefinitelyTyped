@@ -2,6 +2,11 @@
 /// <reference path="./coordinate.d.ts"/>
 /// <reference path="./math.d.ts"/>
 
+declare module 'goog:goog.math.Vec2' {
+    import alias = goog.math.Vec2;
+    export default alias;
+}
+
 declare namespace goog.math {
     /**
      * Class for a two-dimensional vector object and assorted functions useful for

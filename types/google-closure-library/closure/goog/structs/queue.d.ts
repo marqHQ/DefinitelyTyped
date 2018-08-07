@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.structs.Queue' {
+    import alias = goog.structs.Queue;
+    export default alias;
+}
+
 declare namespace goog.structs {
     /**
      * Class for FIFO Queue data structure.

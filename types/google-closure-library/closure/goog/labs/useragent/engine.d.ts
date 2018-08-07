@@ -1,5 +1,9 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.labs.userAgent.engine' {
+    export = goog.labs.userAgent.engine;
+}
+
 declare namespace goog.labs.userAgent.engine {
     /**
      * @return {boolean} Whether the rendering engine is Presto.

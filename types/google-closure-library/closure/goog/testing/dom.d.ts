@@ -2,6 +2,10 @@
 /// <reference path="../iter/iter.d.ts"/>
 /// <reference path="../dom/abstractrange.d.ts"/>
 
+declare module 'goog:goog.testing.dom' {
+    export = goog.testing.dom;
+}
+
 declare namespace goog.testing.dom {
     /**
      * Tests if the given iterator over nodes matches the given Array of node

@@ -1,5 +1,10 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.ui.emoji.SpriteInfo' {
+    import alias = goog.ui.emoji.SpriteInfo;
+    export default alias;
+}
+
 declare namespace goog.ui.emoji {
     /**
      * Creates a SpriteInfo object with the specified properties. If the image is

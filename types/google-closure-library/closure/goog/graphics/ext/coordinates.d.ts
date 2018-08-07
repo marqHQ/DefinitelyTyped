@@ -1,5 +1,9 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.graphics.ext.coordinates' {
+    export = goog.graphics.ext.coordinates;
+}
+
 declare namespace goog.graphics.ext.coordinates {
     /**
      * Determines if the given coordinate is special - i.e. not just a number.

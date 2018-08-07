@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../disposable/disposable.d.ts"/>
 
+declare module 'goog:goog.async.Debouncer' {
+    import alias = goog.async.Debouncer;
+    export default alias;
+}
+
 declare namespace goog.async {
     /**
      * Debouncer will perform a specified action exactly once for any sequence of

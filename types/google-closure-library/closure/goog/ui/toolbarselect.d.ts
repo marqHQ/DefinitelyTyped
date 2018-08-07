@@ -5,6 +5,11 @@
 /// <reference path="./menubuttonrenderer.d.ts"/>
 /// <reference path="../dom/dom.d.ts"/>
 
+declare module 'goog:goog.ui.ToolbarSelect' {
+    import alias = goog.ui.ToolbarSelect;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * A select control for a toolbar.

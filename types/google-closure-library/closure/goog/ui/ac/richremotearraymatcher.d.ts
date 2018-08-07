@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./remotearraymatcher.d.ts"/>
 
+declare module 'goog:goog.ui.ac.RichRemoteArrayMatcher' {
+    import alias = goog.ui.ac.RichRemoteArrayMatcher;
+    export default alias;
+}
+
 declare namespace goog.ui.ac {
     /**
      * An array matcher that requests rich matches via ajax and converts them into

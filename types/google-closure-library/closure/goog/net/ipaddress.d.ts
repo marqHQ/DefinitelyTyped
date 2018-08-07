@@ -1,6 +1,21 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../math/integer.d.ts"/>
 
+declare module 'goog:goog.net.Ipv6Address' {
+    import alias = goog.net.Ipv6Address;
+    export default alias;
+}
+
+declare module 'goog:goog.net.Ipv4Address' {
+    import alias = goog.net.Ipv4Address;
+    export default alias;
+}
+
+declare module 'goog:goog.net.IpAddress' {
+    import alias = goog.net.IpAddress;
+    export default alias;
+}
+
 declare namespace goog.net {
     /**
      * Abstract class defining an IP Address.

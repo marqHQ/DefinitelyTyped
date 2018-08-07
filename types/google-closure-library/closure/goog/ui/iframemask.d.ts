@@ -5,6 +5,11 @@
 /// <reference path="../events/eventhandler.d.ts"/>
 /// <reference path="../events/eventtarget.d.ts"/>
 
+declare module 'goog:goog.ui.IframeMask' {
+    import alias = goog.ui.IframeMask;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Controller for an iframe mask. The mask is only valid in the current

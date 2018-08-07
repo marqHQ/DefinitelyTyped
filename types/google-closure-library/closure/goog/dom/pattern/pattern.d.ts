@@ -1,5 +1,14 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.dom.pattern' {
+    export = goog.dom.pattern;
+}
+
+declare module 'goog:goog.dom.pattern.MatchType' {
+    import alias = goog.dom.pattern.MatchType;
+    export default alias;
+}
+
 declare namespace goog.dom.pattern {
     /**
      * Utility function to match a string against either a string or a regular

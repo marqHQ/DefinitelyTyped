@@ -1,6 +1,10 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="../../dom/abstractrange.d.ts"/>
 
+declare module 'goog:goog.testing.editor.dom' {
+    export = goog.testing.editor.dom;
+}
+
 declare namespace goog.testing.editor.dom {
     /**
      * Returns the previous (in document order) node from the given node that is a

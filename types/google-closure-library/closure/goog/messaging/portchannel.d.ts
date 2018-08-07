@@ -6,6 +6,11 @@
 /// <reference path="./deferredchannel.d.ts"/>
 /// <reference path="./messagechannel.d.ts"/>
 
+declare module 'goog:goog.messaging.PortChannel' {
+    import alias = goog.messaging.PortChannel;
+    export default alias;
+}
+
 declare namespace goog.messaging {
     /**
      * A wrapper for several types of HTML5 message-passing entities

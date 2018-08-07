@@ -3,6 +3,11 @@
 /// <reference path="./mediamodel.d.ts"/>
 /// <reference path="../../dom/dom.d.ts"/>
 
+declare module 'goog:goog.ui.media.Mp3' {
+    import alias = goog.ui.media.Mp3;
+    export default alias;
+}
+
 declare namespace goog.ui.media {
     /**
      * Subclasses a goog.ui.media.MediaRenderer to provide a Mp3 specific media

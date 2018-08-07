@@ -3,6 +3,21 @@
 /// <reference path="./error.d.ts"/>
 /// <reference path="../../../third_party/closure/goog/mochikit/async/deferred.d.ts"/>
 
+declare module 'goog:goog.fs.FileReader' {
+    import alias = goog.fs.FileReader;
+    export default alias;
+}
+
+declare module 'goog:goog.fs.FileReader.ReadyState' {
+    import alias = goog.fs.FileReader.ReadyState;
+    export default alias;
+}
+
+declare module 'goog:goog.fs.FileReader.EventType' {
+    import alias = goog.fs.FileReader.EventType;
+    export default alias;
+}
+
 declare namespace goog.fs {
     /**
      * An object for monitoring the reading of files. This emits ProgressEvents of

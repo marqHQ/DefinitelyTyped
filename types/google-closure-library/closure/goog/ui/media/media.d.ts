@@ -4,6 +4,16 @@
 /// <reference path="../controlrenderer.d.ts"/>
 /// <reference path="../../dom/dom.d.ts"/>
 
+declare module 'goog:goog.ui.media.MediaRenderer' {
+    import alias = goog.ui.media.MediaRenderer;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.media.Media' {
+    import alias = goog.ui.media.Media;
+    export default alias;
+}
+
 declare namespace goog.ui.media {
     /**
      * Provides the control mechanism of media types.

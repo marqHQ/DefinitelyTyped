@@ -12,6 +12,16 @@
 /// <reference path="./controlcontent.d.ts"/>
 /// <reference path="./menuitemrenderer.d.ts"/>
 
+declare module 'goog:goog.ui.ComboBoxItem' {
+    import alias = goog.ui.ComboBoxItem;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.ComboBox' {
+    import alias = goog.ui.ComboBox;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * A ComboBox control.

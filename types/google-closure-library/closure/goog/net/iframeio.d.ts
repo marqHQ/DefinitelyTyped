@@ -7,6 +7,16 @@
 /// <reference path="../events/browserevent.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.net.IframeIo' {
+    import alias = goog.net.IframeIo;
+    export default alias;
+}
+
+declare module 'goog:goog.net.IframeIo.IncrementalDataEvent' {
+    import alias = goog.net.IframeIo.IncrementalDataEvent;
+    export default alias;
+}
+
 declare namespace goog.net {
     /**
      * Class for managing requests via iFrames.

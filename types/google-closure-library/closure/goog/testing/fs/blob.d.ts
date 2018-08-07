@@ -1,5 +1,10 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.testing.fs.Blob' {
+    import alias = goog.testing.fs.Blob;
+    export default alias;
+}
+
 declare namespace goog.testing.fs {
     /**
      * A mock Blob object. The data is stored as an Array of bytes, a "byte" being a

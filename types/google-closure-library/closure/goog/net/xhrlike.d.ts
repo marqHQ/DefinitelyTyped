@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.net.XhrLike' {
+    import alias = goog.net.XhrLike;
+    export default alias;
+}
+
 declare namespace goog.net {
     interface XhrLike {
         /**

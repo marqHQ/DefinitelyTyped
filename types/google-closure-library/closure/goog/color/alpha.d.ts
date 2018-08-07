@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.color.alpha' {
+    export = goog.color.alpha;
+}
+
 declare namespace goog.color.alpha {
     /**
      * Parses an alpha color out of a string.

@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.debug' {
+    export = goog.debug;
+}
+
 declare namespace goog.debug {
     /**
      * Catches onerror events fired by windows and similar objects.

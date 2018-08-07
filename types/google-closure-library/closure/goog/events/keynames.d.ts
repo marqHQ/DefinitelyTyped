@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.events.KeyNames' {
+    import alias = goog.events.KeyNames;
+    export default alias;
+}
+
 declare namespace goog.events {
     /**
      * Key names for common characters. These should be used with keyup/keydown

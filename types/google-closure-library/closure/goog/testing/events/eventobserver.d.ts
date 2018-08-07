@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="../../events/event.d.ts"/>
 
+declare module 'goog:goog.testing.events.EventObserver' {
+    import alias = goog.testing.events.EventObserver;
+    export default alias;
+}
+
 declare namespace goog.testing.events {
     /**
      * Event observer.  Implements a handleEvent interface so it may be used as

@@ -1,5 +1,10 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.labs.pubsub.BroadcastPubSub' {
+    import alias = goog.labs.pubsub.BroadcastPubSub;
+    export default alias;
+}
+
 declare namespace goog.labs.pubsub {
     /**
      * Topic-based publish/subscribe messaging implementation that provides

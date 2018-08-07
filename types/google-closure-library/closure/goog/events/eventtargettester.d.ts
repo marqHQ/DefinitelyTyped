@@ -1,6 +1,21 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./listenable.d.ts"/>
 
+declare module 'goog:goog.events.eventTargetTester' {
+    import alias = goog.events.eventTargetTester;
+    export default alias;
+}
+
+declare module 'goog:goog.events.eventTargetTester.UnlistenReturnType' {
+    import alias = goog.events.eventTargetTester.UnlistenReturnType;
+    export default alias;
+}
+
+declare module 'goog:goog.events.eventTargetTester.KeyType' {
+    import alias = goog.events.eventTargetTester.KeyType;
+    export default alias;
+}
+
 declare namespace goog.events.eventTargetTester {
     /**
      * Setup step for the test functions. This needs to be called from the

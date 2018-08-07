@@ -2,6 +2,11 @@
 /// <reference path="./iframeloadmonitor.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.net.MultiIframeLoadMonitor' {
+    import alias = goog.net.MultiIframeLoadMonitor;
+    export default alias;
+}
+
 declare namespace goog.net {
     /**
      * Provides a wrapper around IframeLoadMonitor, to allow the caller to wait for

@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./node.d.ts"/>
 
+declare module 'goog:goog.structs.TreeNode' {
+    import alias = goog.structs.TreeNode;
+    export default alias;
+}
+
 declare namespace goog.structs {
     /**
      * Generic tree node data structure with arbitrary number of child nodes.

@@ -3,6 +3,16 @@
 /// <reference path="../net/networkstatusmonitor.d.ts"/>
 /// <reference path="../timer/timer.d.ts"/>
 
+declare module 'goog:goog.events.OnlineHandler' {
+    import alias = goog.events.OnlineHandler;
+    export default alias;
+}
+
+declare module 'goog:goog.events.OnlineHandler.EventType' {
+    import alias = goog.events.OnlineHandler.EventType;
+    export default alias;
+}
+
 declare namespace goog.events {
     /**
      * Basic object for detecting whether the online state changes.

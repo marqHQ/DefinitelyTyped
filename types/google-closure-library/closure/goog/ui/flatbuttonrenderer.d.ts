@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./buttonrenderer.d.ts"/>
 
+declare module 'goog:goog.ui.FlatButtonRenderer' {
+    import alias = goog.ui.FlatButtonRenderer;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Flat renderer for {@link goog.ui.Button}s.  Flat buttons can contain

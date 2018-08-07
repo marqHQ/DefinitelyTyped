@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./sha2_64bit.d.ts"/>
 
+declare module 'goog:goog.crypt.Sha384' {
+    import alias = goog.crypt.Sha384;
+    export default alias;
+}
+
 declare namespace goog.crypt {
     /**
      * Constructs a SHA-384 cryptographic hash.

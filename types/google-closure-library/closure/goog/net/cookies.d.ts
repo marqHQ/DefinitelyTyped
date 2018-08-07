@@ -1,5 +1,15 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.net.Cookies' {
+    import alias = goog.net.Cookies;
+    export default alias;
+}
+
+declare module 'goog:goog.net.cookies' {
+    import alias = goog.net.cookies;
+    export default alias;
+}
+
 declare namespace goog.net {
     /**
      * A class for handling browser cookies.

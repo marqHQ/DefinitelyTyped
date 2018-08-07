@@ -3,6 +3,11 @@
 /// <reference path="./browserrange/abstractrange.d.ts"/>
 /// <reference path="./savedrange.d.ts"/>
 
+declare module 'goog:goog.dom.TextRange' {
+    import alias = goog.dom.TextRange;
+    export default alias;
+}
+
 declare namespace goog.dom {
     /**
      * Create a new text selection with no properties.  Do not use this constructor:

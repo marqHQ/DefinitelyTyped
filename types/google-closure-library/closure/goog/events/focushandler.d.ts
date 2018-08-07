@@ -3,6 +3,16 @@
 /// <reference path="./events.d.ts"/>
 /// <reference path="./browserevent.d.ts"/>
 
+declare module 'goog:goog.events.FocusHandler' {
+    import alias = goog.events.FocusHandler;
+    export default alias;
+}
+
+declare module 'goog:goog.events.FocusHandler.EventType' {
+    import alias = goog.events.FocusHandler.EventType;
+    export default alias;
+}
+
 declare namespace goog.events {
     /**
      * This event handler allows you to catch focus events when descendants gain or

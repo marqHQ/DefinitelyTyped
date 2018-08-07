@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./field.d.ts"/>
 
+declare module 'goog:goog.editor.ContentEditableField' {
+    import alias = goog.editor.ContentEditableField;
+    export default alias;
+}
+
 declare namespace goog.editor {
     /**
      * This class encapsulates an editable field that is just a contentEditable

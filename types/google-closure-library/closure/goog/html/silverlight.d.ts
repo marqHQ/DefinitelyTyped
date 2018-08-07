@@ -2,6 +2,10 @@
 /// <reference path="./trustedresourceurl.d.ts"/>
 /// <reference path="./safehtml.d.ts"/>
 
+declare module 'goog:goog.html.silverlight' {
+    export = goog.html.silverlight;
+}
+
 declare namespace goog.html.silverlight {
     /**
      * Creates a SafeHtml representing an object tag, for loading Silverlight files.

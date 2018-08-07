@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./blob.d.ts"/>
 
+declare module 'goog:goog.testing.fs.File' {
+    import alias = goog.testing.fs.File;
+    export default alias;
+}
+
 declare namespace goog.testing.fs {
     /**
      * A mock file object.

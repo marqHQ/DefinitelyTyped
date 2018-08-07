@@ -2,6 +2,11 @@
 /// <reference path="./container.d.ts"/>
 /// <reference path="./control.d.ts"/>
 
+declare module 'goog:goog.ui.ContainerRenderer' {
+    import alias = goog.ui.ContainerRenderer;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Default renderer for {@link goog.ui.Container}.  Can be used as-is, but

@@ -1,5 +1,10 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.labs.structs.Multimap' {
+    import alias = goog.labs.structs.Multimap;
+    export default alias;
+}
+
 declare namespace goog.labs.structs {
     /**
      * Creates a new multimap.

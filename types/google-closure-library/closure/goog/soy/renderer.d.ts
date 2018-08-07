@@ -4,6 +4,16 @@
 /// <reference path="../html/safehtml.d.ts"/>
 /// <reference path="../html/safestylesheet.d.ts"/>
 
+declare module 'goog:goog.soy.Renderer' {
+    import alias = goog.soy.Renderer;
+    export default alias;
+}
+
+declare module 'goog:goog.soy.InjectedDataSupplier' {
+    import alias = goog.soy.InjectedDataSupplier;
+    export default alias;
+}
+
 declare namespace goog.soy {
     /**
      * Creates a new soy renderer. Note that the renderer will only be

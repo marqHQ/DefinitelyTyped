@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./heap.d.ts"/>
 
+declare module 'goog:goog.structs.PriorityQueue' {
+    import alias = goog.structs.PriorityQueue;
+    export default alias;
+}
+
 declare namespace goog.structs {
     /**
      * Class for Priority Queue datastructure.

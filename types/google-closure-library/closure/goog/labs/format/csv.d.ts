@@ -1,6 +1,20 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="../../debug/error.d.ts"/>
 
+declare module 'goog:goog.labs.format.csv' {
+    export = goog.labs.format.csv;
+}
+
+declare module 'goog:goog.labs.format.csv.Token' {
+    import alias = goog.labs.format.csv.Token;
+    export default alias;
+}
+
+declare module 'goog:goog.labs.format.csv.ParseError' {
+    import alias = goog.labs.format.csv.ParseError;
+    export default alias;
+}
+
 declare namespace goog.labs.format.csv {
     /**
      * Error thrown when parsing fails.

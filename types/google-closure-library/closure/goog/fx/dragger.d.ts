@@ -6,6 +6,21 @@
 /// <reference path="../events/browserevent.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.fx.Dragger' {
+    import alias = goog.fx.Dragger;
+    export default alias;
+}
+
+declare module 'goog:goog.fx.Dragger.EventType' {
+    import alias = goog.fx.Dragger.EventType;
+    export default alias;
+}
+
+declare module 'goog:goog.fx.DragEvent' {
+    import alias = goog.fx.DragEvent;
+    export default alias;
+}
+
 declare namespace goog.fx {
     /**
      * A class that allows mouse or touch-based dragging (moving) of an element

@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.userAgent.platform' {
+    export = goog.userAgent.platform;
+}
+
 declare namespace goog.userAgent.platform {
     /**
      * The version of the platform. We don't determine the version of Linux.

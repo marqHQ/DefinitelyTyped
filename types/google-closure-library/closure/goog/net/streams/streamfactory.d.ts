@@ -2,6 +2,11 @@
 /// <reference path="../xhrio.d.ts"/>
 /// <reference path="./nodereadablestream.d.ts"/>
 
+declare module 'goog:goog.net.streams.createXhrNodeReadableStream' {
+    import alias = goog.net.streams.createXhrNodeReadableStream;
+    export default alias;
+}
+
 declare namespace goog.net.streams {
     /**
      * Creates a new NodeReadableStream object using goog.net.xhrio as the

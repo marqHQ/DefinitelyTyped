@@ -3,6 +3,11 @@
 /// <reference path="./paletterenderer.d.ts"/>
 /// <reference path="../dom/dom.d.ts"/>
 
+declare module 'goog:goog.ui.ColorPalette' {
+    import alias = goog.ui.ColorPalette;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * A color palette is a grid of color swatches that the user can highlight or

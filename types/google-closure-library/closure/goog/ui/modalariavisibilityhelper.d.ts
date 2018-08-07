@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../dom/dom.d.ts"/>
 
+declare module 'goog:goog.ui.ModalAriaVisibilityHelper' {
+    import alias = goog.ui.ModalAriaVisibilityHelper;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Helper object to control aria visibility of the rest of the page (background)

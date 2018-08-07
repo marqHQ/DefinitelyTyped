@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../iter/iter.d.ts"/>
 
+declare module 'goog:goog.structs.Map' {
+    import alias = goog.structs.Map;
+    export default alias;
+}
+
 declare namespace goog.structs {
     /**
      * Class for Hash Map datastructure.

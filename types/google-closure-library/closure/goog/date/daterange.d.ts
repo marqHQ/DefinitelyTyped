@@ -2,6 +2,21 @@
 /// <reference path="./date.d.ts"/>
 /// <reference path="../iter/iter.d.ts"/>
 
+declare module 'goog:goog.date.DateRange' {
+    import alias = goog.date.DateRange;
+    export default alias;
+}
+
+declare module 'goog:goog.date.DateRange.StandardDateRangeKeys' {
+    import alias = goog.date.DateRange.StandardDateRangeKeys;
+    export default alias;
+}
+
+declare module 'goog:goog.date.DateRange.Iterator' {
+    import alias = goog.date.DateRange.Iterator;
+    export default alias;
+}
+
 declare namespace goog.date {
     /**
      * Constructs a date range.

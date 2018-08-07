@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.i18n.CharListDecompressor' {
+    import alias = goog.i18n.CharListDecompressor;
+    export default alias;
+}
+
 declare namespace goog.i18n {
     /**
      * Class to decompress base88 compressed character list.

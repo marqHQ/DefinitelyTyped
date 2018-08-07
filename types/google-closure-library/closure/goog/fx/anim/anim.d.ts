@@ -1,5 +1,14 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.fx.anim' {
+    export = goog.fx.anim;
+}
+
+declare module 'goog:goog.fx.anim.Animated' {
+    import alias = goog.fx.anim.Animated;
+    export default alias;
+}
+
 declare namespace goog.fx.anim {
     interface Animated {
         /**

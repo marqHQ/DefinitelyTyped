@@ -2,6 +2,11 @@
 /// <reference path="./activitymonitor.d.ts"/>
 /// <reference path="../events/eventtype.d.ts"/>
 
+declare module 'goog:goog.ui.MockActivityMonitor' {
+    import alias = goog.ui.MockActivityMonitor;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * A mock implementation of goog.ui.ActivityMonitor for unit testing. Clients

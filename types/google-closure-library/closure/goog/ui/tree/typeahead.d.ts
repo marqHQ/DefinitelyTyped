@@ -2,6 +2,16 @@
 /// <reference path="../../events/browserevent.d.ts"/>
 /// <reference path="./basenode.d.ts"/>
 
+declare module 'goog:goog.ui.tree.TypeAhead' {
+    import alias = goog.ui.tree.TypeAhead;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.tree.TypeAhead.Offset' {
+    import alias = goog.ui.tree.TypeAhead.Offset;
+    export default alias;
+}
+
 declare namespace goog.ui.tree {
     /**
      * Constructs a TypeAhead object.

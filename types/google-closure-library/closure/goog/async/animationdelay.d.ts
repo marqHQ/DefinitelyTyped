@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../disposable/disposable.d.ts"/>
 
+declare module 'goog:goog.async.AnimationDelay' {
+    import alias = goog.async.AnimationDelay;
+    export default alias;
+}
+
 declare namespace goog.async {
     /**
      * A delayed callback that pegs to the next animation frame

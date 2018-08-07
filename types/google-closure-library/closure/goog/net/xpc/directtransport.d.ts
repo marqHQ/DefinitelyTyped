@@ -2,6 +2,11 @@
 /// <reference path="./crosspagechannel.d.ts"/>
 /// <reference path="../../dom/dom.d.ts"/>
 
+declare module 'goog:goog.net.xpc.DirectTransport' {
+    import alias = goog.net.xpc.DirectTransport;
+    export default alias;
+}
+
 declare namespace goog.net.xpc {
     /**
      * A direct window to window method transport.

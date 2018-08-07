@@ -1,6 +1,35 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="../../log/log.d.ts"/>
 
+declare module 'goog:goog.net.xpc' {
+    export = goog.net.xpc;
+}
+
+declare module 'goog:goog.net.xpc.UriCfgFields' {
+    import alias = goog.net.xpc.UriCfgFields;
+    export default alias;
+}
+
+declare module 'goog:goog.net.xpc.TransportTypes' {
+    import alias = goog.net.xpc.TransportTypes;
+    export default alias;
+}
+
+declare module 'goog:goog.net.xpc.TransportNames' {
+    import alias = goog.net.xpc.TransportNames;
+    export default alias;
+}
+
+declare module 'goog:goog.net.xpc.ChannelStates' {
+    import alias = goog.net.xpc.ChannelStates;
+    export default alias;
+}
+
+declare module 'goog:goog.net.xpc.CfgFields' {
+    import alias = goog.net.xpc.CfgFields;
+    export default alias;
+}
+
 declare namespace goog.net.xpc {
     /**
      * Enum used to identify transport types.

@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.editor.node' {
+    export = goog.editor.node;
+}
+
 declare namespace goog.editor.node {
     /**
      * Check if the node is in a standards mode document.

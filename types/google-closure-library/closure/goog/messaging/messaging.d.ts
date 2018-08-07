@@ -1,6 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./messagechannel.d.ts"/>
 
+declare module 'goog:goog.messaging' {
+    export = goog.messaging;
+}
+
 declare namespace goog.messaging {
     /**
      * Creates a bidirectional pipe between two message channels.

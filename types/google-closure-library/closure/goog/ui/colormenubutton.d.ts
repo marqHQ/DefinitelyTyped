@@ -6,6 +6,11 @@
 /// <reference path="../dom/dom.d.ts"/>
 /// <reference path="./control.d.ts"/>
 
+declare module 'goog:goog.ui.ColorMenuButton' {
+    import alias = goog.ui.ColorMenuButton;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * A color menu button control.  Extends {@link goog.ui.MenuButton} by adding

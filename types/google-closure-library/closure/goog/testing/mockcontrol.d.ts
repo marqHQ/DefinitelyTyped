@@ -3,6 +3,11 @@
 /// <reference path="./strictmock.d.ts"/>
 /// <reference path="./loosemock.d.ts"/>
 
+declare module 'goog:goog.testing.MockControl' {
+    import alias = goog.testing.MockControl;
+    export default alias;
+}
+
 declare namespace goog.testing {
     /**
      * Controls a set of mocks.  Controlled mocks are replayed, verified, and

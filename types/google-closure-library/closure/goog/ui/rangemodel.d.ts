@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../events/eventtarget.d.ts"/>
 
+declare module 'goog:goog.ui.RangeModel' {
+    import alias = goog.ui.RangeModel;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Creates a range model

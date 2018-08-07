@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.json.hybrid' {
+    export = goog.json.hybrid;
+}
+
 declare namespace goog.json.hybrid {
     /**
      * Attempts to serialize the JSON string natively, falling back to

@@ -1,6 +1,21 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../math/coordinate.d.ts"/>
 
+declare module 'goog:goog.structs.QuadTree' {
+    import alias = goog.structs.QuadTree;
+    export default alias;
+}
+
+declare module 'goog:goog.structs.QuadTree.Point' {
+    import alias = goog.structs.QuadTree.Point;
+    export default alias;
+}
+
+declare module 'goog:goog.structs.QuadTree.Node' {
+    import alias = goog.structs.QuadTree.Node;
+    export default alias;
+}
+
 declare namespace goog.structs {
     /**
      * Constructs a new quad tree.

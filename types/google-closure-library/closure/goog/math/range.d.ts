@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.math.Range' {
+    import alias = goog.math.Range;
+    export default alias;
+}
+
 declare namespace goog.math {
     /**
      * A number range.

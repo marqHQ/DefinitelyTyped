@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./blockcipher.d.ts"/>
 
+declare module 'goog:goog.crypt.Aes' {
+    import alias = goog.crypt.Aes;
+    export default alias;
+}
+
 declare namespace goog.crypt {
     /**
      * Implementation of AES in JavaScript.

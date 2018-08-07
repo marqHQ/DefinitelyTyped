@@ -2,6 +2,11 @@
 /// <reference path="./abstractposition.d.ts"/>
 /// <reference path="./positioning.d.ts"/>
 
+declare module 'goog:goog.positioning.AnchoredPosition' {
+    import alias = goog.positioning.AnchoredPosition;
+    export default alias;
+}
+
 declare namespace goog.positioning {
     /**
      * Encapsulates a popup position where the popup is anchored at a corner of

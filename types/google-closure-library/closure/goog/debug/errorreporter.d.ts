@@ -3,6 +3,16 @@
 /// <reference path="../structs/map.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.debug.ErrorReporter' {
+    import alias = goog.debug.ErrorReporter;
+    export default alias;
+}
+
+declare module 'goog:goog.debug.ErrorReporter.ExceptionEvent' {
+    import alias = goog.debug.ErrorReporter.ExceptionEvent;
+    export default alias;
+}
+
 declare namespace goog.debug {
     /**
      * Constructs an error reporter. Internal Use Only. To install an error

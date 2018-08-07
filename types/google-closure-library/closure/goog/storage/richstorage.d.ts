@@ -2,6 +2,16 @@
 /// <reference path="./storage.d.ts"/>
 /// <reference path="./mechanism/mechanism.d.ts"/>
 
+declare module 'goog:goog.storage.RichStorage' {
+    import alias = goog.storage.RichStorage;
+    export default alias;
+}
+
+declare module 'goog:goog.storage.RichStorage.Wrapper' {
+    import alias = goog.storage.RichStorage.Wrapper;
+    export default alias;
+}
+
 declare namespace goog.storage {
     /**
      * Provides a storage for data with attached metadata.

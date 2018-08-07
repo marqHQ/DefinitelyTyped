@@ -2,6 +2,11 @@
 /// <reference path="./abstractposition.d.ts"/>
 /// <reference path="../math/coordinate.d.ts"/>
 
+declare module 'goog:goog.positioning.AbsolutePosition' {
+    import alias = goog.positioning.AbsolutePosition;
+    export default alias;
+}
+
 declare namespace goog.positioning {
     /**
      * Encapsulates a popup position where the popup absolutely positioned by

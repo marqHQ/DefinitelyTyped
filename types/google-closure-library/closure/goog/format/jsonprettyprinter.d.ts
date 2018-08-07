@@ -1,6 +1,21 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../html/safehtml.d.ts"/>
 
+declare module 'goog:goog.format.JsonPrettyPrinter' {
+    import alias = goog.format.JsonPrettyPrinter;
+    export default alias;
+}
+
+declare module 'goog:goog.format.JsonPrettyPrinter.TextDelimiters' {
+    import alias = goog.format.JsonPrettyPrinter.TextDelimiters;
+    export default alias;
+}
+
+declare module 'goog:goog.format.JsonPrettyPrinter.SafeHtmlDelimiters' {
+    import alias = goog.format.JsonPrettyPrinter.SafeHtmlDelimiters;
+    export default alias;
+}
+
 declare namespace goog.format {
     /**
      * Formats a JSON object as a string, properly indented for display.  Supports

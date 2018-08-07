@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.debug.Error' {
+    import alias = goog.debug.Error;
+    export default alias;
+}
+
 declare namespace goog.debug {
     /**
      * Base class for custom error objects.

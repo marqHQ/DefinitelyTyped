@@ -7,6 +7,11 @@
 /// <reference path="./undoredostate.d.ts"/>
 /// <reference path="../../dom/abstractrange.d.ts"/>
 
+declare module 'goog:goog.editor.plugins.UndoRedo' {
+    import alias = goog.editor.plugins.UndoRedo;
+    export default alias;
+}
+
 declare namespace goog.editor.plugins {
     /**
      * Encapsulates undo/redo logic using a custom undo stack (i.e. not browser

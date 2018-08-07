@@ -4,6 +4,11 @@
 /// <reference path="./buttonrenderer.d.ts"/>
 /// <reference path="../dom/dom.d.ts"/>
 
+declare module 'goog:goog.ui.ToggleButton' {
+    import alias = goog.ui.ToggleButton;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * A toggle button, with checkbox-like semantics.  Rendered using

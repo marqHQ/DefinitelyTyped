@@ -1,6 +1,16 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../iter/iter.d.ts"/>
 
+declare module 'goog:goog.dom.TagWalkType' {
+    import alias = goog.dom.TagWalkType;
+    export default alias;
+}
+
+declare module 'goog:goog.dom.TagIterator' {
+    import alias = goog.dom.TagIterator;
+    export default alias;
+}
+
 declare namespace goog.dom {
     /**
      * A DOM tree traversal iterator.

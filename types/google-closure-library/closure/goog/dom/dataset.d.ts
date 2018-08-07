@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.dom.dataset' {
+    export = goog.dom.dataset;
+}
+
 declare namespace goog.dom.dataset {
     /**
      * Sets a custom data attribute on an element. The key should be

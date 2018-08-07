@@ -2,6 +2,11 @@
 /// <reference path="./richstorage.d.ts"/>
 /// <reference path="./mechanism/mechanism.d.ts"/>
 
+declare module 'goog:goog.storage.ExpiringStorage' {
+    import alias = goog.storage.ExpiringStorage;
+    export default alias;
+}
+
 declare namespace goog.storage {
     /**
      * Provides a storage with expiring keys.

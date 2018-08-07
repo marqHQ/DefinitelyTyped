@@ -1,6 +1,41 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./matcher.d.ts"/>
 
+declare module 'goog:goog.labs.testing.ObjectEqualsMatcher' {
+    import alias = goog.labs.testing.ObjectEqualsMatcher;
+    export default alias;
+}
+
+declare module 'goog:goog.labs.testing.IsUndefinedMatcher' {
+    import alias = goog.labs.testing.IsUndefinedMatcher;
+    export default alias;
+}
+
+declare module 'goog:goog.labs.testing.IsNullOrUndefinedMatcher' {
+    import alias = goog.labs.testing.IsNullOrUndefinedMatcher;
+    export default alias;
+}
+
+declare module 'goog:goog.labs.testing.IsNullMatcher' {
+    import alias = goog.labs.testing.IsNullMatcher;
+    export default alias;
+}
+
+declare module 'goog:goog.labs.testing.InstanceOfMatcher' {
+    import alias = goog.labs.testing.InstanceOfMatcher;
+    export default alias;
+}
+
+declare module 'goog:goog.labs.testing.HasPropertyMatcher' {
+    import alias = goog.labs.testing.HasPropertyMatcher;
+    export default alias;
+}
+
+declare module 'goog:goog.labs.testing.AnyObjectMatcher' {
+    import alias = goog.labs.testing.AnyObjectMatcher;
+    export default alias;
+}
+
 declare namespace goog.labs.testing {
     /**
      * The Equals matcher.

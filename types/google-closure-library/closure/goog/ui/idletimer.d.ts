@@ -3,6 +3,11 @@
 /// <reference path="./activitymonitor.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.IdleTimer' {
+    import alias = goog.ui.IdleTimer;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Event target that will give notification of state changes between active and

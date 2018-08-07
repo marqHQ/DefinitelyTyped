@@ -5,6 +5,11 @@
 /// <reference path="./fill.d.ts"/>
 /// <reference path="./path.d.ts"/>
 
+declare module 'goog:goog.graphics.PathElement' {
+    import alias = goog.graphics.PathElement;
+    export default alias;
+}
+
 declare namespace goog.graphics {
     /**
      * Interface for a graphics path element.

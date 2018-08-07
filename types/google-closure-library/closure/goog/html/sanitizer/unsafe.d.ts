@@ -2,6 +2,10 @@
 /// <reference path="../../string/const.d.ts"/>
 /// <reference path="./htmlsanitizer.d.ts"/>
 
+declare module 'goog:goog.html.sanitizer.unsafe' {
+    export = goog.html.sanitizer.unsafe;
+}
+
 declare namespace goog.html.sanitizer.unsafe {
     /**
      * Extends the tag whitelist with the list of tags provided.

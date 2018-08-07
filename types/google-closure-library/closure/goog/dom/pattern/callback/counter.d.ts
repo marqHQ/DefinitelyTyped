@@ -1,5 +1,10 @@
 /// <reference path="../../../../../globals.d.ts"/>
 
+declare module 'goog:goog.dom.pattern.callback.Counter' {
+    import alias = goog.dom.pattern.callback.Counter;
+    export default alias;
+}
+
 declare namespace goog.dom.pattern.callback {
     /**
      * Callback class for counting matches.

@@ -2,6 +2,11 @@
 /// <reference path="../../storage/collectablestorage.d.ts"/>
 /// <reference path="../../storage/mechanism/iterablemechanism.d.ts"/>
 
+declare module 'goog:goog.labs.storage.BoundedCollectableStorage' {
+    import alias = goog.labs.storage.BoundedCollectableStorage;
+    export default alias;
+}
+
 declare namespace goog.labs.storage {
     /**
      * Provides a storage with bounded number of elements, expiring keys and

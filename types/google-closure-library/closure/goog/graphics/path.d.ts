@@ -1,6 +1,16 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./affinetransform.d.ts"/>
 
+declare module 'goog:goog.graphics.Path' {
+    import alias = goog.graphics.Path;
+    export default alias;
+}
+
+declare module 'goog:goog.graphics.Path.Segment' {
+    import alias = goog.graphics.Path.Segment;
+    export default alias;
+}
+
 declare namespace goog.graphics {
     /**
      * Creates a path object. A path is a sequence of segments and may be open or

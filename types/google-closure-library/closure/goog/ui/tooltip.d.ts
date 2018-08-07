@@ -9,6 +9,26 @@
 /// <reference path="../positioning/viewportposition.d.ts"/>
 /// <reference path="../positioning/anchoredposition.d.ts"/>
 
+declare module 'goog:goog.ui.Tooltip' {
+    import alias = goog.ui.Tooltip;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.Tooltip.State' {
+    import alias = goog.ui.Tooltip.State;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.Tooltip.ElementTooltipPosition' {
+    import alias = goog.ui.Tooltip.ElementTooltipPosition;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.Tooltip.CursorTooltipPosition' {
+    import alias = goog.ui.Tooltip.CursorTooltipPosition;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Tooltip widget. Can be attached to one or more elements and is shown, with a

@@ -3,6 +3,11 @@
 /// <reference path="./toolbarseparatorrenderer.d.ts"/>
 /// <reference path="../dom/dom.d.ts"/>
 
+declare module 'goog:goog.ui.ToolbarSeparator' {
+    import alias = goog.ui.ToolbarSeparator;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * A separator control for a toolbar.

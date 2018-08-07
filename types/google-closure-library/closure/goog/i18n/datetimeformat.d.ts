@@ -2,6 +2,16 @@
 /// <reference path="../date/datelike.d.ts"/>
 /// <reference path="./timezone.d.ts"/>
 
+declare module 'goog:goog.i18n.DateTimeFormat' {
+    import alias = goog.i18n.DateTimeFormat;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeFormat.Format' {
+    import alias = goog.i18n.DateTimeFormat.Format;
+    export default alias;
+}
+
 declare namespace goog.i18n {
     /**
      * Construct a DateTimeFormat object based on current locale.

@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="../mockmatchers.d.ts"/>
 
+declare module 'goog:goog.testing.events.EventMatcher' {
+    import alias = goog.testing.events.EventMatcher;
+    export default alias;
+}
+
 declare namespace goog.testing.events {
     /**
      * A matcher that verifies that an argument is a `goog.events.Event` of a

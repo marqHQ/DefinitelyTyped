@@ -2,6 +2,11 @@
 /// <reference path="../events/events.d.ts"/>
 /// <reference path="../../events/browserevent.d.ts"/>
 
+declare module 'goog:goog.testing.messaging.MockMessageEvent' {
+    import alias = goog.testing.messaging.MockMessageEvent;
+    export default alias;
+}
+
 declare namespace goog.testing.messaging {
     /**
      * Creates a new fake MessageEvent.

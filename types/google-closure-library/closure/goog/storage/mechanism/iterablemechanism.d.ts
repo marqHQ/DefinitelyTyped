@@ -2,6 +2,11 @@
 /// <reference path="./mechanism.d.ts"/>
 /// <reference path="../../iter/iter.d.ts"/>
 
+declare module 'goog:goog.storage.mechanism.IterableMechanism' {
+    import alias = goog.storage.mechanism.IterableMechanism;
+    export default alias;
+}
+
 declare namespace goog.storage.mechanism {
     /**
      * Interface for all iterable storage mechanisms.

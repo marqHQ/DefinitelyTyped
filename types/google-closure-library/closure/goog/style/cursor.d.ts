@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.style.cursor' {
+    export = goog.style.cursor;
+}
+
 declare namespace goog.style.cursor {
     /**
      * The file name for the open-hand (draggable) cursor.

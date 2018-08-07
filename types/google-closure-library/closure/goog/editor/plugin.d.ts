@@ -5,6 +5,11 @@
 /// <reference path="../dom/dom.d.ts"/>
 /// <reference path="../events/browserevent.d.ts"/>
 
+declare module 'goog:goog.editor.Plugin' {
+    import alias = goog.editor.Plugin;
+    export default alias;
+}
+
 declare namespace goog.editor {
     /**
      * Abstract API for trogedit plugins.

@@ -8,6 +8,10 @@
 /// <reference path="./trustedresourceurl.d.ts"/>
 /// <reference path="../testing/mockmatchers.d.ts"/>
 
+declare module 'goog:goog.html.testing' {
+    export = goog.html.testing;
+}
+
 declare namespace goog.html.testing {
     /**
      * Creates a SafeHtml wrapping the given value. No validation is performed.

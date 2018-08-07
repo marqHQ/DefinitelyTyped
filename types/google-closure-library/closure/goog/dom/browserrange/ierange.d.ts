@@ -2,6 +2,11 @@
 /// <reference path="./abstractrange.d.ts"/>
 /// <reference path="../rangeendpoint.d.ts"/>
 
+declare module 'goog:goog.dom.browserrange.IeRange' {
+    import alias = goog.dom.browserrange.IeRange;
+    export default alias;
+}
+
 declare namespace goog.dom.browserrange {
     /**
      * The constructor for IE specific browser ranges.

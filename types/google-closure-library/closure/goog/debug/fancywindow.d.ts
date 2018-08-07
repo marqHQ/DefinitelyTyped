@@ -2,6 +2,11 @@
 /// <reference path="./debugwindow.d.ts"/>
 /// <reference path="../html/safehtml.d.ts"/>
 
+declare module 'goog:goog.debug.FancyWindow' {
+    import alias = goog.debug.FancyWindow;
+    export default alias;
+}
+
 declare namespace goog.debug {
     /**
      * Provides a Fancy extension to the DebugWindow class.  Allows filtering based

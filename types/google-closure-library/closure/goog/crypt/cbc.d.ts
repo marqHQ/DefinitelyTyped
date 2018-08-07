@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./blockcipher.d.ts"/>
 
+declare module 'goog:goog.crypt.Cbc' {
+    import alias = goog.crypt.Cbc;
+    export default alias;
+}
+
 declare namespace goog.crypt {
     /**
      * Implements the CBC mode for block ciphers. See

@@ -13,6 +13,11 @@
 /// <reference path="./menuitem.d.ts"/>
 /// <reference path="./button.d.ts"/>
 
+declare module 'goog:goog.ui.CharPicker' {
+    import alias = goog.ui.CharPicker;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Character Picker Class. This widget can be used to pick any Unicode

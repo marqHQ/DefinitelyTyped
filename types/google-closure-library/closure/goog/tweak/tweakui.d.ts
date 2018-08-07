@@ -4,6 +4,16 @@
 /// <reference path="./entries.d.ts"/>
 /// <reference path="./tweak.d.ts"/>
 
+declare module 'goog:goog.tweak.TweakUi' {
+    import alias = goog.tweak.TweakUi;
+    export default alias;
+}
+
+declare module 'goog:goog.tweak.EntriesPanel' {
+    import alias = goog.tweak.EntriesPanel;
+    export default alias;
+}
+
 declare namespace goog.tweak {
     /**
      * A UI for editing tweak settings / clicking tweak actions.

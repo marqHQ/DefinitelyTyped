@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.crypt' {
+    export = goog.crypt;
+}
+
 declare namespace goog.crypt {
     /**
      * Turns a string into an array of bytes; a "byte" being a JS number in the

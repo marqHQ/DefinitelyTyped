@@ -6,6 +6,11 @@
 /// <reference path="../../net/imageloader.d.ts"/>
 /// <reference path="../../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.emoji.EmojiPalette' {
+    import alias = goog.ui.emoji.EmojiPalette;
+    export default alias;
+}
+
 declare namespace goog.ui.emoji {
     /**
      * A page of emoji to be displayed in an EmojiPicker.

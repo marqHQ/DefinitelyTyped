@@ -6,6 +6,10 @@
 /// <reference path="./safeurl.d.ts"/>
 /// <reference path="./trustedresourceurl.d.ts"/>
 
+declare module 'goog:goog.html.legacyconversions' {
+    export = goog.html.legacyconversions;
+}
+
 declare namespace goog.html.legacyconversions {
     /**
      * Performs an "unchecked conversion" from string to SafeHtml for legacy API

@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./mock.d.ts"/>
 
+declare module 'goog:goog.testing.StrictMock' {
+    import alias = goog.testing.StrictMock;
+    export default alias;
+}
+
 declare namespace goog.testing {
     /**
      * This is a mock that verifies that methods are called in the order that they

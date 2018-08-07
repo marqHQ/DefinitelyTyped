@@ -3,6 +3,16 @@
 /// <reference path="./messagechannel.d.ts"/>
 /// <reference path="../log/log.d.ts"/>
 
+declare module 'goog:goog.messaging.MultiChannel' {
+    import alias = goog.messaging.MultiChannel;
+    export default alias;
+}
+
+declare module 'goog:goog.messaging.MultiChannel.VirtualChannel' {
+    import alias = goog.messaging.MultiChannel.VirtualChannel;
+    export default alias;
+}
+
 declare namespace goog.messaging {
     /**
      * Creates a new MultiChannel wrapping a single MessageChannel. The

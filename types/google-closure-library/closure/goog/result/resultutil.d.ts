@@ -3,6 +3,10 @@
 /// <reference path="./dependentresult.d.ts"/>
 /// <reference path="./result_interface.d.ts"/>
 
+declare module 'goog:goog.result' {
+    export = goog.result;
+}
+
 declare namespace goog.result {
     /**
      * A DependentResult represents a Result whose eventual value depends on the

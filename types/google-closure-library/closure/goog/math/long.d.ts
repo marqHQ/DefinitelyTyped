@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.math.Long' {
+    import alias = goog.math.Long;
+    export default alias;
+}
+
 declare namespace goog.math {
     /**
      * Constructs a 64-bit two's-complement integer, given its low and high 32-bit

@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./emojipaletterenderer.d.ts"/>
 
+declare module 'goog:goog.ui.emoji.ProgressiveEmojiPaletteRenderer' {
+    import alias = goog.ui.emoji.ProgressiveEmojiPaletteRenderer;
+    export default alias;
+}
+
 declare namespace goog.ui.emoji {
     /**
      * Progressively renders an emoji palette. The progressive renderer tries to

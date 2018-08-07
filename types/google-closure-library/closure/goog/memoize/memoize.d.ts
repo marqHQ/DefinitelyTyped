@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.memoize' {
+    export = goog.memoize;
+}
+
 declare namespace goog {
     /**
      * Decorator around functions that caches the inner function's return values.

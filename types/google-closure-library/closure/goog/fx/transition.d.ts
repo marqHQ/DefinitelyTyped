@@ -1,5 +1,15 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.fx.Transition' {
+    import alias = goog.fx.Transition;
+    export default alias;
+}
+
+declare module 'goog:goog.fx.Transition.EventType' {
+    import alias = goog.fx.Transition.EventType;
+    export default alias;
+}
+
 declare namespace goog.fx {
     interface Transition {
         /**

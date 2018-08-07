@@ -3,6 +3,11 @@
 /// <reference path="../../../third_party/closure/goog/mochikit/async/deferred.d.ts"/>
 /// <reference path="./keyrange.d.ts"/>
 
+declare module 'goog:goog.db.Cursor' {
+    import alias = goog.db.Cursor;
+    export default alias;
+}
+
 declare namespace goog.db {
     /**
      * Creates a new IDBCursor wrapper object. Should not be created directly,

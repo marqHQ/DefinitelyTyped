@@ -5,6 +5,16 @@
 /// <reference path="../math/size.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.ColorPicker' {
+    import alias = goog.ui.ColorPicker;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.ColorPicker.EventType' {
+    import alias = goog.ui.ColorPicker.EventType;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Create a new, empty color picker.

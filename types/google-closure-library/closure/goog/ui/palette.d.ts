@@ -6,6 +6,11 @@
 /// <reference path="./selectionmodel.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.Palette' {
+    import alias = goog.ui.Palette;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * A palette is a grid of DOM nodes that the user can highlight or select via

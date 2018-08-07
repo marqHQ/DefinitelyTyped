@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./abstractpattern.d.ts"/>
 
+declare module 'goog:goog.dom.pattern.Text' {
+    import alias = goog.dom.pattern.Text;
+    export default alias;
+}
+
 declare namespace goog.dom.pattern {
     /**
      * Pattern object that matches text by exact matching or regular expressions.

@@ -1,6 +1,11 @@
 /// <reference path="../../../../../globals.d.ts"/>
 /// <reference path="../../../../../closure/goog/structs/map.d.ts"/>
 
+declare module 'goog:goog.text.LoremIpsum' {
+    import alias = goog.text.LoremIpsum;
+    export default alias;
+}
+
 declare namespace goog.text {
     /**
      * Generates random strings of "lorem ipsum" text, based on the word

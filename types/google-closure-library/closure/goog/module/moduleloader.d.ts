@@ -7,6 +7,11 @@
 /// <reference path="./moduleinfo.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.module.ModuleLoader' {
+    import alias = goog.module.ModuleLoader;
+    export default alias;
+}
+
 declare namespace goog.module {
     /**
      * A class that loads Javascript modules.

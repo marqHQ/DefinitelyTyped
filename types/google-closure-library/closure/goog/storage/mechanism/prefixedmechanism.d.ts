@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./iterablemechanism.d.ts"/>
 
+declare module 'goog:goog.storage.mechanism.PrefixedMechanism' {
+    import alias = goog.storage.mechanism.PrefixedMechanism;
+    export default alias;
+}
+
 declare namespace goog.storage.mechanism {
     /**
      * Wraps an iterable storage mechanism and creates artificial namespaces.

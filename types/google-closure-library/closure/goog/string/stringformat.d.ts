@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 
-declare namespace goog._string {
+declare module 'goog:goog.string.format' {
+    import alias = goog.string.format;
+    export default alias;
+}
+
+declare namespace goog.string {
     /**
      * Performs sprintf-like conversion, i.e. puts the values in a template.
      * DO NOT use it instead of built-in conversions in simple cases such as

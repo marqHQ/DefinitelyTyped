@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.messaging.MessageChannel' {
+    import alias = goog.messaging.MessageChannel;
+    export default alias;
+}
+
 declare namespace goog.messaging {
     interface MessageChannel {
         /**

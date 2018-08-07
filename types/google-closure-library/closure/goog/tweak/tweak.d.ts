@@ -1,6 +1,15 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./registry.d.ts"/>
 
+declare module 'goog:goog.tweak' {
+    export = goog.tweak;
+}
+
+declare module 'goog:goog.tweak.ConfigParams' {
+    import alias = goog.tweak.ConfigParams;
+    export default alias;
+}
+
 declare namespace goog.tweak {
     /**
      * Returns/creates the registry singleton.

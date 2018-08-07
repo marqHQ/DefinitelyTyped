@@ -7,6 +7,11 @@
 /// <reference path="../math/rect.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.HsvPalette' {
+    import alias = goog.ui.HsvPalette;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Creates an HSV palette. Allows a user to select the hue, saturation and

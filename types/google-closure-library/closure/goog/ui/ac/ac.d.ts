@@ -1,6 +1,10 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./autocomplete.d.ts"/>
 
+declare module 'goog:goog.ui.ac' {
+    export = goog.ui.ac;
+}
+
 declare namespace goog.ui.ac {
     /**
      * Factory function for building a basic autocomplete widget that autocompletes

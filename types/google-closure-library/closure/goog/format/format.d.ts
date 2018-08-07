@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.format' {
+    export = goog.format;
+}
+
 declare namespace goog.format {
     /**
      * Formats a number of bytes in human readable form.

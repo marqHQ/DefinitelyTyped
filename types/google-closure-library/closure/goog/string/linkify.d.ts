@@ -1,7 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../html/safehtml.d.ts"/>
 
-declare namespace goog._string.linkify {
+declare module 'goog:goog.string.linkify' {
+    export = goog.string.linkify;
+}
+
+declare namespace goog.string.linkify {
     /**
      * Takes a string of plain text and linkifies URLs and email addresses. For a
      * URL (unless opt_attributes is specified), the target of the link will be

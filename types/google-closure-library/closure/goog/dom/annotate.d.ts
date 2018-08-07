@@ -1,6 +1,15 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../html/safehtml.d.ts"/>
 
+declare module 'goog:goog.dom.annotate' {
+    export = goog.dom.annotate;
+}
+
+declare module 'goog:goog.dom.annotate.AnnotateFn' {
+    import alias = goog.dom.annotate.AnnotateFn;
+    export default alias;
+}
+
 declare namespace goog.dom.annotate {
     /**
      * A function that takes:

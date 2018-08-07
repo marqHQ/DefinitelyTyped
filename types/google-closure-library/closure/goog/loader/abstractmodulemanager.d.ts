@@ -5,6 +5,21 @@
 /// <reference path="../module/abstractmoduleloader.d.ts"/>
 /// <reference path="../module/moduleloadcallback.d.ts"/>
 
+declare module 'goog:goog.loader.AbstractModuleManager' {
+    import alias = goog.loader.AbstractModuleManager;
+    export default alias;
+}
+
+declare module 'goog:goog.loader.AbstractModuleManager.FailureType' {
+    import alias = goog.loader.AbstractModuleManager.FailureType;
+    export default alias;
+}
+
+declare module 'goog:goog.loader.AbstractModuleManager.CallbackType' {
+    import alias = goog.loader.AbstractModuleManager.CallbackType;
+    export default alias;
+}
+
 declare namespace goog.loader {
     /**
      * The ModuleManager keeps track of all modules in the environment.

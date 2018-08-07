@@ -4,6 +4,16 @@
 /// <reference path="./buttonrenderer.d.ts"/>
 /// <reference path="../dom/dom.d.ts"/>
 
+declare module 'goog:goog.ui.Button' {
+    import alias = goog.ui.Button;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.Button.Side' {
+    import alias = goog.ui.Button.Side;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * A button control, rendered as a native browser button by default.

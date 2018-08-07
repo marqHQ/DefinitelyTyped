@@ -1,5 +1,560 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_zu' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_zu;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_zh_TW' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_zh_TW;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_zh_HK' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_zh_HK;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_zh_CN' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_zh_CN;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_zh' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_zh;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_vi' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_vi;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_uz' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_uz;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_ur' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_ur;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_uk' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_uk;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_tr' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_tr;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_tl' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_tl;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_th' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_th;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_te' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_te;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_ta' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_ta;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_sw' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_sw;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_sv' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_sv;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_sr_Latn' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_sr_Latn;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_sr' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_sr;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_sq' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_sq;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_sl' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_sl;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_sk' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_sk;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_si' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_si;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_sh' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_sh;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_ru' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_ru;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_ro' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_ro;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_pt_PT' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_pt_PT;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_pt_BR' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_pt_BR;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_pt' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_pt;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_pl' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_pl;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_pa' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_pa;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_or' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_or;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_no_NO' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_no_NO;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_no' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_no;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_nl' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_nl;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_ne' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_ne;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_nb' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_nb;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_my' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_my;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_mt' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_mt;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_ms' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_ms;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_mr' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_mr;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_mo' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_mo;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_mn' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_mn;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_ml' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_ml;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_mk' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_mk;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_lv' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_lv;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_lt' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_lt;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_lo' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_lo;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_ln' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_ln;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_ky' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_ky;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_ko' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_ko;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_kn' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_kn;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_km' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_km;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_kk' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_kk;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_ka' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_ka;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_ja' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_ja;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_iw' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_iw;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_it' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_it;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_is' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_is;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_in' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_in;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_id' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_id;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_hy' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_hy;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_hu' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_hu;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_hr' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_hr;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_hi' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_hi;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_he' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_he;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_haw' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_haw;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_gu' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_gu;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_gsw' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_gsw;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_gl' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_gl;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_ga' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_ga;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_fr_CA' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_fr_CA;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_fr' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_fr;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_fil' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_fil;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_fi' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_fi;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_fa' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_fa;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_eu' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_eu;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_et' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_et;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_es_US' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_es_US;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_es_MX' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_es_MX;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_es_ES' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_es_ES;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_es_419' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_es_419;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_es' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_es;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_en_ZA' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_en_ZA;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_en_US' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_en_US;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_en_SG' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_en_SG;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_en_IN' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_en_IN;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_en_IE' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_en_IE;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_en_GB' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_en_GB;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_en_CA' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_en_CA;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_en_AU' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_en_AU;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_en' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_en;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_el' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_el;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_de_CH' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_de_CH;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_de_AT' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_de_AT;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_de' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_de;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_da' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_da;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_cy' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_cy;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_cs' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_cs;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_chr' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_chr;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_ca' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_ca;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_bs' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_bs;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_br' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_br;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_bn' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_bn;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_bg' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_bg;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_be' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_be;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_az' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_az;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_ar_DZ' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_ar_DZ;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_ar' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_ar;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_am' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_am;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols_af' {
+    import alias = goog.i18n.CompactNumberFormatSymbols_af;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.CompactNumberFormatSymbols' {
+    import alias = goog.i18n.CompactNumberFormatSymbols;
+    export default alias;
+}
+
 declare namespace goog.i18n {
     /**
      * Compact number formatting symbols for locale af.

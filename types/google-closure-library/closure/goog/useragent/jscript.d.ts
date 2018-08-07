@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.userAgent.jscript' {
+    export = goog.userAgent.jscript;
+}
+
 declare namespace goog.userAgent.jscript {
     /**
      * Whether we detect that the user agent is using Microsoft JScript.

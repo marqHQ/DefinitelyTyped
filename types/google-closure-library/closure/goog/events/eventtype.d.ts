@@ -1,5 +1,15 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.events.PointerFallbackEventType' {
+    import alias = goog.events.PointerFallbackEventType;
+    export default alias;
+}
+
+declare module 'goog:goog.events.EventType' {
+    import alias = goog.events.EventType;
+    export default alias;
+}
+
 declare namespace goog.events {
     /**
      * Constants for event names.

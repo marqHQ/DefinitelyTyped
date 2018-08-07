@@ -9,6 +9,11 @@
 /// <reference path="../positioning/abstractposition.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.PopupMenu' {
+    import alias = goog.ui.PopupMenu;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * A basic menu class.

@@ -2,6 +2,26 @@
 /// <reference path="../debug/error.d.ts"/>
 /// <reference path="./db.d.ts"/>
 
+declare module 'goog:goog.db.Error' {
+    import alias = goog.db.Error;
+    export default alias;
+}
+
+declare module 'goog:goog.db.Error.VersionChangeBlockedError' {
+    import alias = goog.db.Error.VersionChangeBlockedError;
+    export default alias;
+}
+
+declare module 'goog:goog.db.Error.ErrorName' {
+    import alias = goog.db.Error.ErrorName;
+    export default alias;
+}
+
+declare module 'goog:goog.db.Error.ErrorCode' {
+    import alias = goog.db.Error.ErrorCode;
+    export default alias;
+}
+
 declare namespace goog.db {
     /**
      * A database error. Since the stack trace can be unhelpful in an asynchronous

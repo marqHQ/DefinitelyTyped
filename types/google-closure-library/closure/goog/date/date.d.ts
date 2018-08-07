@@ -1,6 +1,34 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./datelike.d.ts"/>
 
+declare module 'goog:goog.date.month' {
+    export = goog.date.month;
+}
+
+declare module 'goog:goog.date' {
+    export = goog.date;
+}
+
+declare module 'goog:goog.date.weekDay' {
+    import alias = goog.date.weekDay;
+    export default alias;
+}
+
+declare module 'goog:goog.date.Interval' {
+    import alias = goog.date.Interval;
+    export default alias;
+}
+
+declare module 'goog:goog.date.DateTime' {
+    import alias = goog.date.DateTime;
+    export default alias;
+}
+
+declare module 'goog:goog.date.Date' {
+    import alias = goog.date.Date;
+    export default alias;
+}
+
 declare namespace goog.date {
     /**
      * Class representing a date/time interval. Used for date calculations.

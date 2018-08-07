@@ -2,6 +2,11 @@
 /// <reference path="./loosemock.d.ts"/>
 /// <reference path="../dom/abstractrange.d.ts"/>
 
+declare module 'goog:goog.testing.MockRange' {
+    import alias = goog.testing.MockRange;
+    export default alias;
+}
+
 declare namespace goog.testing {
     /**
      * LooseMock of goog.dom.AbstractRange. Useful because the mock framework cannot

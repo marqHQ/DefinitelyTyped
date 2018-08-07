@@ -1,5 +1,10 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.storage.mechanism.ErrorCode' {
+    import alias = goog.storage.mechanism.ErrorCode;
+    export default alias;
+}
+
 declare namespace goog.storage.mechanism {
     /**
      * Errors thrown by storage mechanisms.

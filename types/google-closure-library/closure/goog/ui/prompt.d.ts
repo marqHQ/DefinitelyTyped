@@ -3,6 +3,11 @@
 /// <reference path="../html/safehtml.d.ts"/>
 /// <reference path="../dom/dom.d.ts"/>
 
+declare module 'goog:goog.ui.Prompt' {
+    import alias = goog.ui.Prompt;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Creates an object that represents a prompt (used in place of javascript's

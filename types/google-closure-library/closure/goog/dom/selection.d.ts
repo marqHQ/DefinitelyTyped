@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.dom.selection' {
+    export = goog.dom.selection;
+}
+
 declare namespace goog.dom.selection {
     /**
      * Sets the place where the selection should start inside a textarea or a text

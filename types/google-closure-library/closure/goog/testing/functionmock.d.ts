@@ -2,6 +2,25 @@
 /// <reference path="./mockinterface.d.ts"/>
 /// <reference path="./objectpropertystring.d.ts"/>
 
+declare module 'goog:goog.testing' {
+    export = goog.testing;
+}
+
+declare module 'goog:goog.testing.MethodMock' {
+    import alias = goog.testing.MethodMock;
+    export default alias;
+}
+
+declare module 'goog:goog.testing.GlobalFunctionMock' {
+    import alias = goog.testing.GlobalFunctionMock;
+    export default alias;
+}
+
+declare module 'goog:goog.testing.FunctionMock' {
+    import alias = goog.testing.FunctionMock;
+    export default alias;
+}
+
 declare namespace goog.testing {
     /**
      * Class used to mock a function. Useful for mocking closures and anonymous

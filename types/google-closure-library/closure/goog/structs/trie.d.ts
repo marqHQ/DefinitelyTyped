@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.structs.Trie' {
+    import alias = goog.structs.Trie;
+    export default alias;
+}
+
 declare namespace goog.structs {
     /**
      * Class for a Trie datastructure.  Trie data structures are made out of trees

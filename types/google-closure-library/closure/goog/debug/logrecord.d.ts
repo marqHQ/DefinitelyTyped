@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./logger.d.ts"/>
 
+declare module 'goog:goog.debug.LogRecord' {
+    import alias = goog.debug.LogRecord;
+    export default alias;
+}
+
 declare namespace goog.debug {
     /**
      * LogRecord objects are used to pass logging requests between

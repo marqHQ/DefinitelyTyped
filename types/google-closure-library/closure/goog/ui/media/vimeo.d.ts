@@ -4,6 +4,16 @@
 /// <reference path="../../dom/dom.d.ts"/>
 /// <reference path="../../html/trustedresourceurl.d.ts"/>
 
+declare module 'goog:goog.ui.media.VimeoModel' {
+    import alias = goog.ui.media.VimeoModel;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.media.Vimeo' {
+    import alias = goog.ui.media.Vimeo;
+    export default alias;
+}
+
 declare namespace goog.ui.media {
     /**
      * Subclasses a goog.ui.media.MediaRenderer to provide a Vimeo specific media

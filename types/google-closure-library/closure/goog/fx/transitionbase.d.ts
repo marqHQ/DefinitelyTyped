@@ -2,6 +2,16 @@
 /// <reference path="../events/eventtarget.d.ts"/>
 /// <reference path="./transition.d.ts"/>
 
+declare module 'goog:goog.fx.TransitionBase' {
+    import alias = goog.fx.TransitionBase;
+    export default alias;
+}
+
+declare module 'goog:goog.fx.TransitionBase.State' {
+    import alias = goog.fx.TransitionBase.State;
+    export default alias;
+}
+
 declare namespace goog.fx {
     /**
      * Constructor for a transition object.

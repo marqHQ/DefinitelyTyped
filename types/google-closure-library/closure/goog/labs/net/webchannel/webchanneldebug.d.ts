@@ -1,5 +1,10 @@
 /// <reference path="../../../../../globals.d.ts"/>
 
+declare module 'goog:goog.labs.net.webChannel.WebChannelDebug' {
+    import alias = goog.labs.net.webChannel.WebChannelDebug;
+    export default alias;
+}
+
 declare namespace goog.labs.net.webChannel {
     /**
      * Logs and keeps a buffer of debugging info for the Channel.

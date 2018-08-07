@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./containerrenderer.d.ts"/>
 
+declare module 'goog:goog.ui.TabBarRenderer' {
+    import alias = goog.ui.TabBarRenderer;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Default renderer for {@link goog.ui.TabBar}s, based on the `TabPane`

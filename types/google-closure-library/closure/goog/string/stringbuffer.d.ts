@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 
-declare namespace goog._string {
+declare module 'goog:goog.string.StringBuffer' {
+    import alias = goog.string.StringBuffer;
+    export default alias;
+}
+
+declare namespace goog.string {
     /**
      * Utility class to facilitate string concatenation.
      *

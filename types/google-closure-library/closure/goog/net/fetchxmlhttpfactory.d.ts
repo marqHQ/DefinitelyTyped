@@ -3,6 +3,16 @@
 /// <reference path="../events/eventtarget.d.ts"/>
 /// <reference path="./xhrlike.d.ts"/>
 
+declare module 'goog:goog.net.FetchXmlHttpFactory' {
+    import alias = goog.net.FetchXmlHttpFactory;
+    export default alias;
+}
+
+declare module 'goog:goog.net.FetchXmlHttp' {
+    import alias = goog.net.FetchXmlHttp;
+    export default alias;
+}
+
 declare namespace goog.net {
     /**
      * Factory for creating Xhr objects that uses the native fetch() method.

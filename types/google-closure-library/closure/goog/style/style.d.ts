@@ -7,6 +7,10 @@
 /// <reference path="../math/size.d.ts"/>
 /// <reference path="../html/safestylesheet.d.ts"/>
 
+declare module 'goog:goog.style' {
+    export = goog.style;
+}
+
 declare namespace goog.style {
     /**
      * Sets a style value on an element.

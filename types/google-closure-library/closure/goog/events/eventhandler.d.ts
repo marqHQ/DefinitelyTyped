@@ -6,6 +6,11 @@
 /// <reference path="./eventwrapper.d.ts"/>
 /// <reference path="./event.d.ts"/>
 
+declare module 'goog:goog.events.EventHandler' {
+    import alias = goog.events.EventHandler;
+    export default alias;
+}
+
 declare namespace goog.events {
     /**
      * Super class for objects that want to easily manage a number of event

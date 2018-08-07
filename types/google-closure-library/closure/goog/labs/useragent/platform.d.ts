@@ -1,5 +1,9 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.labs.userAgent.platform' {
+    export = goog.labs.userAgent.platform;
+}
+
 declare namespace goog.labs.userAgent.platform {
     /**
      * @return {boolean} Whether the platform is Android.

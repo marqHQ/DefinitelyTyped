@@ -3,6 +3,21 @@
 /// <reference path="./moduleinfo.d.ts"/>
 /// <reference path="../../../third_party/closure/goog/mochikit/async/deferred.d.ts"/>
 
+declare module 'goog:goog.module.ModuleManager' {
+    import alias = goog.module.ModuleManager;
+    export default alias;
+}
+
+declare module 'goog:goog.module.ModuleManager.FailureType' {
+    import alias = goog.module.ModuleManager.FailureType;
+    export default alias;
+}
+
+declare module 'goog:goog.module.ModuleManager.CallbackType' {
+    import alias = goog.module.ModuleManager.CallbackType;
+    export default alias;
+}
+
 declare namespace goog.module {
     /**
      * The ModuleManager keeps track of all modules in the environment.

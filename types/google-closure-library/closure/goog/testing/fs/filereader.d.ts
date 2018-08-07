@@ -4,6 +4,11 @@
 /// <reference path="../../fs/error.d.ts"/>
 /// <reference path="./blob.d.ts"/>
 
+declare module 'goog:goog.testing.fs.FileReader' {
+    import alias = goog.testing.fs.FileReader;
+    export default alias;
+}
+
 declare namespace goog.testing.fs {
     /**
      * A mock FileReader object. This emits the same events as

@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.array' {
+    export = goog.array;
+}
+
 declare namespace goog.array {
     interface ArrayLike<T> {
         [index: number]: T;

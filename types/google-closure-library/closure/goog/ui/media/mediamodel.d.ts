@@ -2,6 +2,56 @@
 /// <reference path="../../math/size.d.ts"/>
 /// <reference path="../../html/trustedresourceurl.d.ts"/>
 
+declare module 'goog:goog.ui.media.MediaModel' {
+    import alias = goog.ui.media.MediaModel;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.media.MediaModel.Thumbnail' {
+    import alias = goog.ui.media.MediaModel.Thumbnail;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.media.MediaModel.SubTitle' {
+    import alias = goog.ui.media.MediaModel.SubTitle;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.media.MediaModel.Player' {
+    import alias = goog.ui.media.MediaModel.Player;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.media.MediaModel.MimeType' {
+    import alias = goog.ui.media.MediaModel.MimeType;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.media.MediaModel.Medium' {
+    import alias = goog.ui.media.MediaModel.Medium;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.media.MediaModel.Credit' {
+    import alias = goog.ui.media.MediaModel.Credit;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.media.MediaModel.Credit.Scheme' {
+    import alias = goog.ui.media.MediaModel.Credit.Scheme;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.media.MediaModel.Credit.Role' {
+    import alias = goog.ui.media.MediaModel.Credit.Role;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.media.MediaModel.Category' {
+    import alias = goog.ui.media.MediaModel.Category;
+    export default alias;
+}
+
 declare namespace goog.ui.media {
     /**
      * An base data value class for all media data models.

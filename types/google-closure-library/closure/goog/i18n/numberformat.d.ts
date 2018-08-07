@@ -1,5 +1,20 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.i18n.NumberFormat' {
+    import alias = goog.i18n.NumberFormat;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormat.Format' {
+    import alias = goog.i18n.NumberFormat.Format;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormat.CurrencyStyle' {
+    import alias = goog.i18n.NumberFormat.CurrencyStyle;
+    export default alias;
+}
+
 declare namespace goog.i18n {
     /**
      * Constructor of NumberFormat.

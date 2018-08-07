@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.history.Event' {
+    import alias = goog.history.Event;
+    export default alias;
+}
+
 declare namespace goog.history {
     /**
      * Event object dispatched after the history state has changed.

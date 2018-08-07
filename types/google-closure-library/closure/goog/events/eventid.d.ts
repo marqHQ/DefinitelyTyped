@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.events.EventId' {
+    import alias = goog.events.EventId;
+    export default alias;
+}
+
 declare namespace goog.events {
     /**
      * A templated class that is used when registering for events. Typical usage:

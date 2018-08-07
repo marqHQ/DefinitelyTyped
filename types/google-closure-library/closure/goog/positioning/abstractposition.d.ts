@@ -3,6 +3,11 @@
 /// <reference path="../math/box.d.ts"/>
 /// <reference path="../math/size.d.ts"/>
 
+declare module 'goog:goog.positioning.AbstractPosition' {
+    import alias = goog.positioning.AbstractPosition;
+    export default alias;
+}
+
 declare namespace goog.positioning {
     /**
      * Abstract position object. Encapsulates position and overflow handling.

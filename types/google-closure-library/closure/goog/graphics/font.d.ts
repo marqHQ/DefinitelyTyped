@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.graphics.Font' {
+    import alias = goog.graphics.Font;
+    export default alias;
+}
+
 declare namespace goog.graphics {
     /**
      * This class represents a font to be used with a renderer.

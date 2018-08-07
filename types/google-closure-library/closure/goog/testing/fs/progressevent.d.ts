@@ -3,6 +3,11 @@
 /// <reference path="../../fs/filesaver.d.ts"/>
 /// <reference path="../../fs/filereader.d.ts"/>
 
+declare module 'goog:goog.testing.fs.ProgressEvent' {
+    import alias = goog.testing.fs.ProgressEvent;
+    export default alias;
+}
+
 declare namespace goog.testing.fs {
     /**
      * A mock progress event.

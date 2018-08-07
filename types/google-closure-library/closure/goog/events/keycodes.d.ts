@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./browserevent.d.ts"/>
 
+declare module 'goog:goog.events.KeyCodes' {
+    import alias = goog.events.KeyCodes;
+    export default alias;
+}
+
 declare namespace goog.events {
     /**
      * Key codes for common characters.

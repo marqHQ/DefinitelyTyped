@@ -8,6 +8,11 @@
 /// <reference path="./safescript.d.ts"/>
 /// <reference path="./safestylesheet.d.ts"/>
 
+declare module 'goog:goog.html.SafeHtml' {
+    import alias = goog.html.SafeHtml;
+    export default alias;
+}
+
 declare namespace goog.html {
     /**
      * A string that is safe to use in HTML context in DOM APIs and HTML documents.

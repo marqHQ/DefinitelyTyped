@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./logrecord.d.ts"/>
 
+declare module 'goog:goog.debug.logRecordSerializer' {
+    import alias = goog.debug.logRecordSerializer;
+    export default alias;
+}
+
 declare namespace goog.debug.logRecordSerializer {
     /**
      * Serializes a LogRecord to a JSON string.  Note that any associated

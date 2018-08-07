@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./w3crange.d.ts"/>
 
+declare module 'goog:goog.dom.browserrange.OperaRange' {
+    import alias = goog.dom.browserrange.OperaRange;
+    export default alias;
+}
+
 declare namespace goog.dom.browserrange {
     /**
      * The constructor for Opera specific browser ranges.

@@ -1,5 +1,9 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.labs.useragent.verifier' {
+    export = goog.labs.useragent.verifier;
+}
+
 declare namespace goog.labs.useragent.verifier {
     /** @const */
     const NOT_IE: any /*missing*/;

@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./flatbuttonrenderer.d.ts"/>
 
+declare module 'goog:goog.ui.LinkButtonRenderer' {
+    import alias = goog.ui.LinkButtonRenderer;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Link renderer for {@link goog.ui.Button}s.  Link buttons can contain

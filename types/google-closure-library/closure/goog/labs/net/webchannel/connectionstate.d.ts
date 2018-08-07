@@ -1,5 +1,10 @@
 /// <reference path="../../../../../globals.d.ts"/>
 
+declare module 'goog:goog.labs.net.webChannel.ConnectionState' {
+    import alias = goog.labs.net.webChannel.ConnectionState;
+    export default alias;
+}
+
 declare namespace goog.labs.net.webChannel {
     /**
      * The connectivity state of the channel.

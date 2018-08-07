@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.userAgent' {
+    import alias = goog.userAgent;
+    export default alias;
+}
+
 declare namespace goog.userAgent {
     /**
      * Returns the userAgent string for the current browser.

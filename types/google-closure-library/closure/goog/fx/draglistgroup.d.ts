@@ -6,6 +6,26 @@
 /// <reference path="../math/coordinate.d.ts"/>
 /// <reference path="../math/rect.d.ts"/>
 
+declare module 'goog:goog.fx.DragListGroupEvent' {
+    import alias = goog.fx.DragListGroupEvent;
+    export default alias;
+}
+
+declare module 'goog:goog.fx.DragListGroup' {
+    import alias = goog.fx.DragListGroup;
+    export default alias;
+}
+
+declare module 'goog:goog.fx.DragListGroup.EventType' {
+    import alias = goog.fx.DragListGroup.EventType;
+    export default alias;
+}
+
+declare module 'goog:goog.fx.DragListDirection' {
+    import alias = goog.fx.DragListDirection;
+    export default alias;
+}
+
 declare namespace goog.fx {
     /**
      * A class representing a group of one or more "drag lists" with items that can

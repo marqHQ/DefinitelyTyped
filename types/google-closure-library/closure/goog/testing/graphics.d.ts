@@ -1,6 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../graphics/path.d.ts"/>
 
+declare module 'goog:goog.testing.graphics' {
+    export = goog.testing.graphics;
+}
+
 declare namespace goog.testing.graphics {
     /**
      * Test if the given path matches the expected array of commands and parameters.

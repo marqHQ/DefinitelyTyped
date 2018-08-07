@@ -2,6 +2,11 @@
 /// <reference path="../tagiterator.d.ts"/>
 /// <reference path="./pattern.d.ts"/>
 
+declare module 'goog:goog.dom.pattern.AbstractPattern' {
+    import alias = goog.dom.pattern.AbstractPattern;
+    export default alias;
+}
+
 declare namespace goog.dom.pattern {
     /**
      * Base pattern class for DOM matching.

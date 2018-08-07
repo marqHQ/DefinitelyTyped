@@ -1,6 +1,10 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="../../html/safehtml.d.ts"/>
 
+declare module 'goog:goog.ui.editor.messages' {
+    export = goog.ui.editor.messages;
+}
+
 declare namespace goog.ui.editor.messages {
     /** @desc Link button / bubble caption. */
     let MSG_LINK_CAPTION: any /*missing*/;

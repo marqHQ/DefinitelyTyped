@@ -1,6 +1,10 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="../../promise/promise.d.ts"/>
 
+declare module 'goog:goog.labs.net.image' {
+    export = goog.labs.net.image;
+}
+
 declare namespace goog.labs.net.image {
     /**
      * Loads a single image.  Useful for preloading images.

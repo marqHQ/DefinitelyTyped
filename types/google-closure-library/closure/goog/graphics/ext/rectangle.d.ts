@@ -2,6 +2,11 @@
 /// <reference path="./strokeandfillelement.d.ts"/>
 /// <reference path="./group.d.ts"/>
 
+declare module 'goog:goog.graphics.ext.Rectangle' {
+    import alias = goog.graphics.ext.Rectangle;
+    export default alias;
+}
+
 declare namespace goog.graphics.ext {
     /**
      * Wrapper for a graphics rectangle element.

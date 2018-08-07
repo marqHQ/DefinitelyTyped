@@ -6,6 +6,16 @@
 /// <reference path="../events/browserevent.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.SelectionMenuButton' {
+    import alias = goog.ui.SelectionMenuButton;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.SelectionMenuButton.SelectionState' {
+    import alias = goog.ui.SelectionMenuButton.SelectionState;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * A selection menu button control.  Extends {@link goog.ui.MenuButton}.

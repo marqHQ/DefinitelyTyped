@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.dom.Attr' {
+    import alias = goog.dom.Attr;
+    export default alias;
+}
+
 declare namespace goog.dom {
     /**
      * Enum of all html attribute names specified by the HTML specitifcations.

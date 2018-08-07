@@ -9,6 +9,11 @@
 /// <reference path="../events/event.d.ts"/>
 /// <reference path="../disposable/disposable.d.ts"/>
 
+declare module 'goog:goog.ui.Control' {
+    import alias = goog.ui.Control;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Base class for UI controls.  Extends {@link goog.ui.Component} by adding

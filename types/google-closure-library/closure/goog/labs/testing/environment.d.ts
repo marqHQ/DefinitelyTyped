@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="../../testing/testcase.d.ts"/>
 
+declare module 'goog:goog.labs.testing.Environment' {
+    import alias = goog.labs.testing.Environment;
+    export default alias;
+}
+
 declare namespace goog.labs.testing {
     /**
      * An internal Test used to hook environments into the JsUnit test runner.

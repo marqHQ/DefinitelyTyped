@@ -6,6 +6,11 @@
 /// <reference path="./modalariavisibilityhelper.d.ts"/>
 /// <reference path="../events/browserevent.d.ts"/>
 
+declare module 'goog:goog.ui.ModalPopup' {
+    import alias = goog.ui.ModalPopup;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Base class for modal popup UI components. This can also be used as

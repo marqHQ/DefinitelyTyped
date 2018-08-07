@@ -2,6 +2,21 @@
 /// <reference path="../../../../../closure/goog/promise/thenable.d.ts"/>
 /// <reference path="../../../../../closure/goog/debug/error.d.ts"/>
 
+declare module 'goog:goog.async.Deferred' {
+    import alias = goog.async.Deferred;
+    export default alias;
+}
+
+declare module 'goog:goog.async.Deferred.CanceledError' {
+    import alias = goog.async.Deferred.CanceledError;
+    export default alias;
+}
+
+declare module 'goog:goog.async.Deferred.AlreadyCalledError' {
+    import alias = goog.async.Deferred.AlreadyCalledError;
+    export default alias;
+}
+
 declare namespace goog.async {
     /**
      * A Deferred represents the result of an asynchronous operation. A Deferred

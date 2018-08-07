@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./tag.d.ts"/>
 
+declare module 'goog:goog.dom.pattern.StartTag' {
+    import alias = goog.dom.pattern.StartTag;
+    export default alias;
+}
+
 declare namespace goog.dom.pattern {
     /**
      * Pattern object that matches an opening tag.

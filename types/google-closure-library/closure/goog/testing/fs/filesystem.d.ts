@@ -3,6 +3,11 @@
 /// <reference path="./entry.d.ts"/>
 /// <reference path="../../fs/entry.d.ts"/>
 
+declare module 'goog:goog.testing.fs.FileSystem' {
+    import alias = goog.testing.fs.FileSystem;
+    export default alias;
+}
+
 declare namespace goog.testing.fs {
     /**
      * A mock filesystem object.

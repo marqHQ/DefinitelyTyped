@@ -12,6 +12,11 @@
 /// <reference path="../colormenubuttonrenderer.d.ts"/>
 /// <reference path="../colormenubutton.d.ts"/>
 
+declare module 'goog:goog.ui.editor.ToolbarFactory' {
+    import alias = goog.ui.editor.ToolbarFactory;
+    export default alias;
+}
+
 declare namespace goog.ui.editor.ToolbarFactory {
     /**
      * Takes a font spec (e.g. "Arial, Helvetica, sans-serif") and returns the

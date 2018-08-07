@@ -2,6 +2,16 @@
 /// <reference path="../../editor/plugins/abstractdialogplugin.d.ts"/>
 /// <reference path="./helloworlddialog.d.ts"/>
 
+declare module 'goog:goog.demos.editor.HelloWorldDialogPlugin' {
+    import alias = goog.demos.editor.HelloWorldDialogPlugin;
+    export default alias;
+}
+
+declare module 'goog:goog.demos.editor.HelloWorldDialogPlugin.Command' {
+    import alias = goog.demos.editor.HelloWorldDialogPlugin.Command;
+    export default alias;
+}
+
 declare namespace goog.demos.editor {
     /**
      * A plugin that opens the hello world dialog.

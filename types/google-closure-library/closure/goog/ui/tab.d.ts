@@ -4,6 +4,11 @@
 /// <reference path="./tabrenderer.d.ts"/>
 /// <reference path="../dom/dom.d.ts"/>
 
+declare module 'goog:goog.ui.Tab' {
+    import alias = goog.ui.Tab;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Tab control, designed to be hosted in a {@link goog.ui.TabBar}.  The tab's

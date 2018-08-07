@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.i18n.GraphemeBreak' {
+    import alias = goog.i18n.GraphemeBreak;
+    export default alias;
+}
+
 declare namespace goog.i18n.GraphemeBreak {
     /**
      * Indicates if there is a grapheme cluster boundary between a and b.

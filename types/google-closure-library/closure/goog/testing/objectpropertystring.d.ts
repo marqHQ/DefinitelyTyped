@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.testing.ObjectPropertyString' {
+    import alias = goog.testing.ObjectPropertyString;
+    export default alias;
+}
+
 declare namespace goog.testing {
     /**
      * Object to pass a property name as a string literal and its containing object

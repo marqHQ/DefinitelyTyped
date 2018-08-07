@@ -2,6 +2,16 @@
 /// <reference path="./abstractbubbleplugin.d.ts"/>
 /// <reference path="../../events/browserevent.d.ts"/>
 
+declare module 'goog:goog.editor.plugins.LinkBubble' {
+    import alias = goog.editor.plugins.LinkBubble;
+    export default alias;
+}
+
+declare module 'goog:goog.editor.plugins.LinkBubble.Action' {
+    import alias = goog.editor.plugins.LinkBubble.Action;
+    export default alias;
+}
+
 declare namespace goog.editor.plugins {
     /**
      * Property bubble plugin for links.

@@ -4,6 +4,16 @@
 /// <reference path="../../dom/dom.d.ts"/>
 /// <reference path="../../html/trustedresourceurl.d.ts"/>
 
+declare module 'goog:goog.ui.media.FlickrSetModel' {
+    import alias = goog.ui.media.FlickrSetModel;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.media.FlickrSet' {
+    import alias = goog.ui.media.FlickrSet;
+    export default alias;
+}
+
 declare namespace goog.ui.media {
     /**
      * Subclasses a goog.ui.media.MediaRenderer to provide a FlickrSet specific

@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./abstractdragdrop.d.ts"/>
 
+declare module 'goog:goog.fx.DragDrop' {
+    import alias = goog.fx.DragDrop;
+    export default alias;
+}
+
 declare namespace goog.fx {
     /**
      * Drag/drop implementation for creating drag sources/drop targets consisting of

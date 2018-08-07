@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./menubuttonrenderer.d.ts"/>
 
+declare module 'goog:goog.ui.ImagelessMenuButtonRenderer' {
+    import alias = goog.ui.ImagelessMenuButtonRenderer;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Custom renderer for {@link goog.ui.MenuButton}s. Imageless buttons can

@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./abstractpattern.d.ts"/>
 
+declare module 'goog:goog.dom.pattern.Repeat' {
+    import alias = goog.dom.pattern.Repeat;
+    export default alias;
+}
+
 declare namespace goog.dom.pattern {
     /**
      * Pattern object that matches a repetition of another pattern.

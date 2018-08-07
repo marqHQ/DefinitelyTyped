@@ -2,6 +2,16 @@
 /// <reference path="../../debug/error.d.ts"/>
 /// <reference path="./matcher.d.ts"/>
 
+declare module 'goog:goog.labs.testing.assertThat' {
+    import alias = goog.labs.testing.assertThat;
+    export default alias;
+}
+
+declare module 'goog:goog.labs.testing.MatcherError' {
+    import alias = goog.labs.testing.MatcherError;
+    export default alias;
+}
+
 declare namespace goog.labs.testing {
     /**
      * Error thrown when a Matcher fails to match the input value.

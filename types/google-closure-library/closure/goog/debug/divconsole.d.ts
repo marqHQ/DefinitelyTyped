@@ -2,6 +2,11 @@
 /// <reference path="./logrecord.d.ts"/>
 /// <reference path="./formatter.d.ts"/>
 
+declare module 'goog:goog.debug.DivConsole' {
+    import alias = goog.debug.DivConsole;
+    export default alias;
+}
+
 declare namespace goog.debug {
     /**
      * A class for visualising logger calls in a div element.

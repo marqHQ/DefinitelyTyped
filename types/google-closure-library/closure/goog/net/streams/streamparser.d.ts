@@ -1,5 +1,10 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.net.streams.StreamParser' {
+    import alias = goog.net.streams.StreamParser;
+    export default alias;
+}
+
 declare namespace goog.net.streams {
     interface StreamParser {
         /**

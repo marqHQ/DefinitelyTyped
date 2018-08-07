@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./w3crange.d.ts"/>
 
+declare module 'goog:goog.dom.browserrange.GeckoRange' {
+    import alias = goog.dom.browserrange.GeckoRange;
+    export default alias;
+}
+
 declare namespace goog.dom.browserrange {
     /**
      * The constructor for Gecko specific browser ranges.

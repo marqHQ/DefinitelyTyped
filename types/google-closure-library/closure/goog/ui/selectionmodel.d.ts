@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../events/eventtarget.d.ts"/>
 
+declare module 'goog:goog.ui.SelectionModel' {
+    import alias = goog.ui.SelectionModel;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Single-selection model.  Dispatches a {@link goog.events.EventType.SELECT}

@@ -8,6 +8,41 @@
 /// <reference path="../events/browserevent.d.ts"/>
 /// <reference path="../structs/map.d.ts"/>
 
+declare module 'goog:goog.ui.Dialog' {
+    import alias = goog.ui.Dialog;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.Dialog.EventType' {
+    import alias = goog.ui.Dialog.EventType;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.Dialog.Event' {
+    import alias = goog.ui.Dialog.Event;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.Dialog.DefaultButtonKeys' {
+    import alias = goog.ui.Dialog.DefaultButtonKeys;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.Dialog.DefaultButtonCaptions' {
+    import alias = goog.ui.Dialog.DefaultButtonCaptions;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.Dialog.ButtonSet' {
+    import alias = goog.ui.Dialog.ButtonSet;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.Dialog.ButtonSet.DefaultButtons' {
+    import alias = goog.ui.Dialog.ButtonSet.DefaultButtons;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Class for showing simple dialog boxes.

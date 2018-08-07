@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.db.KeyRange' {
+    import alias = goog.db.KeyRange;
+    export default alias;
+}
+
 declare namespace goog.db {
     /**
      * Creates a new IDBKeyRange wrapper object. Should not be created directly,

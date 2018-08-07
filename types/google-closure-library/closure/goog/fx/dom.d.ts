@@ -2,6 +2,85 @@
 /// <reference path="./animation.d.ts"/>
 /// <reference path="../events/eventhandler.d.ts"/>
 
+declare module 'goog:goog.fx.dom' {
+    export = goog.fx.dom;
+}
+
+declare module 'goog:goog.fx.dom.Swipe' {
+    import alias = goog.fx.dom.Swipe;
+    export default alias;
+}
+
+declare module 'goog:goog.fx.dom.SlideFrom' {
+    import alias = goog.fx.dom.SlideFrom;
+    export default alias;
+}
+
+declare module 'goog:goog.fx.dom.Slide' {
+    import alias = goog.fx.dom.Slide;
+    export default alias;
+}
+
+declare module 'goog:goog.fx.dom.Scroll' {
+    import alias = goog.fx.dom.Scroll;
+    export default alias;
+}
+
+declare module 'goog:goog.fx.dom.ResizeWidth' {
+    import alias = goog.fx.dom.ResizeWidth;
+    export default alias;
+}
+
+declare module 'goog:goog.fx.dom.ResizeHeight' {
+    import alias = goog.fx.dom.ResizeHeight;
+    export default alias;
+}
+
+declare module 'goog:goog.fx.dom.Resize' {
+    import alias = goog.fx.dom.Resize;
+    export default alias;
+}
+
+declare module 'goog:goog.fx.dom.PredefinedEffect' {
+    import alias = goog.fx.dom.PredefinedEffect;
+    export default alias;
+}
+
+declare module 'goog:goog.fx.dom.FadeOutAndHide' {
+    import alias = goog.fx.dom.FadeOutAndHide;
+    export default alias;
+}
+
+declare module 'goog:goog.fx.dom.FadeOut' {
+    import alias = goog.fx.dom.FadeOut;
+    export default alias;
+}
+
+declare module 'goog:goog.fx.dom.FadeInAndShow' {
+    import alias = goog.fx.dom.FadeInAndShow;
+    export default alias;
+}
+
+declare module 'goog:goog.fx.dom.FadeIn' {
+    import alias = goog.fx.dom.FadeIn;
+    export default alias;
+}
+
+declare module 'goog:goog.fx.dom.Fade' {
+    import alias = goog.fx.dom.Fade;
+    export default alias;
+}
+
+declare module 'goog:goog.fx.dom.ColorTransform' {
+    import alias = goog.fx.dom.ColorTransform;
+    export default alias;
+}
+
+declare module 'goog:goog.fx.dom.BgColorTransform' {
+    import alias = goog.fx.dom.BgColorTransform;
+    export default alias;
+}
+
 declare namespace goog.fx.dom {
     /**
      * Abstract class that provides reusable functionality for predefined animations

@@ -3,6 +3,25 @@
 /// <reference path="../html/trustedresourceurl.d.ts"/>
 /// <reference path="../../../third_party/closure/goog/mochikit/async/deferred.d.ts"/>
 
+declare module 'goog:goog.net.jsloader' {
+    export = goog.net.jsloader;
+}
+
+declare module 'goog:goog.net.jsloader.Options' {
+    import alias = goog.net.jsloader.Options;
+    export default alias;
+}
+
+declare module 'goog:goog.net.jsloader.ErrorCode' {
+    import alias = goog.net.jsloader.ErrorCode;
+    export default alias;
+}
+
+declare module 'goog:goog.net.jsloader.Error' {
+    import alias = goog.net.jsloader.Error;
+    export default alias;
+}
+
 declare namespace goog.net.jsloader {
     /**
      * A jsloader error.

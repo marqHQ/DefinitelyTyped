@@ -1,5 +1,29 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.uri.utils' {
+    export = goog.uri.utils;
+}
+
+declare module 'goog:goog.uri.utils.StandardQueryParam' {
+    import alias = goog.uri.utils.StandardQueryParam;
+    export default alias;
+}
+
+declare module 'goog:goog.uri.utils.QueryValue' {
+    import alias = goog.uri.utils.QueryValue;
+    export default alias;
+}
+
+declare module 'goog:goog.uri.utils.QueryArray' {
+    import alias = goog.uri.utils.QueryArray;
+    export default alias;
+}
+
+declare module 'goog:goog.uri.utils.ComponentIndex' {
+    import alias = goog.uri.utils.ComponentIndex;
+    export default alias;
+}
+
 declare namespace goog.uri.utils {
     /**
      * Builds a URI string from already-encoded parts.

@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./html5webstorage.d.ts"/>
 
+declare module 'goog:goog.storage.mechanism.HTML5SessionStorage' {
+    import alias = goog.storage.mechanism.HTML5SessionStorage;
+    export default alias;
+}
+
 declare namespace goog.storage.mechanism {
     /**
      * Provides a storage mechanism that uses HTML5 session storage.

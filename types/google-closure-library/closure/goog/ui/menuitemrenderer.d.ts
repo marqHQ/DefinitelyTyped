@@ -4,6 +4,11 @@
 /// <reference path="../dom/dom.d.ts"/>
 /// <reference path="./control.d.ts"/>
 
+declare module 'goog:goog.ui.MenuItemRenderer' {
+    import alias = goog.ui.MenuItemRenderer;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Default renderer for {@link goog.ui.MenuItem}s.  Each item has the following

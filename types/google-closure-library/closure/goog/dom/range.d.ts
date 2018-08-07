@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./abstractrange.d.ts"/>
 
+declare module 'goog:goog.dom.Range' {
+    import alias = goog.dom.Range;
+    export default alias;
+}
+
 declare namespace goog.dom.Range {
     /**
      * Create a new selection from the given browser window's current selection.

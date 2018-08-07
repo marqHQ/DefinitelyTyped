@@ -5,6 +5,11 @@
 /// <reference path="./graphics.d.ts"/>
 /// <reference path="../abstractgraphics.d.ts"/>
 
+declare module 'goog:goog.graphics.ext.Element' {
+    import alias = goog.graphics.ext.Element;
+    export default alias;
+}
+
 declare namespace goog.graphics.ext {
     /**
      * Base class for a wrapper around the goog.graphics wrapper that enables

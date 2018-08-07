@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../events/eventtarget.d.ts"/>
 
+declare module 'goog:goog.net.CrossDomainRpc' {
+    import alias = goog.net.CrossDomainRpc;
+    export default alias;
+}
+
 declare namespace goog.net {
     /**
      * Creates a new instance of cross domain RPC.

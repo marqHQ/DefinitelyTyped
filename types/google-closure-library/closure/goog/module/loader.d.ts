@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.module.Loader' {
+    import alias = goog.module.Loader;
+    export default alias;
+}
+
 declare namespace goog.module {
     /**
      * The dynamic loading functionality is defined as a class. The class

@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.debug.errorcontext' {
+    export = goog.debug.errorcontext;
+}
+
 declare namespace goog.debug.errorcontext {
     /**
      * Adds key-value context to the error.

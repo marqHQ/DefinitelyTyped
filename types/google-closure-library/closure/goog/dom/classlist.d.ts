@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.dom.classlist' {
+    export = goog.dom.classlist;
+}
+
 declare namespace goog.dom.classlist {
     /**
      * Gets an array-like object of class names on an element.

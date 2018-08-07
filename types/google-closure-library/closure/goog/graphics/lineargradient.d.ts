@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./fill.d.ts"/>
 
+declare module 'goog:goog.graphics.LinearGradient' {
+    import alias = goog.graphics.LinearGradient;
+    export default alias;
+}
+
 declare namespace goog.graphics {
     /**
      * Creates an immutable linear gradient fill object.

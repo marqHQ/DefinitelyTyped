@@ -1,6 +1,10 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="../../proto2/message.d.ts"/>
 
+declare module 'goog:goog.testing.proto2' {
+    export = goog.testing.proto2;
+}
+
 declare namespace goog.testing.proto2 {
     /**
      * Compares two goog.proto2.Message objects. Gives more readable output than

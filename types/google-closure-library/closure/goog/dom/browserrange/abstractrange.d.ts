@@ -3,6 +3,11 @@
 /// <reference path="../rangeendpoint.d.ts"/>
 /// <reference path="../abstractrange.d.ts"/>
 
+declare module 'goog:goog.dom.browserrange.AbstractRange' {
+    import alias = goog.dom.browserrange.AbstractRange;
+    export default alias;
+}
+
 declare namespace goog.dom.browserrange {
     /**
      * The constructor for abstract ranges.  Don't call this from subclasses.

@@ -2,6 +2,11 @@
 /// <reference path="./collectablestorage.d.ts"/>
 /// <reference path="./mechanism/iterablemechanism.d.ts"/>
 
+declare module 'goog:goog.storage.EncryptedStorage' {
+    import alias = goog.storage.EncryptedStorage;
+    export default alias;
+}
+
 declare namespace goog.storage {
     /**
      * Provides an encrypted storage. The keys are hashed with a secret, so

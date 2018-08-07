@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../log/log.d.ts"/>
 
+declare module 'goog:goog.testing.ExpectedFailures' {
+    import alias = goog.testing.ExpectedFailures;
+    export default alias;
+}
+
 declare namespace goog.testing {
     /**
      * Helper class for allowing some unit tests to fail, particularly designed to

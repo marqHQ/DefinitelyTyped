@@ -1,5 +1,24 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.json' {
+    export = goog.json;
+}
+
+declare module 'goog:goog.json.Serializer' {
+    import alias = goog.json.Serializer;
+    export default alias;
+}
+
+declare module 'goog:goog.json.Reviver' {
+    import alias = goog.json.Reviver;
+    export default alias;
+}
+
+declare module 'goog:goog.json.Replacer' {
+    import alias = goog.json.Replacer;
+    export default alias;
+}
+
 declare namespace goog.json {
     /**
      * Class that is used to serialize JSON objects to a string.

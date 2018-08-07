@@ -5,6 +5,16 @@
 /// <reference path="./objectstore.d.ts"/>
 /// <reference path="../../../third_party/closure/goog/mochikit/async/deferred.d.ts"/>
 
+declare module 'goog:goog.db.Transaction' {
+    import alias = goog.db.Transaction;
+    export default alias;
+}
+
+declare module 'goog:goog.db.Transaction.TransactionMode' {
+    import alias = goog.db.Transaction.TransactionMode;
+    export default alias;
+}
+
 declare namespace goog.db {
     /**
      * Creates a new transaction. Transactions contain methods for accessing object

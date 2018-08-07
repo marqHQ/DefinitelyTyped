@@ -2,6 +2,11 @@
 /// <reference path="../string/typedstring.d.ts"/>
 /// <reference path="../string/const.d.ts"/>
 
+declare module 'goog:goog.html.SafeScript' {
+    import alias = goog.html.SafeScript;
+    export default alias;
+}
+
 declare namespace goog.html {
     /**
      * A string-like object which represents JavaScript code and that carries the

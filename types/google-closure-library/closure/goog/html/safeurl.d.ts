@@ -4,6 +4,11 @@
 /// <reference path="../string/const.d.ts"/>
 /// <reference path="./trustedresourceurl.d.ts"/>
 
+declare module 'goog:goog.html.SafeUrl' {
+    import alias = goog.html.SafeUrl;
+    export default alias;
+}
+
 declare namespace goog.html {
     /**
      * A string that is safe to use in URL context in DOM APIs and HTML documents.

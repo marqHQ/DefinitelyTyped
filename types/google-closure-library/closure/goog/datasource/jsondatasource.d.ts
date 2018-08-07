@@ -2,6 +2,11 @@
 /// <reference path="./jsdatasource.d.ts"/>
 /// <reference path="../uri/uri.d.ts"/>
 
+declare module 'goog:goog.ds.JsonDataSource' {
+    import alias = goog.ds.JsonDataSource;
+    export default alias;
+}
+
 declare namespace goog.ds {
     /**
      * Data source whose backing is a JSON-like service, in which

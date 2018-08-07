@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./hash.d.ts"/>
 
+declare module 'goog:goog.crypt.Md5' {
+    import alias = goog.crypt.Md5;
+    export default alias;
+}
+
 declare namespace goog.crypt {
     /**
      * MD5 cryptographic hash constructor.

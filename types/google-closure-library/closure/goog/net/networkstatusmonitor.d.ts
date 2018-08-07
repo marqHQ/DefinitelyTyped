@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../events/listenable.d.ts"/>
 
+declare module 'goog:goog.net.NetworkStatusMonitor' {
+    import alias = goog.net.NetworkStatusMonitor;
+    export default alias;
+}
+
 declare namespace goog.net {
     interface NetworkStatusMonitor extends goog.events.Listenable {
         /**

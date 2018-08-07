@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.dom.classes' {
+    export = goog.dom.classes;
+}
+
 declare namespace goog.dom.classes {
     /**
      * Sets the entire class name of an element.

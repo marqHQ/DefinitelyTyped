@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.structs.Collection' {
+    import alias = goog.structs.Collection;
+    export default alias;
+}
+
 declare namespace goog.structs {
     interface Collection<T> {
         /**

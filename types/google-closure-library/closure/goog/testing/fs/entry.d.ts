@@ -6,6 +6,21 @@
 /// <reference path="./file.d.ts"/>
 /// <reference path="../../fs/filewriter.d.ts"/>
 
+declare module 'goog:goog.testing.fs.FileEntry' {
+    import alias = goog.testing.fs.FileEntry;
+    export default alias;
+}
+
+declare module 'goog:goog.testing.fs.Entry' {
+    import alias = goog.testing.fs.Entry;
+    export default alias;
+}
+
+declare module 'goog:goog.testing.fs.DirectoryEntry' {
+    import alias = goog.testing.fs.DirectoryEntry;
+    export default alias;
+}
+
 declare namespace goog.testing._fs {
     type GlobalFile = File;
 }

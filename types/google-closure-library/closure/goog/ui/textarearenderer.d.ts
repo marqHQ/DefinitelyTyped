@@ -2,6 +2,11 @@
 /// <reference path="./controlrenderer.d.ts"/>
 /// <reference path="./control.d.ts"/>
 
+declare module 'goog:goog.ui.TextareaRenderer' {
+    import alias = goog.ui.TextareaRenderer;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Renderer for {@link goog.ui.Textarea}s.  Renders and decorates native HTML

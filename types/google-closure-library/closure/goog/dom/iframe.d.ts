@@ -3,6 +3,10 @@
 /// <reference path="../html/safestyle.d.ts"/>
 /// <reference path="../html/safehtml.d.ts"/>
 
+declare module 'goog:goog.dom.iframe' {
+    export = goog.dom.iframe;
+}
+
 declare namespace goog.dom.iframe {
     /**
      * Safe source for a blank iframe.

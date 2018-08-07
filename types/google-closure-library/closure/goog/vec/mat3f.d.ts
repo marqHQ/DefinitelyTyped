@@ -2,6 +2,15 @@
 /// <reference path="./vec.d.ts"/>
 /// <reference path="./vec3f.d.ts"/>
 
+declare module 'goog:goog.vec.mat3f' {
+    export = goog.vec.mat3f;
+}
+
+declare module 'goog:goog.vec.mat3f.Type' {
+    import alias = goog.vec.mat3f.Type;
+    export default alias;
+}
+
 declare namespace goog {
 }
 

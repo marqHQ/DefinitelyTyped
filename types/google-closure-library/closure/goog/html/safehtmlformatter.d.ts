@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./safehtml.d.ts"/>
 
+declare module 'goog:goog.html.SafeHtmlFormatter' {
+    import alias = goog.html.SafeHtmlFormatter;
+    export default alias;
+}
+
 declare namespace goog.html {
     /**
      * Formatter producing SafeHtml from a plain text format and HTML fragments.

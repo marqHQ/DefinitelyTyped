@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.structs.LinkedMap' {
+    import alias = goog.structs.LinkedMap;
+    export default alias;
+}
+
 declare namespace goog.structs {
     /**
      * Class for a LinkedMap datastructure, which combines O(1) map access for

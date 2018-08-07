@@ -2,6 +2,11 @@
 /// <reference path="../transitionbase.d.ts"/>
 /// <reference path="../../style/transition.d.ts"/>
 
+declare module 'goog:goog.fx.css3.Transition' {
+    import alias = goog.fx.css3.Transition;
+    export default alias;
+}
+
 declare namespace goog.fx.css3 {
     /**
      * A class to handle targeted CSS3 transition. This class

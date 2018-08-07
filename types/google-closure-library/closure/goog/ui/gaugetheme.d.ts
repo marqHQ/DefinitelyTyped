@@ -2,6 +2,11 @@
 /// <reference path="../graphics/stroke.d.ts"/>
 /// <reference path="../graphics/fill.d.ts"/>
 
+declare module 'goog:goog.ui.GaugeTheme' {
+    import alias = goog.ui.GaugeTheme;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * A class for the default color theme for a Gauge.

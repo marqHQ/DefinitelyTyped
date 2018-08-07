@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./coordinate3.d.ts"/>
 
+declare module 'goog:goog.math.Vec3' {
+    import alias = goog.math.Vec3;
+    export default alias;
+}
+
 declare namespace goog.math {
     /**
      * Class for a three-dimensional vector object and assorted functions useful for

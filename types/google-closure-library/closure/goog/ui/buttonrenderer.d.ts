@@ -2,6 +2,11 @@
 /// <reference path="./controlrenderer.d.ts"/>
 /// <reference path="./button.d.ts"/>
 
+declare module 'goog:goog.ui.ButtonRenderer' {
+    import alias = goog.ui.ButtonRenderer;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Default renderer for {@link goog.ui.Button}s.  Extends the superclass with

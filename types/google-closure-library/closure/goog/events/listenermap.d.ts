@@ -3,6 +3,11 @@
 /// <reference path="./listener.d.ts"/>
 /// <reference path="./eventid.d.ts"/>
 
+declare module 'goog:goog.events.ListenerMap' {
+    import alias = goog.events.ListenerMap;
+    export default alias;
+}
+
 declare namespace goog.events {
     /**
      * Creates a new listener map.

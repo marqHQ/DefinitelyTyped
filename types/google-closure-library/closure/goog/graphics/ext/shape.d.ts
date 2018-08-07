@@ -5,6 +5,11 @@
 /// <reference path="../path.d.ts"/>
 /// <reference path="../../math/rect.d.ts"/>
 
+declare module 'goog:goog.graphics.ext.Shape' {
+    import alias = goog.graphics.ext.Shape;
+    export default alias;
+}
+
 declare namespace goog.graphics.ext {
     /**
      * Wrapper for a graphics shape element.

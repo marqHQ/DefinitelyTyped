@@ -4,6 +4,21 @@
 /// <reference path="../dialog.d.ts"/>
 /// <reference path="../../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.editor.AbstractDialog' {
+    import alias = goog.ui.editor.AbstractDialog;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.editor.AbstractDialog.EventType' {
+    import alias = goog.ui.editor.AbstractDialog.EventType;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.editor.AbstractDialog.Builder' {
+    import alias = goog.ui.editor.AbstractDialog.Builder;
+    export default alias;
+}
+
 declare namespace goog.ui.editor {
     /**
      * Creates an object that represents a dialog box.

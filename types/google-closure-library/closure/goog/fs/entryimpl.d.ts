@@ -4,6 +4,21 @@
 /// <reference path="../../../third_party/closure/goog/mochikit/async/deferred.d.ts"/>
 /// <reference path="./filewriter.d.ts"/>
 
+declare module 'goog:goog.fs.FileEntryImpl' {
+    import alias = goog.fs.FileEntryImpl;
+    export default alias;
+}
+
+declare module 'goog:goog.fs.EntryImpl' {
+    import alias = goog.fs.EntryImpl;
+    export default alias;
+}
+
+declare module 'goog:goog.fs.DirectoryEntryImpl' {
+    import alias = goog.fs.DirectoryEntryImpl;
+    export default alias;
+}
+
 declare namespace goog.fs {
     /**
      * Base class for concrete implementations of goog.fs.Entry.

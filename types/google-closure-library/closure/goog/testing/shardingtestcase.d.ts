@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./testcase.d.ts"/>
 
+declare module 'goog:goog.testing.ShardingTestCase' {
+    import alias = goog.testing.ShardingTestCase;
+    export default alias;
+}
+
 declare namespace goog.testing {
     /**
      * A test case that runs tests in per-file shards.

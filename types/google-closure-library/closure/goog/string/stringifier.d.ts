@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 
-declare namespace goog._string {
+declare module 'goog:goog.string.Stringifier' {
+    import alias = goog.string.Stringifier;
+    export default alias;
+}
+
+declare namespace goog.string {
     interface Stringifier {
         /**
          * Serializes an object or a value to a string.

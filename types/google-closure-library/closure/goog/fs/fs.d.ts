@@ -1,6 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../../../third_party/closure/goog/mochikit/async/deferred.d.ts"/>
 
+declare module 'goog:goog.fs' {
+    export = goog.fs;
+}
+
 declare namespace goog.fs {
     /**
      * Returns a temporary FileSystem object. A temporary filesystem may be deleted

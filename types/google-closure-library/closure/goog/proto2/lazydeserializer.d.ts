@@ -3,6 +3,11 @@
 /// <reference path="./message.d.ts"/>
 /// <reference path="./fielddescriptor.d.ts"/>
 
+declare module 'goog:goog.proto2.LazyDeserializer' {
+    import alias = goog.proto2.LazyDeserializer;
+    export default alias;
+}
+
 declare namespace goog.proto2 {
     /**
      * Base class for all lazy deserializers.

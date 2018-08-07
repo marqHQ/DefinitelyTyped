@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.fs.url' {
+    export = goog.fs.url;
+}
+
 declare namespace goog.fs.url {
     /**
      * Creates a blob URL for a blob object.

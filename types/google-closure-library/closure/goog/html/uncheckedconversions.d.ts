@@ -8,6 +8,10 @@
 /// <reference path="./safeurl.d.ts"/>
 /// <reference path="./trustedresourceurl.d.ts"/>
 
+declare module 'goog:goog.html.uncheckedconversions' {
+    export = goog.html.uncheckedconversions;
+}
+
 declare namespace goog.html.uncheckedconversions {
     /**
      * Performs an "unchecked conversion" to SafeHtml from a plain string that is

@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./controlrenderer.d.ts"/>
 
+declare module 'goog:goog.ui.MenuHeaderRenderer' {
+    import alias = goog.ui.MenuHeaderRenderer;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Renderer for menu headers.

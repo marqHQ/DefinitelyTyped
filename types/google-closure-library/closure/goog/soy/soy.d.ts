@@ -2,6 +2,10 @@
 /// <reference path="./data.d.ts"/>
 /// <reference path="../dom/dom.d.ts"/>
 
+declare module 'goog:goog.soy' {
+    export = goog.soy;
+}
+
 declare namespace goog.soy {
     /**
      * Type definition for strict Soy templates. Very useful when passing a template

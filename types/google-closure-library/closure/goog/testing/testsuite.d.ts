@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.testing.testSuite' {
+    import alias = goog.testing.testSuite;
+    export default alias;
+}
+
 declare namespace goog.testing {
     /**
      * Runs the lifecycle methods (setUp, tearDown, etc.) and test* methods from

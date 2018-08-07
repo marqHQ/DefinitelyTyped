@@ -2,6 +2,11 @@
 /// <reference path="./formatter.d.ts"/>
 /// <reference path="./logrecord.d.ts"/>
 
+declare module 'goog:goog.debug.Console' {
+    import alias = goog.debug.Console;
+    export default alias;
+}
+
 declare namespace goog.debug {
     /**
      * Create and install a log handler that logs to window.console if available

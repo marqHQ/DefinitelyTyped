@@ -2,6 +2,11 @@
 /// <reference path="./media.d.ts"/>
 /// <reference path="./mediamodel.d.ts"/>
 
+declare module 'goog:goog.ui.media.Photo' {
+    import alias = goog.ui.media.Photo;
+    export default alias;
+}
+
 declare namespace goog.ui.media {
     /**
      * Subclasses a goog.ui.media.MediaRenderer to provide a Photo specific media

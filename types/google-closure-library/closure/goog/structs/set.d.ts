@@ -2,6 +2,11 @@
 /// <reference path="./collection.d.ts"/>
 /// <reference path="../iter/iter.d.ts"/>
 
+declare module 'goog:goog.structs.Set' {
+    import alias = goog.structs.Set;
+    export default alias;
+}
+
 declare namespace goog.structs {
     /**
      * A set that can contain both primitives and objects.  Adding and removing

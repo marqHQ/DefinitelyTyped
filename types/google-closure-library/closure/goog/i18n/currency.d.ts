@@ -1,5 +1,19 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.i18n.currency' {
+    export = goog.i18n.currency;
+}
+
+declare module 'goog:goog.i18n.currency.CurrencyInfoTier2' {
+    import alias = goog.i18n.currency.CurrencyInfoTier2;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.currency.CurrencyInfo' {
+    import alias = goog.i18n.currency.CurrencyInfo;
+    export default alias;
+}
+
 declare namespace goog.i18n.currency {
     /**
      * Tests if currency is available.

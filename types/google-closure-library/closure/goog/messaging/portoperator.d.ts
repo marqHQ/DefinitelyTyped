@@ -5,6 +5,11 @@
 /// <reference path="./messagechannel.d.ts"/>
 /// <reference path="../log/log.d.ts"/>
 
+declare module 'goog:goog.messaging.PortOperator' {
+    import alias = goog.messaging.PortOperator;
+    export default alias;
+}
+
 declare namespace goog.messaging {
     /**
      * The central node of a PortNetwork.

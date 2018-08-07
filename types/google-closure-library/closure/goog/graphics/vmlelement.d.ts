@@ -9,6 +9,36 @@
 /// <reference path="./textelement.d.ts"/>
 /// <reference path="./imageelement.d.ts"/>
 
+declare module 'goog:goog.graphics.VmlTextElement' {
+    import alias = goog.graphics.VmlTextElement;
+    export default alias;
+}
+
+declare module 'goog:goog.graphics.VmlRectElement' {
+    import alias = goog.graphics.VmlRectElement;
+    export default alias;
+}
+
+declare module 'goog:goog.graphics.VmlPathElement' {
+    import alias = goog.graphics.VmlPathElement;
+    export default alias;
+}
+
+declare module 'goog:goog.graphics.VmlImageElement' {
+    import alias = goog.graphics.VmlImageElement;
+    export default alias;
+}
+
+declare module 'goog:goog.graphics.VmlGroupElement' {
+    import alias = goog.graphics.VmlGroupElement;
+    export default alias;
+}
+
+declare module 'goog:goog.graphics.VmlEllipseElement' {
+    import alias = goog.graphics.VmlEllipseElement;
+    export default alias;
+}
+
 declare namespace goog.graphics {
     /**
      * Thin wrapper for VML group elements.

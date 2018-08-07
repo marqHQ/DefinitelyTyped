@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="../plugin.d.ts"/>
 
+declare module 'goog:goog.editor.plugins.HeaderFormatter' {
+    import alias = goog.editor.plugins.HeaderFormatter;
+    export default alias;
+}
+
 declare namespace goog.editor.plugins {
     /**
      * Applies header styles to text.

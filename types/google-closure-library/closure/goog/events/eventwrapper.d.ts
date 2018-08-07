@@ -2,6 +2,11 @@
 /// <reference path="./events.d.ts"/>
 /// <reference path="./eventhandler.d.ts"/>
 
+declare module 'goog:goog.events.EventWrapper' {
+    import alias = goog.events.EventWrapper;
+    export default alias;
+}
+
 declare namespace goog.events {
     interface EventWrapper {
         /**

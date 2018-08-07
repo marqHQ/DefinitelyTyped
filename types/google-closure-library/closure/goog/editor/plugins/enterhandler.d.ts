@@ -6,6 +6,11 @@
 /// <reference path="../../events/browserevent.d.ts"/>
 /// <reference path="../range.d.ts"/>
 
+declare module 'goog:goog.editor.plugins.EnterHandler' {
+    import alias = goog.editor.plugins.EnterHandler;
+    export default alias;
+}
+
 declare namespace goog.editor.plugins {
     /**
      * Plugin to handle enter keys. This does all the crazy to normalize (as much as

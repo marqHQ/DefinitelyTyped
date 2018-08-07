@@ -3,6 +3,16 @@
 /// <reference path="../dom/dom.d.ts"/>
 /// <reference path="../events/browserevent.d.ts"/>
 
+declare module 'goog:goog.ui.TableSorter' {
+    import alias = goog.ui.TableSorter;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.TableSorter.EventType' {
+    import alias = goog.ui.TableSorter.EventType;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * A table sorter allows for sorting of a table by column.  This component can

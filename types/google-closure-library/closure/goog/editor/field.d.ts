@@ -13,6 +13,16 @@
 /// <reference path="../html/trustedresourceurl.d.ts"/>
 /// <reference path="./icontent.d.ts"/>
 
+declare module 'goog:goog.editor.Field' {
+    import alias = goog.editor.Field;
+    export default alias;
+}
+
+declare module 'goog:goog.editor.Field.EventType' {
+    import alias = goog.editor.Field.EventType;
+    export default alias;
+}
+
 declare namespace goog.editor {
     /**
      * This class encapsulates an editable field.

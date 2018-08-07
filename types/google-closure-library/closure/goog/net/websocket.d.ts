@@ -4,6 +4,26 @@
 /// <reference path="../events/event.d.ts"/>
 /// <reference path="../debug/errorhandler.d.ts"/>
 
+declare module 'goog:goog.net.WebSocket' {
+    import alias = goog.net.WebSocket;
+    export default alias;
+}
+
+declare module 'goog:goog.net.WebSocket.MessageEvent' {
+    import alias = goog.net.WebSocket.MessageEvent;
+    export default alias;
+}
+
+declare module 'goog:goog.net.WebSocket.EventType' {
+    import alias = goog.net.WebSocket.EventType;
+    export default alias;
+}
+
+declare module 'goog:goog.net.WebSocket.ErrorEvent' {
+    import alias = goog.net.WebSocket.ErrorEvent;
+    export default alias;
+}
+
 declare namespace goog.net {
     /**
      * Class encapsulating the logic for using a WebSocket.

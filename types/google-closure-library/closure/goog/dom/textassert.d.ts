@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.dom.textAssert' {
+    import alias = goog.dom.textAssert;
+    export default alias;
+}
+
 declare namespace goog.dom.textAssert {
     /**
      * Assert that the string is plain text that does not have HTML, i.e. not

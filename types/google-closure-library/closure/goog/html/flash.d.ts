@@ -2,6 +2,10 @@
 /// <reference path="../string/typedstring.d.ts"/>
 /// <reference path="./safehtml.d.ts"/>
 
+declare module 'goog:goog.html.flash' {
+    export = goog.html.flash;
+}
+
 declare namespace goog.html.flash {
     /**
      * @param {!Object<string, string|!goog.string.TypedString>} defaultParams

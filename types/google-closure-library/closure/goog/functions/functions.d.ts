@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.functions' {
+    export = goog.functions;
+}
+
 declare namespace goog.functions {
     /**
      * Creates a function that always returns the same value.

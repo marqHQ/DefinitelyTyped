@@ -1,6 +1,16 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../disposable/disposable.d.ts"/>
 
+declare module 'goog:goog.async.Delay' {
+    import alias = goog.async.Delay;
+    export default alias;
+}
+
+declare module 'goog:goog.Delay' {
+    import alias = goog.Delay;
+    export default alias;
+}
+
 declare namespace goog.async {
     /**
      * A Delay object invokes the associated function after a specified delay. The

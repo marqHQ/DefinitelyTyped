@@ -8,6 +8,11 @@
 /// <reference path="../events/browserevent.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.PopupColorPicker' {
+    import alias = goog.ui.PopupColorPicker;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Popup color picker widget.

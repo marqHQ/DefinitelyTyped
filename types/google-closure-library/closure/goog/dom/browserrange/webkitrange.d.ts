@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./w3crange.d.ts"/>
 
+declare module 'goog:goog.dom.browserrange.WebKitRange' {
+    import alias = goog.dom.browserrange.WebKitRange;
+    export default alias;
+}
+
 declare namespace goog.dom.browserrange {
     /**
      * The constructor for WebKit specific browser ranges.

@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.crypt.base64' {
+    export = goog.crypt.base64;
+}
+
 declare namespace goog.crypt.base64 {
     /**
      * Our default alphabet, shared between

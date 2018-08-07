@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.i18n.CharPickerData' {
+    import alias = goog.i18n.CharPickerData;
+    export default alias;
+}
+
 declare namespace goog.i18n {
     /**
      * Object holding two level character organization and character listing.

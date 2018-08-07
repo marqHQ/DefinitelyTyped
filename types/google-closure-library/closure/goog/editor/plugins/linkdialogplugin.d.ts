@@ -6,6 +6,11 @@
 /// <reference path="../../ui/editor/linkdialog.d.ts"/>
 /// <reference path="../../events/event.d.ts"/>
 
+declare module 'goog:goog.editor.plugins.LinkDialogPlugin' {
+    import alias = goog.editor.plugins.LinkDialogPlugin;
+    export default alias;
+}
+
 declare namespace goog.editor.plugins {
     /**
      * A plugin that opens the link dialog.

@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./menubuttonrenderer.d.ts"/>
 
+declare module 'goog:goog.ui.ToolbarMenuButtonRenderer' {
+    import alias = goog.ui.ToolbarMenuButtonRenderer;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Toolbar-specific renderer for {@link goog.ui.MenuButton}s, based on {@link

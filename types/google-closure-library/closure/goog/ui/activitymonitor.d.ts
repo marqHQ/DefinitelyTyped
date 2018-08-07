@@ -4,6 +4,11 @@
 /// <reference path="../events/eventhandler.d.ts"/>
 /// <reference path="../events/browserevent.d.ts"/>
 
+declare module 'goog:goog.ui.ActivityMonitor' {
+    import alias = goog.ui.ActivityMonitor;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Once initialized with a document, the activity monitor can be queried for

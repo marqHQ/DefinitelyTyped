@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../disposable/disposable.d.ts"/>
 
+declare module 'goog:goog.pubsub.PubSub' {
+    import alias = goog.pubsub.PubSub;
+    export default alias;
+}
+
 declare namespace goog.pubsub {
     /**
      * Topic-based publish/subscribe channel.  Maintains a map of topics to

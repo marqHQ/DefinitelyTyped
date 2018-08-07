@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.disposable.IDisposable' {
+    import alias = goog.disposable.IDisposable;
+    export default alias;
+}
+
 declare namespace goog.disposable {
     /**
      * Interface for a disposable object.  If a instance requires cleanup

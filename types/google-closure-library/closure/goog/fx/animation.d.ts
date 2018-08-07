@@ -4,6 +4,26 @@
 /// <reference path="./transition.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.fx.AnimationEvent' {
+    import alias = goog.fx.AnimationEvent;
+    export default alias;
+}
+
+declare module 'goog:goog.fx.Animation' {
+    import alias = goog.fx.Animation;
+    export default alias;
+}
+
+declare module 'goog:goog.fx.Animation.State' {
+    import alias = goog.fx.Animation.State;
+    export default alias;
+}
+
+declare module 'goog:goog.fx.Animation.EventType' {
+    import alias = goog.fx.Animation.EventType;
+    export default alias;
+}
+
 declare namespace goog.fx {
     /**
      * Constructor for an animation object.

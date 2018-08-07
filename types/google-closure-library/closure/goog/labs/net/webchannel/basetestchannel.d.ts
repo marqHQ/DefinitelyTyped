@@ -2,6 +2,11 @@
 /// <reference path="./channel.d.ts"/>
 /// <reference path="./webchanneldebug.d.ts"/>
 
+declare module 'goog:goog.labs.net.webChannel.BaseTestChannel' {
+    import alias = goog.labs.net.webChannel.BaseTestChannel;
+    export default alias;
+}
+
 declare namespace goog.labs.net.webChannel {
     /**
      * A TestChannel is used during the first part of channel negotiation

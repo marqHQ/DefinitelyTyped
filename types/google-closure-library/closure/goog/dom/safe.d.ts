@@ -6,6 +6,15 @@
 /// <reference path="../html/safescript.d.ts"/>
 /// <reference path="../string/const.d.ts"/>
 
+declare module 'goog:goog.dom.safe' {
+    export = goog.dom.safe;
+}
+
+declare module 'goog:goog.dom.safe.InsertAdjacentHtmlPosition' {
+    import alias = goog.dom.safe.InsertAdjacentHtmlPosition;
+    export default alias;
+}
+
 declare namespace goog.dom.safe {
     /** @enum {string} */
     enum InsertAdjacentHtmlPosition { AFTERBEGIN, AFTEREND, BEFOREBEGIN, BEFOREEND }

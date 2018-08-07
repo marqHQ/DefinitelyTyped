@@ -5,6 +5,11 @@
 /// <reference path="../fx/animation.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.AnimatedZippy' {
+    import alias = goog.ui.AnimatedZippy;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Zippy widget. Expandable/collapsible container, clicking the header toggles

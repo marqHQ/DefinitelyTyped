@@ -1,6 +1,16 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./affinetransform.d.ts"/>
 
+declare module 'goog:goog.math.Path' {
+    import alias = goog.math.Path;
+    export default alias;
+}
+
+declare module 'goog:goog.math.Path.Segment' {
+    import alias = goog.math.Path.Segment;
+    export default alias;
+}
+
 declare namespace goog.math {
     /**
      * Creates a path object. A path is a sequence of segments and may be open or

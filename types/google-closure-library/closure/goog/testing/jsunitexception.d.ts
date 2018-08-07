@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.testing.JsUnitException' {
+    import alias = goog.testing.JsUnitException;
+    export default alias;
+}
+
 declare namespace goog.testing {
     /**
      * @extends {Error}

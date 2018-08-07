@@ -2,6 +2,11 @@
 /// <reference path="./asynctestcase.d.ts"/>
 /// <reference path="../../../third_party/closure/goog/mochikit/async/deferred.d.ts"/>
 
+declare module 'goog:goog.testing.DeferredTestCase' {
+    import alias = goog.testing.DeferredTestCase;
+    export default alias;
+}
+
 declare namespace goog.testing {
     /**
      * A test case that can asynchronously wait on a Deferred object.

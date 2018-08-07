@@ -3,6 +3,21 @@
 /// <reference path="./animation.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.fx.AnimationSerialQueue' {
+    import alias = goog.fx.AnimationSerialQueue;
+    export default alias;
+}
+
+declare module 'goog:goog.fx.AnimationQueue' {
+    import alias = goog.fx.AnimationQueue;
+    export default alias;
+}
+
+declare module 'goog:goog.fx.AnimationParallelQueue' {
+    import alias = goog.fx.AnimationParallelQueue;
+    export default alias;
+}
+
 declare namespace goog.fx {
     /**
      * Constructor for AnimationQueue object.

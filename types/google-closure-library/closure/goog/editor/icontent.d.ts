@@ -1,5 +1,19 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.editor.icontent' {
+    export = goog.editor.icontent;
+}
+
+declare module 'goog:goog.editor.icontent.FieldStyleInfo' {
+    import alias = goog.editor.icontent.FieldStyleInfo;
+    export default alias;
+}
+
+declare module 'goog:goog.editor.icontent.FieldFormatInfo' {
+    import alias = goog.editor.icontent.FieldFormatInfo;
+    export default alias;
+}
+
 declare namespace goog.editor.icontent {
     /**
      * A data structure for storing simple rendering info about a field.

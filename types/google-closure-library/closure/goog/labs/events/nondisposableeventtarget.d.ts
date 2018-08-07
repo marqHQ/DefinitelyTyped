@@ -3,6 +3,11 @@
 /// <reference path="../../events/eventid.d.ts"/>
 /// <reference path="../../events/event.d.ts"/>
 
+declare module 'goog:goog.labs.events.NonDisposableEventTarget' {
+    import alias = goog.labs.events.NonDisposableEventTarget;
+    export default alias;
+}
+
 declare namespace goog.labs.events {
     /**
      * An implementation of `goog.events.Listenable` with full W3C

@@ -1,6 +1,21 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./event.d.ts"/>
 
+declare module 'goog:goog.events.BrowserEvent' {
+    import alias = goog.events.BrowserEvent;
+    export default alias;
+}
+
+declare module 'goog:goog.events.BrowserEvent.PointerType' {
+    import alias = goog.events.BrowserEvent.PointerType;
+    export default alias;
+}
+
+declare module 'goog:goog.events.BrowserEvent.MouseButton' {
+    import alias = goog.events.BrowserEvent.MouseButton;
+    export default alias;
+}
+
 declare namespace goog.events {
     /**
      * Accepts a browser event object and creates a patched, cross browser event

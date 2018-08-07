@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./abstractrange.d.ts"/>
 
+declare module 'goog:goog.dom.TextRangeIterator' {
+    import alias = goog.dom.TextRangeIterator;
+    export default alias;
+}
+
 declare namespace goog.dom {
     /**
      * Subclass of goog.dom.TagIterator that iterates over a DOM range.  It

@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.html.textExtractor' {
+    import alias = goog.html.textExtractor;
+    export default alias;
+}
+
 declare namespace goog.html.textExtractor {
     /**
      * Safely extracts text from an untrusted HTML string using the HtmlSanitizer.

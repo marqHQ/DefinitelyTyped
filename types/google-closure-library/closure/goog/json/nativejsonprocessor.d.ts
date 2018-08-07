@@ -2,6 +2,11 @@
 /// <reference path="./processor.d.ts"/>
 /// <reference path="./json.d.ts"/>
 
+declare module 'goog:goog.json.NativeJsonProcessor' {
+    import alias = goog.json.NativeJsonProcessor;
+    export default alias;
+}
+
 declare namespace goog.json {
     /**
      * A class that parses and stringifies JSON using the browser's built-in JSON

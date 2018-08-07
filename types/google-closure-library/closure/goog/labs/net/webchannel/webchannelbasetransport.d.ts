@@ -2,6 +2,11 @@
 /// <reference path="../webchanneltransport.d.ts"/>
 /// <reference path="../webchannel.d.ts"/>
 
+declare module 'goog:goog.labs.net.webChannel.WebChannelBaseTransport' {
+    import alias = goog.labs.net.webChannel.WebChannelBaseTransport;
+    export default alias;
+}
+
 declare namespace goog.labs.net.webChannel {
     /**
      * Implementation of {@link goog.net.WebChannelTransport} with

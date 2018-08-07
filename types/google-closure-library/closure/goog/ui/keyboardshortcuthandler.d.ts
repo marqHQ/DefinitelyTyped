@@ -3,6 +3,26 @@
 /// <reference path="../events/browserevent.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.KeyboardShortcutHandler' {
+    import alias = goog.ui.KeyboardShortcutHandler;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.KeyboardShortcutHandler.Modifiers' {
+    import alias = goog.ui.KeyboardShortcutHandler.Modifiers;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.KeyboardShortcutHandler.EventType' {
+    import alias = goog.ui.KeyboardShortcutHandler.EventType;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.KeyboardShortcutEvent' {
+    import alias = goog.ui.KeyboardShortcutEvent;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Component for handling keyboard shortcuts. A shortcut is registered and bound

@@ -6,6 +6,11 @@
 /// <reference path="../../events/events.d.ts"/>
 /// <reference path="../../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.ac.RemoteArrayMatcher' {
+    import alias = goog.ui.ac.RemoteArrayMatcher;
+    export default alias;
+}
+
 declare namespace goog.ui.ac {
     /**
      * An array matcher that requests matches via ajax.

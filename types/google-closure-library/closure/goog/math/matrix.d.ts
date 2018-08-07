@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./size.d.ts"/>
 
+declare module 'goog:goog.math.Matrix' {
+    import alias = goog.math.Matrix;
+    export default alias;
+}
+
 declare namespace goog.math {
     /**
      * Class for representing and manipulating matrices.

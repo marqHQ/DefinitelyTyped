@@ -3,6 +3,11 @@
 /// <reference path="../promise/thenable.d.ts"/>
 /// <reference path="../promise/promise.d.ts"/>
 
+declare module 'goog:goog.Timer' {
+    import alias = goog.Timer;
+    export default alias;
+}
+
 declare namespace goog {
     /**
      * Class for handling timing events.

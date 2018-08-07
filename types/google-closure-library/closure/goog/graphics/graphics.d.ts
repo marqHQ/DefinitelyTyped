@@ -2,6 +2,10 @@
 /// <reference path="../dom/dom.d.ts"/>
 /// <reference path="./abstractgraphics.d.ts"/>
 
+declare module 'goog:goog.graphics' {
+    export = goog.graphics;
+}
+
 declare namespace goog.graphics {
     /**
      * Returns an instance of goog.graphics.AbstractGraphics that knows how to draw

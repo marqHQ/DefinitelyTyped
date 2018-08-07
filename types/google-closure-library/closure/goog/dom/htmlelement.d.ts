@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.dom.HtmlElement' {
+    import alias = goog.dom.HtmlElement;
+    export default alias;
+}
+
 declare module goog {
 }
 

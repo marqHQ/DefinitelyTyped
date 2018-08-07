@@ -2,6 +2,11 @@
 /// <reference path="../../disposable/disposable.d.ts"/>
 /// <reference path="../../dom/abstractrange.d.ts"/>
 
+declare module 'goog:goog.testing.editor.TestHelper' {
+    import alias = goog.testing.editor.TestHelper;
+    export default alias;
+}
+
 declare namespace goog.testing.editor {
     /**
      * Create a new test controller.

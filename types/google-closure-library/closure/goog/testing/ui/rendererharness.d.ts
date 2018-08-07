@@ -3,6 +3,11 @@
 /// <reference path="../../ui/controlrenderer.d.ts"/>
 /// <reference path="../../ui/control.d.ts"/>
 
+declare module 'goog:goog.testing.ui.RendererHarness' {
+    import alias = goog.testing.ui.RendererHarness;
+    export default alias;
+}
+
 declare namespace goog.testing.ui {
     /**
      * A driver for testing renderers.

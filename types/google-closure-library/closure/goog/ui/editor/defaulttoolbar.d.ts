@@ -6,6 +6,16 @@
 /// <reference path="../button.d.ts"/>
 /// <reference path="../controlcontent.d.ts"/>
 
+declare module 'goog:goog.ui.editor.DefaultToolbar' {
+    import alias = goog.ui.editor.DefaultToolbar;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.editor.ButtonDescriptor' {
+    import alias = goog.ui.editor.ButtonDescriptor;
+    export default alias;
+}
+
 declare namespace goog.ui.editor.DefaultToolbar {
     /** @desc Font menu item caption for the default sans-serif font. */
     let MSG_FONT_NORMAL: any /*missing*/;

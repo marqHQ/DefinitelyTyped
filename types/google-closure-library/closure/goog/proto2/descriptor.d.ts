@@ -2,6 +2,16 @@
 /// <reference path="./message.d.ts"/>
 /// <reference path="./fielddescriptor.d.ts"/>
 
+declare module 'goog:goog.proto2.Metadata' {
+    import alias = goog.proto2.Metadata;
+    export default alias;
+}
+
+declare module 'goog:goog.proto2.Descriptor' {
+    import alias = goog.proto2.Descriptor;
+    export default alias;
+}
+
 declare namespace goog.proto2 {
     /**
      * A class which describes a Protocol Buffer 2 Message.

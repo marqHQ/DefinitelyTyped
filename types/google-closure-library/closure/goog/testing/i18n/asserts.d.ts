@@ -1,5 +1,9 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.testing.i18n.asserts' {
+    export = goog.testing.i18n.asserts;
+}
+
 declare namespace goog.testing.i18n.asserts {
     /**
      * Asserts that the two values are "almost equal" from i18n perspective

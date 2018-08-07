@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./entry.d.ts"/>
 
+declare module 'goog:goog.fs.FileSystem' {
+    import alias = goog.fs.FileSystem;
+    export default alias;
+}
+
 declare namespace goog.fs {
     interface FileSystem {
         /**

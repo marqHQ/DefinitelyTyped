@@ -1,6 +1,41 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./matcher.d.ts"/>
 
+declare module 'goog:goog.labs.testing.LessThanMatcher' {
+    import alias = goog.labs.testing.LessThanMatcher;
+    export default alias;
+}
+
+declare module 'goog:goog.labs.testing.LessThanEqualToMatcher' {
+    import alias = goog.labs.testing.LessThanEqualToMatcher;
+    export default alias;
+}
+
+declare module 'goog:goog.labs.testing.GreaterThanMatcher' {
+    import alias = goog.labs.testing.GreaterThanMatcher;
+    export default alias;
+}
+
+declare module 'goog:goog.labs.testing.GreaterThanEqualToMatcher' {
+    import alias = goog.labs.testing.GreaterThanEqualToMatcher;
+    export default alias;
+}
+
+declare module 'goog:goog.labs.testing.EqualToMatcher' {
+    import alias = goog.labs.testing.EqualToMatcher;
+    export default alias;
+}
+
+declare module 'goog:goog.labs.testing.CloseToMatcher' {
+    import alias = goog.labs.testing.CloseToMatcher;
+    export default alias;
+}
+
+declare module 'goog:goog.labs.testing.AnyNumberMatcher' {
+    import alias = goog.labs.testing.AnyNumberMatcher;
+    export default alias;
+}
+
 declare namespace goog.labs.testing {
     /**
      * The GreaterThan matcher.

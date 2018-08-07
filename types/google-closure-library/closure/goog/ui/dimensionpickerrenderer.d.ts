@@ -2,6 +2,11 @@
 /// <reference path="./controlrenderer.d.ts"/>
 /// <reference path="./dimensionpicker.d.ts"/>
 
+declare module 'goog:goog.ui.DimensionPickerRenderer' {
+    import alias = goog.ui.DimensionPickerRenderer;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Default renderer for {@link goog.ui.DimensionPicker}s.  Renders the

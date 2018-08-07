@@ -5,6 +5,11 @@
 /// <reference path="../../events/browserevent.d.ts"/>
 /// <reference path="./treenode.d.ts"/>
 
+declare module 'goog:goog.ui.tree.TreeControl' {
+    import alias = goog.ui.tree.TreeControl;
+    export default alias;
+}
+
 declare namespace goog.ui.tree {
     /**
      * This creates a TreeControl object. A tree control provides a way to

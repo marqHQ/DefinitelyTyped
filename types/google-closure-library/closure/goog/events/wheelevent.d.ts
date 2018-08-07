@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./browserevent.d.ts"/>
 
+declare module 'goog:goog.events.WheelEvent' {
+    import alias = goog.events.WheelEvent;
+    export default alias;
+}
+
 declare namespace goog.events {
     /**
      * A common class for wheel events. This is used with the WheelHandler.

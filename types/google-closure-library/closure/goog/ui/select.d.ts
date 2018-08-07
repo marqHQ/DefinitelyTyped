@@ -11,6 +11,11 @@
 /// <reference path="./component.d.ts"/>
 /// <reference path="./menuseparator.d.ts"/>
 
+declare module 'goog:goog.ui.Select' {
+    import alias = goog.ui.Select;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * A selection control.  Extends {@link goog.ui.MenuButton} by composing a

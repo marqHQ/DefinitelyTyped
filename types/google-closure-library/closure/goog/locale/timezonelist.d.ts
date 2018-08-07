@@ -1,5 +1,20 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.locale.getTimeZoneSelectedShortNames' {
+    import alias = goog.locale.getTimeZoneSelectedShortNames;
+    export default alias;
+}
+
+declare module 'goog:goog.locale.getTimeZoneSelectedLongNames' {
+    import alias = goog.locale.getTimeZoneSelectedLongNames;
+    export default alias;
+}
+
+declare module 'goog:goog.locale.getTimeZoneAllLongNames' {
+    import alias = goog.locale.getTimeZoneAllLongNames;
+    export default alias;
+}
+
 declare namespace goog.locale {
     /**
      * Returns the displayable list of short timezone names paired with its id for

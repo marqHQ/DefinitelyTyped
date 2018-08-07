@@ -6,6 +6,11 @@
 /// <reference path="../math/rect.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.fx.DragScrollSupport' {
+    import alias = goog.fx.DragScrollSupport;
+    export default alias;
+}
+
 declare namespace goog.fx {
     /**
      * A scroll support class. Currently this class will automatically scroll

@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./custombuttonrenderer.d.ts"/>
 
+declare module 'goog:goog.ui.ImagelessButtonRenderer' {
+    import alias = goog.ui.ImagelessButtonRenderer;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Custom renderer for {@link goog.ui.Button}s. Imageless buttons can contain

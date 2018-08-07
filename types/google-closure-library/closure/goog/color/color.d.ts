@@ -1,5 +1,24 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.color' {
+    export = goog.color;
+}
+
+declare module 'goog:goog.color.Rgb' {
+    import alias = goog.color.Rgb;
+    export default alias;
+}
+
+declare module 'goog:goog.color.Hsv' {
+    import alias = goog.color.Hsv;
+    export default alias;
+}
+
+declare module 'goog:goog.color.Hsl' {
+    import alias = goog.color.Hsl;
+    export default alias;
+}
+
 declare namespace goog.color {
     /**
      * RGB color representation. An array containing three elements [r, g, b],

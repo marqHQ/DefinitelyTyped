@@ -2,6 +2,11 @@
 /// <reference path="./buttonrenderer.d.ts"/>
 /// <reference path="./control.d.ts"/>
 
+declare module 'goog:goog.ui.NativeButtonRenderer' {
+    import alias = goog.ui.NativeButtonRenderer;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Renderer for {@link goog.ui.Button}s.  Renders and decorates native HTML

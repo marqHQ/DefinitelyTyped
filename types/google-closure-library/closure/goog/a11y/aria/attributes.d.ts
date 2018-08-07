@@ -1,5 +1,70 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.a11y.aria.State' {
+    import alias = goog.a11y.aria.State;
+    export default alias;
+}
+
+declare module 'goog:goog.a11y.aria.SortValues' {
+    import alias = goog.a11y.aria.SortValues;
+    export default alias;
+}
+
+declare module 'goog:goog.a11y.aria.SelectedValues' {
+    import alias = goog.a11y.aria.SelectedValues;
+    export default alias;
+}
+
+declare module 'goog:goog.a11y.aria.RelevantValues' {
+    import alias = goog.a11y.aria.RelevantValues;
+    export default alias;
+}
+
+declare module 'goog:goog.a11y.aria.PressedValues' {
+    import alias = goog.a11y.aria.PressedValues;
+    export default alias;
+}
+
+declare module 'goog:goog.a11y.aria.OrientationValues' {
+    import alias = goog.a11y.aria.OrientationValues;
+    export default alias;
+}
+
+declare module 'goog:goog.a11y.aria.LivePriority' {
+    import alias = goog.a11y.aria.LivePriority;
+    export default alias;
+}
+
+declare module 'goog:goog.a11y.aria.InvalidValues' {
+    import alias = goog.a11y.aria.InvalidValues;
+    export default alias;
+}
+
+declare module 'goog:goog.a11y.aria.GrabbedValues' {
+    import alias = goog.a11y.aria.GrabbedValues;
+    export default alias;
+}
+
+declare module 'goog:goog.a11y.aria.ExpandedValues' {
+    import alias = goog.a11y.aria.ExpandedValues;
+    export default alias;
+}
+
+declare module 'goog:goog.a11y.aria.DropEffectValues' {
+    import alias = goog.a11y.aria.DropEffectValues;
+    export default alias;
+}
+
+declare module 'goog:goog.a11y.aria.CheckedValues' {
+    import alias = goog.a11y.aria.CheckedValues;
+    export default alias;
+}
+
+declare module 'goog:goog.a11y.aria.AutoCompleteValues' {
+    import alias = goog.a11y.aria.AutoCompleteValues;
+    export default alias;
+}
+
 declare namespace goog.a11y.aria {
     /**
      * ARIA states and properties.

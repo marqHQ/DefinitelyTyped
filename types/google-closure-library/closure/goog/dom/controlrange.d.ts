@@ -3,6 +3,16 @@
 /// <reference path="./savedrange.d.ts"/>
 /// <reference path="./abstractrange.d.ts"/>
 
+declare module 'goog:goog.dom.ControlRangeIterator' {
+    import alias = goog.dom.ControlRangeIterator;
+    export default alias;
+}
+
+declare module 'goog:goog.dom.ControlRange' {
+    import alias = goog.dom.ControlRange;
+    export default alias;
+}
+
 declare namespace goog.dom {
     /**
      * Create a new control selection with no properties.  Do not use this

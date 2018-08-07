@@ -2,6 +2,11 @@
 /// <reference path="./eventtarget.d.ts"/>
 /// <reference path="./browserevent.d.ts"/>
 
+declare module 'goog:goog.events.WheelHandler' {
+    import alias = goog.events.WheelHandler;
+    export default alias;
+}
+
 declare namespace goog.events {
     /**
      * This event handler allows you to catch wheel events in a consistent manner.

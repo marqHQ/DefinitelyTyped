@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.structs' {
+    export = goog.structs;
+}
+
 declare namespace goog.structs {
     /**
      * Returns the number of values in the collection-like object.

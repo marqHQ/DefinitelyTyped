@@ -6,6 +6,21 @@
 /// <reference path="../events/browserevent.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.ZippyEvent' {
+    import alias = goog.ui.ZippyEvent;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.Zippy' {
+    import alias = goog.ui.Zippy;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.Zippy.Events' {
+    import alias = goog.ui.Zippy.Events;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Zippy widget. Expandable/collapsible container, clicking the header toggles

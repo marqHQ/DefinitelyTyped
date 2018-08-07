@@ -3,6 +3,11 @@
 /// <reference path="./streamparser.d.ts"/>
 /// <reference path="../../events/event.d.ts"/>
 
+declare module 'goog:goog.net.streams.XhrStreamReader' {
+    import alias = goog.net.streams.XhrStreamReader;
+    export default alias;
+}
+
 declare namespace goog.net.streams {
     /**
      * The XhrStreamReader class.

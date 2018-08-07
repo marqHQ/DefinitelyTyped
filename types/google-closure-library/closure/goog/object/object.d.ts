@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.object' {
+    export = goog.object;
+}
+
 declare namespace goog.object {
     /**
      * Whether two values are not observably distinguishable. This

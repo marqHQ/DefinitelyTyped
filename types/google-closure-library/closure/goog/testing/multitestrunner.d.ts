@@ -6,6 +6,16 @@
 /// <reference path="./testcase.d.ts"/>
 /// <reference path="../events/browserevent.d.ts"/>
 
+declare module 'goog:goog.testing.MultiTestRunner' {
+    import alias = goog.testing.MultiTestRunner;
+    export default alias;
+}
+
+declare module 'goog:goog.testing.MultiTestRunner.TestFrame' {
+    import alias = goog.testing.MultiTestRunner.TestFrame;
+    export default alias;
+}
+
 declare namespace goog.testing {
     /**
      * A component for running multiple tests within the browser.

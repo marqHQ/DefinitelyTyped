@@ -1,6 +1,15 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../debug/error.d.ts"/>
 
+declare module 'goog:goog.asserts' {
+    export = goog.asserts;
+}
+
+declare module 'goog:goog.asserts.AssertionError' {
+    import alias = goog.asserts.AssertionError;
+    export default alias;
+}
+
 declare namespace goog.asserts {
     /**
      * Error object for failed assertions.

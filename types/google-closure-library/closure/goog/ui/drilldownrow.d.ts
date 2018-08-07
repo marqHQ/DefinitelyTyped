@@ -3,6 +3,11 @@
 /// <reference path="../dom/dom.d.ts"/>
 /// <reference path="../html/safehtml.d.ts"/>
 
+declare module 'goog:goog.ui.DrilldownRow' {
+    import alias = goog.ui.DrilldownRow;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Builds a DrilldownRow component, which can overlay a tree

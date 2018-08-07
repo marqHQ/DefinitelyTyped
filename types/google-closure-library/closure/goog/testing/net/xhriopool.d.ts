@@ -2,6 +2,11 @@
 /// <reference path="../../net/xhriopool.d.ts"/>
 /// <reference path="./xhrio.d.ts"/>
 
+declare module 'goog:goog.testing.net.XhrIoPool' {
+    import alias = goog.testing.net.XhrIoPool;
+    export default alias;
+}
+
 declare namespace goog.testing.net {
     /**
      * A pool containing a single mock XhrIo object.

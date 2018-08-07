@@ -1,6 +1,26 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./datasource.d.ts"/>
 
+declare module 'goog:goog.ds.PrimitiveFastDataNode' {
+    import alias = goog.ds.PrimitiveFastDataNode;
+    export default alias;
+}
+
+declare module 'goog:goog.ds.FastListNode' {
+    import alias = goog.ds.FastListNode;
+    export default alias;
+}
+
+declare module 'goog:goog.ds.FastDataNode' {
+    import alias = goog.ds.FastDataNode;
+    export default alias;
+}
+
+declare module 'goog:goog.ds.AbstractFastDataNode' {
+    import alias = goog.ds.AbstractFastDataNode;
+    export default alias;
+}
+
 declare namespace goog.ds {
     /**
      * Creates a new abstract data node.

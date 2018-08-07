@@ -3,6 +3,11 @@
 /// <reference path="../../dom/abstractrange.d.ts"/>
 /// <reference path="../../dom/savedcaretrange.d.ts"/>
 
+declare module 'goog:goog.editor.plugins.RemoveFormatting' {
+    import alias = goog.editor.plugins.RemoveFormatting;
+    export default alias;
+}
+
 declare namespace goog.editor.plugins {
     /**
      * A plugin to handle removing formatting from selected text.

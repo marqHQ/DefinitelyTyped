@@ -3,6 +3,11 @@
 /// <reference path="../dom/dom.d.ts"/>
 /// <reference path="./container.d.ts"/>
 
+declare module 'goog:goog.ui.menuBar' {
+    import alias = goog.ui.menuBar;
+    export default alias;
+}
+
 declare namespace goog.ui.menuBar {
     /**
      * The menuBar factory creates a new menu bar.

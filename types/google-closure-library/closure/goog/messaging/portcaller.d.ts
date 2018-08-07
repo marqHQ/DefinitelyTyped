@@ -4,6 +4,11 @@
 /// <reference path="./messagechannel.d.ts"/>
 /// <reference path="../../../third_party/closure/goog/mochikit/async/deferred.d.ts"/>
 
+declare module 'goog:goog.messaging.PortCaller' {
+    import alias = goog.messaging.PortCaller;
+    export default alias;
+}
+
 declare namespace goog.messaging {
     /**
      * The leaf node of a network.

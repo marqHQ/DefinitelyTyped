@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.reflect' {
+    export = goog.reflect;
+}
+
 declare namespace goog.reflect {
     /**
      * Syntax for object literal casts.

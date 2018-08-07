@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.userAgent.flash' {
+    export = goog.userAgent.flash;
+}
+
 declare namespace goog.userAgent.flash {
     /**
      * Whether we can detect that the browser has flash

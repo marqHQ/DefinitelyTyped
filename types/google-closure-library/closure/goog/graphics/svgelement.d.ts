@@ -9,6 +9,36 @@
 /// <reference path="./textelement.d.ts"/>
 /// <reference path="./imageelement.d.ts"/>
 
+declare module 'goog:goog.graphics.SvgTextElement' {
+    import alias = goog.graphics.SvgTextElement;
+    export default alias;
+}
+
+declare module 'goog:goog.graphics.SvgRectElement' {
+    import alias = goog.graphics.SvgRectElement;
+    export default alias;
+}
+
+declare module 'goog:goog.graphics.SvgPathElement' {
+    import alias = goog.graphics.SvgPathElement;
+    export default alias;
+}
+
+declare module 'goog:goog.graphics.SvgImageElement' {
+    import alias = goog.graphics.SvgImageElement;
+    export default alias;
+}
+
+declare module 'goog:goog.graphics.SvgGroupElement' {
+    import alias = goog.graphics.SvgGroupElement;
+    export default alias;
+}
+
+declare module 'goog:goog.graphics.SvgEllipseElement' {
+    import alias = goog.graphics.SvgEllipseElement;
+    export default alias;
+}
+
 declare namespace goog.graphics {
     /**
      * Thin wrapper for SVG group elements.

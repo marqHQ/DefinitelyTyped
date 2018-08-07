@@ -4,6 +4,16 @@
 /// <reference path="../log/log.d.ts"/>
 /// <reference path="./browserevent.d.ts"/>
 
+declare module 'goog:goog.events.FileDropHandler' {
+    import alias = goog.events.FileDropHandler;
+    export default alias;
+}
+
+declare module 'goog:goog.events.FileDropHandler.EventType' {
+    import alias = goog.events.FileDropHandler.EventType;
+    export default alias;
+}
+
 declare namespace goog.events {
     /**
      * A files drag and drop event detector. Gets an `element` as parameter

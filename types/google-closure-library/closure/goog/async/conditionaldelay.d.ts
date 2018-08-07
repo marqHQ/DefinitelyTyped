@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../disposable/disposable.d.ts"/>
 
+declare module 'goog:goog.async.ConditionalDelay' {
+    import alias = goog.async.ConditionalDelay;
+    export default alias;
+}
+
 declare namespace goog.async {
     /**
      * A ConditionalDelay object invokes the associated function after a specified

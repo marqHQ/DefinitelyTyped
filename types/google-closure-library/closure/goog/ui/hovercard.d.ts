@@ -4,6 +4,21 @@
 /// <reference path="../events/event.d.ts"/>
 /// <reference path="../positioning/abstractposition.d.ts"/>
 
+declare module 'goog:goog.ui.HoverCard' {
+    import alias = goog.ui.HoverCard;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.HoverCard.TriggerEvent' {
+    import alias = goog.ui.HoverCard.TriggerEvent;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.HoverCard.EventType' {
+    import alias = goog.ui.HoverCard.EventType;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Create a hover card object.  Hover cards extend tooltips in that they don't

@@ -3,6 +3,10 @@
 /// <reference path="./blob.d.ts"/>
 /// <reference path="../propertyreplacer.d.ts"/>
 
+declare module 'goog:goog.testing.fs' {
+    export = goog.testing.fs;
+}
+
 declare namespace goog.testing.fs {
     /**
      * Get a filesystem object. Since these are mocks, there's no difference between

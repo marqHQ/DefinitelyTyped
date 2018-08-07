@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./mechanism.d.ts"/>
 
+declare module 'goog:goog.storage.mechanism.ErrorHandlingMechanism' {
+    import alias = goog.storage.mechanism.ErrorHandlingMechanism;
+    export default alias;
+}
+
 declare namespace goog.storage.mechanism {
     /**
      * Wraps a storage mechanism with a custom error handler.

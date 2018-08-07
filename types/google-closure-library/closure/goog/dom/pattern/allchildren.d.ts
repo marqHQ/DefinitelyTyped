@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./abstractpattern.d.ts"/>
 
+declare module 'goog:goog.dom.pattern.AllChildren' {
+    import alias = goog.dom.pattern.AllChildren;
+    export default alias;
+}
+
 declare namespace goog.dom.pattern {
     /**
      * Pattern object that matches any nodes at or below the current tree depth.

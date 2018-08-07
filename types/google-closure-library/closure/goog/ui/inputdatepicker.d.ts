@@ -8,6 +8,11 @@
 /// <reference path="../date/date.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.InputDatePicker' {
+    import alias = goog.ui.InputDatePicker;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Input date picker widget.

@@ -5,6 +5,11 @@
 /// <reference path="./component.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.ContainerScroller' {
+    import alias = goog.ui.ContainerScroller;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Plug-on scrolling behavior for a container.

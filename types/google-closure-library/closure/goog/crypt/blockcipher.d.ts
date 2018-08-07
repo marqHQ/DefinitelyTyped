@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.crypt.BlockCipher' {
+    import alias = goog.crypt.BlockCipher;
+    export default alias;
+}
+
 declare namespace goog.crypt {
     interface BlockCipher {
         /**

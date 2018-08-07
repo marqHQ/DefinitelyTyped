@@ -7,6 +7,21 @@
 /// <reference path="../events/event.d.ts"/>
 /// <reference path="../events/browserevent.d.ts"/>
 
+declare module 'goog:goog.ui.Container' {
+    import alias = goog.ui.Container;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.Container.Orientation' {
+    import alias = goog.ui.Container.Orientation;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.Container.EventType' {
+    import alias = goog.ui.Container.EventType;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Base class for containers.  Extends {@link goog.ui.Component} by adding

@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./datasource.d.ts"/>
 
+declare module 'goog:goog.ds.DataManager' {
+    import alias = goog.ds.DataManager;
+    export default alias;
+}
+
 declare namespace goog.ds {
     /**
      * Create a DataManger

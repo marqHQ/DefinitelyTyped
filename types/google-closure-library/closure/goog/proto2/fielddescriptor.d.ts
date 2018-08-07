@@ -2,6 +2,11 @@
 /// <reference path="./message.d.ts"/>
 /// <reference path="./descriptor.d.ts"/>
 
+declare module 'goog:goog.proto2.FieldDescriptor' {
+    import alias = goog.proto2.FieldDescriptor;
+    export default alias;
+}
+
 declare namespace goog.proto2 {
     /**
      * A class which describes a field in a Protocol Buffer 2 Message.

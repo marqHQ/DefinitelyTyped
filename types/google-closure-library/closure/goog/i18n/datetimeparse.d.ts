@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../date/datelike.d.ts"/>
 
+declare module 'goog:goog.i18n.DateTimeParse' {
+    import alias = goog.i18n.DateTimeParse;
+    export default alias;
+}
+
 declare namespace goog.i18n {
     /**
      * Construct a DateTimeParse based on current locale.

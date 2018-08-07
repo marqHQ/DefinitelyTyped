@@ -2,6 +2,11 @@
 /// <reference path="../disposable/disposable.d.ts"/>
 /// <reference path="./topicid.d.ts"/>
 
+declare module 'goog:goog.pubsub.TypedPubSub' {
+    import alias = goog.pubsub.TypedPubSub;
+    export default alias;
+}
+
 declare namespace goog.pubsub {
     /**
      * This object is a temporary shim that provides goog.pubsub.TopicId support

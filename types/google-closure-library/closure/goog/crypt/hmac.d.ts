@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./hash.d.ts"/>
 
+declare module 'goog:goog.crypt.Hmac' {
+    import alias = goog.crypt.Hmac;
+    export default alias;
+}
+
 declare namespace goog.crypt {
     /**
      * @extends {goog.crypt.Hash}

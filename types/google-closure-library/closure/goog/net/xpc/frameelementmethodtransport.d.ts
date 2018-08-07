@@ -3,6 +3,11 @@
 /// <reference path="./crosspagechannel.d.ts"/>
 /// <reference path="../../dom/dom.d.ts"/>
 
+declare module 'goog:goog.net.xpc.FrameElementMethodTransport' {
+    import alias = goog.net.xpc.FrameElementMethodTransport;
+    export default alias;
+}
+
 declare namespace goog.net.xpc {
     /**
      * Frame-element method transport.

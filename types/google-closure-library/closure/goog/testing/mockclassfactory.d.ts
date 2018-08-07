@@ -2,6 +2,16 @@
 /// <reference path="./strictmock.d.ts"/>
 /// <reference path="./loosemock.d.ts"/>
 
+declare module 'goog:goog.testing.MockClassRecord' {
+    import alias = goog.testing.MockClassRecord;
+    export default alias;
+}
+
+declare module 'goog:goog.testing.MockClassFactory' {
+    import alias = goog.testing.MockClassFactory;
+    export default alias;
+}
+
 declare namespace goog.testing {
     /**
      * A record that represents all the data associated with a mock replacement of

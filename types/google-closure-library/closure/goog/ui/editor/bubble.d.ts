@@ -8,6 +8,11 @@
 /// <reference path="../../math/box.d.ts"/>
 /// <reference path="../../positioning/positioning.d.ts"/>
 
+declare module 'goog:goog.ui.editor.Bubble' {
+    import alias = goog.ui.editor.Bubble;
+    export default alias;
+}
+
 declare namespace goog.ui.editor {
     /**
      * Property bubble UI element.

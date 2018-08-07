@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="../../events/eventtarget.d.ts"/>
 
+declare module 'goog:goog.editor.plugins.UndoRedoState' {
+    import alias = goog.editor.plugins.UndoRedoState;
+    export default alias;
+}
+
 declare namespace goog.editor.plugins {
     /**
      * Represents an undo and redo action for a particular state transition.

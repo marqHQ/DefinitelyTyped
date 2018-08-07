@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.editor.Command' {
+    import alias = goog.editor.Command;
+    export default alias;
+}
+
 declare namespace goog.editor {
     /**
      * Commands that the editor can excute via execCommand or queryCommandValue.

@@ -1,5 +1,10 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.ui.emoji.Emoji' {
+    import alias = goog.ui.emoji.Emoji;
+    export default alias;
+}
+
 declare namespace goog.ui.emoji {
     /**
      * Creates an emoji.

@@ -8,6 +8,16 @@
 /// <reference path="./xmlhttp.d.ts"/>
 /// <reference path="../debug/errorhandler.d.ts"/>
 
+declare module 'goog:goog.net.XhrIo' {
+    import alias = goog.net.XhrIo;
+    export default alias;
+}
+
+declare module 'goog:goog.net.XhrIo.ResponseType' {
+    import alias = goog.net.XhrIo.ResponseType;
+    export default alias;
+}
+
 declare namespace goog.net {
     /**
      * Basic class for handling XMLHttpRequests.

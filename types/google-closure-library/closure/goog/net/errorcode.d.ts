@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.net.ErrorCode' {
+    import alias = goog.net.ErrorCode;
+    export default alias;
+}
+
 declare namespace goog.net {
     /**
      * Error codes

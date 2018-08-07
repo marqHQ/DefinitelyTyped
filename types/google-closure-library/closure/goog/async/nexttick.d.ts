@@ -1,5 +1,15 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.async.throwException' {
+    import alias = goog.async.throwException;
+    export default alias;
+}
+
+declare module 'goog:goog.async.nextTick' {
+    import alias = goog.async.nextTick;
+    export default alias;
+}
+
 declare namespace goog.async {
     /**
      * Throw an item without interrupting the current execution context.  For

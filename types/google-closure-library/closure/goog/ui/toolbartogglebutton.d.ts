@@ -4,6 +4,11 @@
 /// <reference path="./toolbarbuttonrenderer.d.ts"/>
 /// <reference path="../dom/dom.d.ts"/>
 
+declare module 'goog:goog.ui.ToolbarToggleButton' {
+    import alias = goog.ui.ToolbarToggleButton;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * A toggle button control for a toolbar.

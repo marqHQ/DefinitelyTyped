@@ -5,6 +5,16 @@
 /// <reference path="../../positioning/positioning.d.ts"/>
 /// <reference path="../../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.ac.Renderer' {
+    import alias = goog.ui.ac.Renderer;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.ac.Renderer.CustomRenderer' {
+    import alias = goog.ui.ac.Renderer.CustomRenderer;
+    export default alias;
+}
+
 declare namespace goog.ui.ac {
     /**
      * Class for rendering the results of an auto-complete in a drop down list.

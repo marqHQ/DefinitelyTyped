@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./spline1.d.ts"/>
 
+declare module 'goog:goog.math.interpolator.Pchip1' {
+    import alias = goog.math.interpolator.Pchip1;
+    export default alias;
+}
+
 declare namespace goog.math.interpolator {
     /**
      * A one dimensional monotone cubic spline interpolator.

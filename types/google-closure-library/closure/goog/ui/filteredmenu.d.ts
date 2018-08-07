@@ -7,6 +7,11 @@
 /// <reference path="../events/browserevent.d.ts"/>
 /// <reference path="./control.d.ts"/>
 
+declare module 'goog:goog.ui.FilteredMenu' {
+    import alias = goog.ui.FilteredMenu;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Filtered menu class.

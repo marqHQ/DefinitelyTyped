@@ -4,6 +4,11 @@
 /// <reference path="../events/keyhandler.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.MenuBase' {
+    import alias = goog.ui.MenuBase;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * The MenuBase class provides an abstract base class for different

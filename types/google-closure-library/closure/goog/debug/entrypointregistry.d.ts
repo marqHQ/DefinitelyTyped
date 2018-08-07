@@ -1,5 +1,15 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.debug.entryPointRegistry' {
+    import alias = goog.debug.entryPointRegistry;
+    export default alias;
+}
+
+declare module 'goog:goog.debug.EntryPointMonitor' {
+    import alias = goog.debug.EntryPointMonitor;
+    export default alias;
+}
+
 declare namespace goog.debug {
     interface EntryPointMonitor {
         /**

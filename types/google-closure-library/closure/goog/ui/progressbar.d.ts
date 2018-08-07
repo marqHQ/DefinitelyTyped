@@ -4,6 +4,16 @@
 /// <reference path="./rangemodel.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.ProgressBar' {
+    import alias = goog.ui.ProgressBar;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.ProgressBar.Orientation' {
+    import alias = goog.ui.ProgressBar.Orientation;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * This creates a progress bar object.

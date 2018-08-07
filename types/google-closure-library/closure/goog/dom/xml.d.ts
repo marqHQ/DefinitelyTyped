@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.dom.xml' {
+    export = goog.dom.xml;
+}
+
 declare namespace goog.dom.xml {
     /**
      * Max XML size for MSXML2.  Used to prevent potential DoS attacks.

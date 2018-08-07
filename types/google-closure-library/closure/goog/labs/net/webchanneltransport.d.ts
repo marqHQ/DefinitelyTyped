@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./webchannel.d.ts"/>
 
+declare module 'goog:goog.net.WebChannelTransport' {
+    import alias = goog.net.WebChannelTransport;
+    export default alias;
+}
+
 declare namespace goog.net {
     interface WebChannelTransport {
         /**

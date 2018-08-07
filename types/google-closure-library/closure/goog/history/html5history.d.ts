@@ -2,6 +2,16 @@
 /// <reference path="../events/eventtarget.d.ts"/>
 /// <reference path="../events/browserevent.d.ts"/>
 
+declare module 'goog:goog.history.Html5History' {
+    import alias = goog.history.Html5History;
+    export default alias;
+}
+
+declare module 'goog:goog.history.Html5History.TokenTransformer' {
+    import alias = goog.history.Html5History.TokenTransformer;
+    export default alias;
+}
+
 declare namespace goog.history {
     /**
      * An implementation compatible with goog.History that uses the HTML5

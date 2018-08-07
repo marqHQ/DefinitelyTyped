@@ -1,5 +1,10 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.labs.testing.JsonFuzzing' {
+    import alias = goog.labs.testing.JsonFuzzing;
+    export default alias;
+}
+
 declare namespace goog.labs.testing {
     /**
      * The JSON fuzzing generator.

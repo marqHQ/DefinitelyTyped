@@ -2,6 +2,11 @@
 /// <reference path="./vec3.d.ts"/>
 /// <reference path="./vec.d.ts"/>
 
+declare module 'goog:goog.vec.Ray' {
+    import alias = goog.vec.Ray;
+    export default alias;
+}
+
 declare namespace goog.vec {
     /**
      * Constructs a new ray with an optional origin and direction. If not specified,

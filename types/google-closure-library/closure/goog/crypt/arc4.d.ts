@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.crypt.Arc4' {
+    import alias = goog.crypt.Arc4;
+    export default alias;
+}
+
 declare namespace goog.crypt {
     /**
      * ARC4 streamcipher implementation.

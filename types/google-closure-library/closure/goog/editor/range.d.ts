@@ -3,6 +3,15 @@
 /// <reference path="../dom/abstractrange.d.ts"/>
 /// <reference path="../dom/tagname.d.ts"/>
 
+declare module 'goog:goog.editor.range' {
+    export = goog.editor.range;
+}
+
+declare module 'goog:goog.editor.range.Point' {
+    import alias = goog.editor.range.Point;
+    export default alias;
+}
+
 declare namespace goog.editor.range {
     /**
      * One endpoint of a range, represented as a Node and and offset.

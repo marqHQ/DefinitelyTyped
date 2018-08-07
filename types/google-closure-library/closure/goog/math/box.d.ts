@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./coordinate.d.ts"/>
 
+declare module 'goog:goog.math.Box' {
+    import alias = goog.math.Box;
+    export default alias;
+}
+
 declare namespace goog.math {
     /**
      * Class for representing a box. A box is specified as a top, right, bottom,

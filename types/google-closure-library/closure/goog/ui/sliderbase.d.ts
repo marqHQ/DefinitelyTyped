@@ -10,6 +10,21 @@
 /// <reference path="../fx/animation.d.ts"/>
 /// <reference path="../fx/transitionbase.d.ts"/>
 
+declare module 'goog:goog.ui.SliderBase' {
+    import alias = goog.ui.SliderBase;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.SliderBase.Orientation' {
+    import alias = goog.ui.SliderBase.Orientation;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.SliderBase.AnimationFactory' {
+    import alias = goog.ui.SliderBase.AnimationFactory;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * This creates a SliderBase object.

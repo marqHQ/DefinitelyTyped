@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.testing.singleton' {
+    export = goog.testing.singleton;
+}
+
 declare namespace goog.testing.singleton {
     /**
      * Deletes all singleton instances, so `getInstance` will return a new

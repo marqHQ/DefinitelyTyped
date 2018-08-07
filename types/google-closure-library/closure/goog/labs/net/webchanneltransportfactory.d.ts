@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./webchanneltransport.d.ts"/>
 
+declare module 'goog:goog.net.createWebChannelTransport' {
+    import alias = goog.net.createWebChannelTransport;
+    export default alias;
+}
+
 declare namespace goog.net {
     /**
      * Create a new WebChannelTransport instance using the default implementation.

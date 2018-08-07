@@ -4,6 +4,11 @@
 /// <reference path="./cursor.d.ts"/>
 /// <reference path="./index.d.ts"/>
 
+declare module 'goog:goog.db.ObjectStore' {
+    import alias = goog.db.ObjectStore;
+    export default alias;
+}
+
 declare namespace goog.db {
     /**
      * Creates an IDBObjectStore wrapper object. Object stores have methods for

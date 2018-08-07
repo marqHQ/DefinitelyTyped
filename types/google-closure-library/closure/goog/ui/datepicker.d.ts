@@ -10,6 +10,21 @@
 /// <reference path="../events/keyhandler.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.DatePickerEvent' {
+    import alias = goog.ui.DatePickerEvent;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.DatePicker' {
+    import alias = goog.ui.DatePicker;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.DatePicker.Events' {
+    import alias = goog.ui.DatePicker.Events;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * DatePicker widget. Allows a single date to be selected from a calendar like

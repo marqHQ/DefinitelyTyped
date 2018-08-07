@@ -1,6 +1,15 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./dom.d.ts"/>
 
+declare module 'goog:goog.dom.fullscreen' {
+    export = goog.dom.fullscreen;
+}
+
+declare module 'goog:goog.dom.fullscreen.EventType' {
+    import alias = goog.dom.fullscreen.EventType;
+    export default alias;
+}
+
 declare namespace goog.dom.fullscreen {
     /**
      * Event types for full screen.

@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./menuseparatorrenderer.d.ts"/>
 
+declare module 'goog:goog.ui.ToolbarSeparatorRenderer' {
+    import alias = goog.ui.ToolbarSeparatorRenderer;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Renderer for toolbar separators.

@@ -3,6 +3,11 @@
 /// <reference path="../debug/error.d.ts"/>
 /// <reference path="./resolver.d.ts"/>
 
+declare module 'goog:goog.Promise' {
+    import alias = goog.Promise;
+    export default alias;
+}
+
 declare namespace goog {
     /**
      * NOTE: This class was created in anticipation of the built-in Promise type

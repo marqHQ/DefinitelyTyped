@@ -1,5 +1,14 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.labs.events.touch' {
+    export = goog.labs.events.touch;
+}
+
+declare module 'goog:goog.labs.events.touch.TouchData' {
+    import alias = goog.labs.events.touch.TouchData;
+    export default alias;
+}
+
 declare namespace goog.labs.events.touch {
     /**
      * Description the geometry and target of an event.

@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.math.Integer' {
+    import alias = goog.math.Integer;
+    export default alias;
+}
+
 declare namespace goog.math {
     /**
      * Constructs a two's-complement integer an array containing bits of the

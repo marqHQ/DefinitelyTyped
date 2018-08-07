@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.graphics.Stroke' {
+    import alias = goog.graphics.Stroke;
+    export default alias;
+}
+
 declare namespace goog.graphics {
     /**
      * Creates an immutable stroke object.

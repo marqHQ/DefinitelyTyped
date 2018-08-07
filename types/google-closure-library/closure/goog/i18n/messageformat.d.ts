@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./numberformat.d.ts"/>
 
+declare module 'goog:goog.i18n.MessageFormat' {
+    import alias = goog.i18n.MessageFormat;
+    export default alias;
+}
+
 declare namespace goog.i18n {
     /**
      * Constructor of MessageFormat.

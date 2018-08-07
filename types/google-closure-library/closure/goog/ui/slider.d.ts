@@ -2,6 +2,16 @@
 /// <reference path="./sliderbase.d.ts"/>
 /// <reference path="../dom/dom.d.ts"/>
 
+declare module 'goog:goog.ui.Slider' {
+    import alias = goog.ui.Slider;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.Slider.Orientation' {
+    import alias = goog.ui.Slider.Orientation;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * This creates a slider object.

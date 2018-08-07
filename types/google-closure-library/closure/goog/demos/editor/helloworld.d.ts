@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="../../editor/plugin.d.ts"/>
 
+declare module 'goog:goog.demos.editor.HelloWorld' {
+    import alias = goog.demos.editor.HelloWorld;
+    export default alias;
+}
+
 declare namespace goog.demos.editor {
     /**
      * Plugin to insert 'Hello World!' into an editable field.

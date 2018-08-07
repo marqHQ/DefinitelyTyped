@@ -2,6 +2,11 @@
 /// <reference path="../structs/circularbuffer.d.ts"/>
 /// <reference path="../log/log.d.ts"/>
 
+declare module 'goog:goog.stats.BasicStat' {
+    import alias = goog.stats.BasicStat;
+    export default alias;
+}
+
 declare namespace goog.stats {
     /**
      * Tracks basic statistics over a specified time interval.

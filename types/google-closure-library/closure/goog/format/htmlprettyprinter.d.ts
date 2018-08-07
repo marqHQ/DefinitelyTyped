@@ -1,6 +1,16 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../string/stringbuffer.d.ts"/>
 
+declare module 'goog:goog.format.HtmlPrettyPrinter' {
+    import alias = goog.format.HtmlPrettyPrinter;
+    export default alias;
+}
+
+declare module 'goog:goog.format.HtmlPrettyPrinter.Buffer' {
+    import alias = goog.format.HtmlPrettyPrinter.Buffer;
+    export default alias;
+}
+
 declare namespace goog.format {
     /**
      * This class formats HTML to be more human-readable.

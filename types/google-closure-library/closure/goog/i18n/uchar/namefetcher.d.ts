@@ -1,5 +1,10 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.i18n.uChar.NameFetcher' {
+    import alias = goog.i18n.uChar.NameFetcher;
+    export default alias;
+}
+
 declare namespace goog.i18n.uChar {
     interface NameFetcher {
         /**

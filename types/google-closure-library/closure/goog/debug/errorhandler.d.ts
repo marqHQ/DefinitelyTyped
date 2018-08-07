@@ -3,6 +3,16 @@
 /// <reference path="./entrypointregistry.d.ts"/>
 /// <reference path="./error.d.ts"/>
 
+declare module 'goog:goog.debug.ErrorHandler' {
+    import alias = goog.debug.ErrorHandler;
+    export default alias;
+}
+
+declare module 'goog:goog.debug.ErrorHandler.ProtectedFunctionError' {
+    import alias = goog.debug.ErrorHandler.ProtectedFunctionError;
+    export default alias;
+}
+
 declare namespace goog.debug {
     /**
      * The ErrorHandler can be used to to wrap functions with a try/catch

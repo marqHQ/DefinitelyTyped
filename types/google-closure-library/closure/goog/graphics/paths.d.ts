@@ -2,6 +2,10 @@
 /// <reference path="../math/coordinate.d.ts"/>
 /// <reference path="./path.d.ts"/>
 
+declare module 'goog:goog.graphics.paths' {
+    export = goog.graphics.paths;
+}
+
 declare namespace goog.graphics.paths {
     /**
      * Defines a regular n-gon by specifing the center, a vertex, and the total

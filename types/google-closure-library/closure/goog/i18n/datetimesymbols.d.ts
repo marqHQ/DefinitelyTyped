@@ -1,5 +1,570 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.i18n.DateTimeSymbols_zu' {
+    import alias = goog.i18n.DateTimeSymbols_zu;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_zh_TW' {
+    import alias = goog.i18n.DateTimeSymbols_zh_TW;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_zh_HK' {
+    import alias = goog.i18n.DateTimeSymbols_zh_HK;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_zh_CN' {
+    import alias = goog.i18n.DateTimeSymbols_zh_CN;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_zh' {
+    import alias = goog.i18n.DateTimeSymbols_zh;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_vi' {
+    import alias = goog.i18n.DateTimeSymbols_vi;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_uz' {
+    import alias = goog.i18n.DateTimeSymbols_uz;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_ur' {
+    import alias = goog.i18n.DateTimeSymbols_ur;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_uk' {
+    import alias = goog.i18n.DateTimeSymbols_uk;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_tr' {
+    import alias = goog.i18n.DateTimeSymbols_tr;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_tl' {
+    import alias = goog.i18n.DateTimeSymbols_tl;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_th' {
+    import alias = goog.i18n.DateTimeSymbols_th;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_te' {
+    import alias = goog.i18n.DateTimeSymbols_te;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_ta' {
+    import alias = goog.i18n.DateTimeSymbols_ta;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_sw' {
+    import alias = goog.i18n.DateTimeSymbols_sw;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_sv' {
+    import alias = goog.i18n.DateTimeSymbols_sv;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_sr_Latn' {
+    import alias = goog.i18n.DateTimeSymbols_sr_Latn;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_sr' {
+    import alias = goog.i18n.DateTimeSymbols_sr;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_sq' {
+    import alias = goog.i18n.DateTimeSymbols_sq;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_sl' {
+    import alias = goog.i18n.DateTimeSymbols_sl;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_sk' {
+    import alias = goog.i18n.DateTimeSymbols_sk;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_si' {
+    import alias = goog.i18n.DateTimeSymbols_si;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_sh' {
+    import alias = goog.i18n.DateTimeSymbols_sh;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_ru' {
+    import alias = goog.i18n.DateTimeSymbols_ru;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_ro' {
+    import alias = goog.i18n.DateTimeSymbols_ro;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_pt_PT' {
+    import alias = goog.i18n.DateTimeSymbols_pt_PT;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_pt_BR' {
+    import alias = goog.i18n.DateTimeSymbols_pt_BR;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_pt' {
+    import alias = goog.i18n.DateTimeSymbols_pt;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_pl' {
+    import alias = goog.i18n.DateTimeSymbols_pl;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_pa' {
+    import alias = goog.i18n.DateTimeSymbols_pa;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_or' {
+    import alias = goog.i18n.DateTimeSymbols_or;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_no_NO' {
+    import alias = goog.i18n.DateTimeSymbols_no_NO;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_no' {
+    import alias = goog.i18n.DateTimeSymbols_no;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_nl' {
+    import alias = goog.i18n.DateTimeSymbols_nl;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_ne' {
+    import alias = goog.i18n.DateTimeSymbols_ne;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_nb' {
+    import alias = goog.i18n.DateTimeSymbols_nb;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_my' {
+    import alias = goog.i18n.DateTimeSymbols_my;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_mt' {
+    import alias = goog.i18n.DateTimeSymbols_mt;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_ms' {
+    import alias = goog.i18n.DateTimeSymbols_ms;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_mr' {
+    import alias = goog.i18n.DateTimeSymbols_mr;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_mo' {
+    import alias = goog.i18n.DateTimeSymbols_mo;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_mn' {
+    import alias = goog.i18n.DateTimeSymbols_mn;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_ml' {
+    import alias = goog.i18n.DateTimeSymbols_ml;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_mk' {
+    import alias = goog.i18n.DateTimeSymbols_mk;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_lv' {
+    import alias = goog.i18n.DateTimeSymbols_lv;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_lt' {
+    import alias = goog.i18n.DateTimeSymbols_lt;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_lo' {
+    import alias = goog.i18n.DateTimeSymbols_lo;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_ln' {
+    import alias = goog.i18n.DateTimeSymbols_ln;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_ky' {
+    import alias = goog.i18n.DateTimeSymbols_ky;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_ko' {
+    import alias = goog.i18n.DateTimeSymbols_ko;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_kn' {
+    import alias = goog.i18n.DateTimeSymbols_kn;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_km' {
+    import alias = goog.i18n.DateTimeSymbols_km;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_kk' {
+    import alias = goog.i18n.DateTimeSymbols_kk;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_ka' {
+    import alias = goog.i18n.DateTimeSymbols_ka;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_ja' {
+    import alias = goog.i18n.DateTimeSymbols_ja;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_iw' {
+    import alias = goog.i18n.DateTimeSymbols_iw;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_it' {
+    import alias = goog.i18n.DateTimeSymbols_it;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_is' {
+    import alias = goog.i18n.DateTimeSymbols_is;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_in' {
+    import alias = goog.i18n.DateTimeSymbols_in;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_id' {
+    import alias = goog.i18n.DateTimeSymbols_id;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_hy' {
+    import alias = goog.i18n.DateTimeSymbols_hy;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_hu' {
+    import alias = goog.i18n.DateTimeSymbols_hu;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_hr' {
+    import alias = goog.i18n.DateTimeSymbols_hr;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_hi' {
+    import alias = goog.i18n.DateTimeSymbols_hi;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_he' {
+    import alias = goog.i18n.DateTimeSymbols_he;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_haw' {
+    import alias = goog.i18n.DateTimeSymbols_haw;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_gu' {
+    import alias = goog.i18n.DateTimeSymbols_gu;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_gsw' {
+    import alias = goog.i18n.DateTimeSymbols_gsw;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_gl' {
+    import alias = goog.i18n.DateTimeSymbols_gl;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_ga' {
+    import alias = goog.i18n.DateTimeSymbols_ga;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_fr_CA' {
+    import alias = goog.i18n.DateTimeSymbols_fr_CA;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_fr' {
+    import alias = goog.i18n.DateTimeSymbols_fr;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_fil' {
+    import alias = goog.i18n.DateTimeSymbols_fil;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_fi' {
+    import alias = goog.i18n.DateTimeSymbols_fi;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_fa' {
+    import alias = goog.i18n.DateTimeSymbols_fa;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_eu' {
+    import alias = goog.i18n.DateTimeSymbols_eu;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_et' {
+    import alias = goog.i18n.DateTimeSymbols_et;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_es_US' {
+    import alias = goog.i18n.DateTimeSymbols_es_US;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_es_MX' {
+    import alias = goog.i18n.DateTimeSymbols_es_MX;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_es_ES' {
+    import alias = goog.i18n.DateTimeSymbols_es_ES;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_es_419' {
+    import alias = goog.i18n.DateTimeSymbols_es_419;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_es' {
+    import alias = goog.i18n.DateTimeSymbols_es;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_en_ZA' {
+    import alias = goog.i18n.DateTimeSymbols_en_ZA;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_en_US' {
+    import alias = goog.i18n.DateTimeSymbols_en_US;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_en_SG' {
+    import alias = goog.i18n.DateTimeSymbols_en_SG;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_en_ISO' {
+    import alias = goog.i18n.DateTimeSymbols_en_ISO;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_en_IN' {
+    import alias = goog.i18n.DateTimeSymbols_en_IN;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_en_IE' {
+    import alias = goog.i18n.DateTimeSymbols_en_IE;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_en_GB' {
+    import alias = goog.i18n.DateTimeSymbols_en_GB;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_en_CA' {
+    import alias = goog.i18n.DateTimeSymbols_en_CA;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_en_AU' {
+    import alias = goog.i18n.DateTimeSymbols_en_AU;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_en' {
+    import alias = goog.i18n.DateTimeSymbols_en;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_el' {
+    import alias = goog.i18n.DateTimeSymbols_el;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_de_CH' {
+    import alias = goog.i18n.DateTimeSymbols_de_CH;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_de_AT' {
+    import alias = goog.i18n.DateTimeSymbols_de_AT;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_de' {
+    import alias = goog.i18n.DateTimeSymbols_de;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_da' {
+    import alias = goog.i18n.DateTimeSymbols_da;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_cy' {
+    import alias = goog.i18n.DateTimeSymbols_cy;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_cs' {
+    import alias = goog.i18n.DateTimeSymbols_cs;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_chr' {
+    import alias = goog.i18n.DateTimeSymbols_chr;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_ca' {
+    import alias = goog.i18n.DateTimeSymbols_ca;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_bs' {
+    import alias = goog.i18n.DateTimeSymbols_bs;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_br' {
+    import alias = goog.i18n.DateTimeSymbols_br;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_bn' {
+    import alias = goog.i18n.DateTimeSymbols_bn;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_bg' {
+    import alias = goog.i18n.DateTimeSymbols_bg;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_be' {
+    import alias = goog.i18n.DateTimeSymbols_be;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_az' {
+    import alias = goog.i18n.DateTimeSymbols_az;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_ar_DZ' {
+    import alias = goog.i18n.DateTimeSymbols_ar_DZ;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_ar' {
+    import alias = goog.i18n.DateTimeSymbols_ar;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_am' {
+    import alias = goog.i18n.DateTimeSymbols_am;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols_af' {
+    import alias = goog.i18n.DateTimeSymbols_af;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbolsType' {
+    import alias = goog.i18n.DateTimeSymbolsType;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.DateTimeSymbols' {
+    import alias = goog.i18n.DateTimeSymbols;
+    export default alias;
+}
+
 declare namespace goog.i18n {
     /**
      * Date/time formatting symbols for locale en_ISO.

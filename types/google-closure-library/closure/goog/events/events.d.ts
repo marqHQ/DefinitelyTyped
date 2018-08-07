@@ -6,6 +6,25 @@
 /// <reference path="./event.d.ts"/>
 /// <reference path="../debug/errorhandler.d.ts"/>
 
+declare module 'goog:goog.events' {
+    export = goog.events;
+}
+
+declare module 'goog:goog.events.ListenableType' {
+    import alias = goog.events.ListenableType;
+    export default alias;
+}
+
+declare module 'goog:goog.events.Key' {
+    import alias = goog.events.Key;
+    export default alias;
+}
+
+declare module 'goog:goog.events.CaptureSimulationMode' {
+    import alias = goog.events.CaptureSimulationMode;
+    export default alias;
+}
+
 declare namespace goog.events {
     /**
      * @typedef {number|goog.events.ListenableKey}

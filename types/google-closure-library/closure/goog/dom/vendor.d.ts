@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.dom.vendor' {
+    export = goog.dom.vendor;
+}
+
 declare namespace goog.dom.vendor {
     /**
      * Returns the JS vendor prefix used in CSS properties. Different vendors

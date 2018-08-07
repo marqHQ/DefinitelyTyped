@@ -5,6 +5,16 @@
 /// <reference path="./control.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.TabBar' {
+    import alias = goog.ui.TabBar;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.TabBar.Location' {
+    import alias = goog.ui.TabBar.Location;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Tab bar UI component.  A tab bar contains tabs, rendered above, below,

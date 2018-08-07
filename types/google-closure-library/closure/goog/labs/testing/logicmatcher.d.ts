@@ -1,6 +1,21 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./matcher.d.ts"/>
 
+declare module 'goog:goog.labs.testing.IsNotMatcher' {
+    import alias = goog.labs.testing.IsNotMatcher;
+    export default alias;
+}
+
+declare module 'goog:goog.labs.testing.AnyOfMatcher' {
+    import alias = goog.labs.testing.AnyOfMatcher;
+    export default alias;
+}
+
+declare module 'goog:goog.labs.testing.AllOfMatcher' {
+    import alias = goog.labs.testing.AllOfMatcher;
+    export default alias;
+}
+
 declare namespace goog.labs.testing {
     /**
      * The AllOf matcher.

@@ -5,6 +5,11 @@
 /// <reference path="../uri/uri.d.ts"/>
 /// <reference path="../structs/map.d.ts"/>
 
+declare module 'goog:goog.net.MockIFrameIo' {
+    import alias = goog.net.MockIFrameIo;
+    export default alias;
+}
+
 declare namespace goog.net {
     /**
      * Mock implementation of goog.net.IframeIo. This doesn't provide a mock

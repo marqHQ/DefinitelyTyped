@@ -8,6 +8,11 @@
 /// <reference path="../events/event.d.ts"/>
 /// <reference path="../events/browserevent.d.ts"/>
 
+declare module 'goog:goog.ui.PlainTextSpellChecker' {
+    import alias = goog.ui.PlainTextSpellChecker;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Plain text spell checker implementation.

@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./menubase.d.ts"/>
 
+declare module 'goog:goog.ui.AttachableMenu' {
+    import alias = goog.ui.AttachableMenu;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * An implementation of a menu that can attach itself to DOM element that

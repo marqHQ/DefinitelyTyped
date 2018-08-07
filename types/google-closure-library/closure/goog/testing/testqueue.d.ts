@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.testing.TestQueue' {
+    import alias = goog.testing.TestQueue;
+    export default alias;
+}
+
 declare namespace goog.testing {
     /**
      * Generic queue for writing unit tests

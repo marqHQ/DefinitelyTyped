@@ -2,6 +2,11 @@
 /// <reference path="./bidi.d.ts"/>
 /// <reference path="../html/safehtml.d.ts"/>
 
+declare module 'goog:goog.i18n.BidiFormatter' {
+    import alias = goog.i18n.BidiFormatter;
+    export default alias;
+}
+
 declare namespace goog.i18n {
     /**
      * Utility class for formatting text for display in a potentially

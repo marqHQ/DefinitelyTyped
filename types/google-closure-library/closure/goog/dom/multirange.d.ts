@@ -4,6 +4,16 @@
 /// <reference path="./savedrange.d.ts"/>
 /// <reference path="./abstractrange.d.ts"/>
 
+declare module 'goog:goog.dom.MultiRangeIterator' {
+    import alias = goog.dom.MultiRangeIterator;
+    export default alias;
+}
+
+declare module 'goog:goog.dom.MultiRange' {
+    import alias = goog.dom.MultiRange;
+    export default alias;
+}
+
 declare namespace goog.dom {
     /**
      * Creates a new multi part range with no properties.  Do not use this

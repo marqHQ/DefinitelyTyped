@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.structs.Node' {
+    import alias = goog.structs.Node;
+    export default alias;
+}
+
 declare namespace goog.structs {
     /**
      * A generic immutable node. This can be used in various collections that

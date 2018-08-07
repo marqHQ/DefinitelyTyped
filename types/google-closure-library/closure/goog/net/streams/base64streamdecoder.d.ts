@@ -1,5 +1,10 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.net.streams.Base64StreamDecoder' {
+    import alias = goog.net.streams.Base64StreamDecoder;
+    export default alias;
+}
+
 declare namespace goog.net.streams {
     /**
      * Base64 stream decoder.

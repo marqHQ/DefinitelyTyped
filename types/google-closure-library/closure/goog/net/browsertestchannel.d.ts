@@ -5,6 +5,11 @@
 /// <reference path="./xhrio.d.ts"/>
 /// <reference path="./channelrequest.d.ts"/>
 
+declare module 'goog:goog.net.BrowserTestChannel' {
+    import alias = goog.net.BrowserTestChannel;
+    export default alias;
+}
+
 declare namespace goog.net {
     /**
      * Encapsulates the logic for a single BrowserTestChannel.

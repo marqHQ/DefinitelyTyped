@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.userAgent.iphoto' {
+    export = goog.userAgent.iphoto;
+}
+
 declare namespace goog.userAgent.iphoto {
     /**
      * Whether we can detect that the user has iPhoto installed.

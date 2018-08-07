@@ -3,6 +3,16 @@
 /// <reference path="../dom/dom.d.ts"/>
 /// <reference path="./menuitemrenderer.d.ts"/>
 
+declare module 'goog:goog.ui.TriStateMenuItem' {
+    import alias = goog.ui.TriStateMenuItem;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.TriStateMenuItem.State' {
+    import alias = goog.ui.TriStateMenuItem.State;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Class representing a three state checkbox menu item.

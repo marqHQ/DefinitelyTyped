@@ -2,6 +2,11 @@
 /// <reference path="./controlrenderer.d.ts"/>
 /// <reference path="./checkbox.d.ts"/>
 
+declare module 'goog:goog.ui.CheckboxRenderer' {
+    import alias = goog.ui.CheckboxRenderer;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Default renderer for {@link goog.ui.Checkbox}s.  Extends the superclass

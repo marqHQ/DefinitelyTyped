@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.debug.RelativeTimeProvider' {
+    import alias = goog.debug.RelativeTimeProvider;
+    export default alias;
+}
+
 declare namespace goog.debug {
     /**
      * A simple object to keep track of a timestamp considered the start of

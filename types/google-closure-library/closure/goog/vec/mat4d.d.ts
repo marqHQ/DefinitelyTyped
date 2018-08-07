@@ -4,6 +4,15 @@
 /// <reference path="./vec3d.d.ts"/>
 /// <reference path="./quaternion.d.ts"/>
 
+declare module 'goog:goog.vec.mat4d' {
+    export = goog.vec.mat4d;
+}
+
+declare module 'goog:goog.vec.mat4d.Type' {
+    import alias = goog.vec.mat4d.Type;
+    export default alias;
+}
+
 declare namespace goog {
 }
 

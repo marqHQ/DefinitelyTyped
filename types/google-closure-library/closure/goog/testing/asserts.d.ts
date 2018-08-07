@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.testing.asserts' {
+    export = goog.testing.asserts;
+}
+
 declare namespace goog.testing.asserts {
     /**
      * The return value of the equality predicate passed to findDifferences below,

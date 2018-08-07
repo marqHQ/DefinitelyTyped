@@ -6,6 +6,11 @@
 /// <reference path="../../fs/error.d.ts"/>
 /// <reference path="./blob.d.ts"/>
 
+declare module 'goog:goog.testing.fs.FileWriter' {
+    import alias = goog.testing.fs.FileWriter;
+    export default alias;
+}
+
 declare namespace goog.testing.fs {
     /**
      * A mock FileWriter object. This emits the same events as

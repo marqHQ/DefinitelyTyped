@@ -1,5 +1,15 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.async.WorkQueue' {
+    import alias = goog.async.WorkQueue;
+    export default alias;
+}
+
+declare module 'goog:goog.async.WorkItem' {
+    import alias = goog.async.WorkItem;
+    export default alias;
+}
+
 declare namespace goog.async {
     /**
      * A low GC workqueue. The key elements of this design:

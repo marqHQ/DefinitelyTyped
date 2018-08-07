@@ -1,6 +1,45 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./mock.d.ts"/>
 
+declare module 'goog:goog.testing.mockmatchers' {
+    export = goog.testing.mockmatchers;
+}
+
+declare module 'goog:goog.testing.mockmatchers.TypeOf' {
+    import alias = goog.testing.mockmatchers.TypeOf;
+    export default alias;
+}
+
+declare module 'goog:goog.testing.mockmatchers.SaveArgument' {
+    import alias = goog.testing.mockmatchers.SaveArgument;
+    export default alias;
+}
+
+declare module 'goog:goog.testing.mockmatchers.RegexpMatch' {
+    import alias = goog.testing.mockmatchers.RegexpMatch;
+    export default alias;
+}
+
+declare module 'goog:goog.testing.mockmatchers.ObjectEquals' {
+    import alias = goog.testing.mockmatchers.ObjectEquals;
+    export default alias;
+}
+
+declare module 'goog:goog.testing.mockmatchers.InstanceOf' {
+    import alias = goog.testing.mockmatchers.InstanceOf;
+    export default alias;
+}
+
+declare module 'goog:goog.testing.mockmatchers.IgnoreArgument' {
+    import alias = goog.testing.mockmatchers.IgnoreArgument;
+    export default alias;
+}
+
+declare module 'goog:goog.testing.mockmatchers.ArgumentMatcher' {
+    import alias = goog.testing.mockmatchers.ArgumentMatcher;
+    export default alias;
+}
+
 declare namespace goog.testing.mockmatchers {
     /**
      * A simple interface for executing argument matching.  A match in this case is

@@ -7,6 +7,16 @@
 /// <reference path="./menuitem.d.ts"/>
 /// <reference path="./menuseparator.d.ts"/>
 
+declare module 'goog:goog.ui.Menu' {
+    import alias = goog.ui.Menu;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.Menu.EventType' {
+    import alias = goog.ui.Menu.EventType;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * A basic menu class.

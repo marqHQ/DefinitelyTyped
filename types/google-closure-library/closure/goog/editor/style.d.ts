@@ -1,6 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../events/eventhandler.d.ts"/>
 
+declare module 'goog:goog.editor.style' {
+    export = goog.editor.style;
+}
+
 declare namespace goog.editor.style {
     /**
      * Checks whether the given element inherits display: block.

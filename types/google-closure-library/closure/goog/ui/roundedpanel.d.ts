@@ -5,6 +5,31 @@
 /// <reference path="../graphics/abstractgraphics.d.ts"/>
 /// <reference path="../math/size.d.ts"/>
 
+declare module 'goog:goog.ui.RoundedPanel' {
+    import alias = goog.ui.RoundedPanel;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.RoundedPanel.Corner' {
+    import alias = goog.ui.RoundedPanel.Corner;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.GraphicsRoundedPanel' {
+    import alias = goog.ui.GraphicsRoundedPanel;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.CssRoundedPanel' {
+    import alias = goog.ui.CssRoundedPanel;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.BaseRoundedPanel' {
+    import alias = goog.ui.BaseRoundedPanel;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Base class for the hierarchy of RoundedPanel classes. Do not

@@ -5,6 +5,21 @@
 /// <reference path="../events/eventhandler.d.ts"/>
 /// <reference path="../events/browserevent.d.ts"/>
 
+declare module 'goog:goog.History.EventType' {
+    import alias = goog.History.EventType;
+    export default alias;
+}
+
+declare module 'goog:goog.History.Event' {
+    import alias = goog.History.Event;
+    export default alias;
+}
+
+declare module 'goog:goog.History' {
+    import alias = goog.History;
+    export default alias;
+}
+
 declare namespace goog {
     /**
      * A history management object. Can be instantiated in user-visible mode (uses

@@ -2,6 +2,11 @@
 /// <reference path="../mockcontrol.d.ts"/>
 /// <reference path="../../../../third_party/closure/goog/mochikit/async/deferred.d.ts"/>
 
+declare module 'goog:goog.testing.async.MockControl' {
+    import alias = goog.testing.async.MockControl;
+    export default alias;
+}
+
 declare namespace goog.testing.async {
     /**
      * Provides asynchronous mocks and assertions controlled by a parent

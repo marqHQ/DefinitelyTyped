@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../disposable/disposable.d.ts"/>
 
+declare module 'goog:goog.structs.SimplePool' {
+    import alias = goog.structs.SimplePool;
+    export default alias;
+}
+
 declare namespace goog.structs {
     /**
      * A generic pool class. Simpler and more efficient than goog.structs.Pool

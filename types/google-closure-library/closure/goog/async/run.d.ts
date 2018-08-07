@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.async.run' {
+    export = goog.async.run;
+}
+
 declare namespace goog.async {
     /**
      * Fires the provided callback just before the current callstack unwinds, or as

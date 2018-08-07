@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="../../dom/dom.d.ts"/>
 
+declare module 'goog:goog.net.xpc.Transport' {
+    import alias = goog.net.xpc.Transport;
+    export default alias;
+}
+
 declare namespace goog.net.xpc {
     /**
      * The base class for transports.

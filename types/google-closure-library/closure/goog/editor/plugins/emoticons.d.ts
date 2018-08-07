@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="../plugin.d.ts"/>
 
+declare module 'goog:goog.editor.plugins.Emoticons' {
+    import alias = goog.editor.plugins.Emoticons;
+    export default alias;
+}
+
 declare namespace goog.editor.plugins {
     /**
      * Plugin for generating emoticons.

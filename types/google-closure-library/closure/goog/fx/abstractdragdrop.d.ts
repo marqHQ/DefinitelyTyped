@@ -7,6 +7,26 @@
 /// <reference path="../math/box.d.ts"/>
 /// <reference path="../events/eventhandler.d.ts"/>
 
+declare module 'goog:goog.fx.DragDropItem' {
+    import alias = goog.fx.DragDropItem;
+    export default alias;
+}
+
+declare module 'goog:goog.fx.DragDropEvent' {
+    import alias = goog.fx.DragDropEvent;
+    export default alias;
+}
+
+declare module 'goog:goog.fx.AbstractDragDrop' {
+    import alias = goog.fx.AbstractDragDrop;
+    export default alias;
+}
+
+declare module 'goog:goog.fx.AbstractDragDrop.EventType' {
+    import alias = goog.fx.AbstractDragDrop.EventType;
+    export default alias;
+}
+
 declare namespace goog.fx {
     /**
      * Abstract class that provides reusable functionality for implementing drag

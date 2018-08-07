@@ -2,6 +2,11 @@
 /// <reference path="./processor.d.ts"/>
 /// <reference path="./json.d.ts"/>
 
+declare module 'goog:goog.json.EvalJsonProcessor' {
+    import alias = goog.json.EvalJsonProcessor;
+    export default alias;
+}
+
 declare namespace goog.json {
     /**
      * A class that parses and stringifies JSON using eval (as implemented in

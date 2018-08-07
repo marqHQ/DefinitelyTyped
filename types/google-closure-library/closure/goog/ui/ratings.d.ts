@@ -3,6 +3,16 @@
 /// <reference path="../dom/dom.d.ts"/>
 /// <reference path="../events/browserevent.d.ts"/>
 
+declare module 'goog:goog.ui.Ratings' {
+    import alias = goog.ui.Ratings;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.Ratings.EventType' {
+    import alias = goog.ui.Ratings.EventType;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * A UI Control used for rating things, i.e. videos on Google Video.

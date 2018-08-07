@@ -2,6 +2,11 @@
 /// <reference path="./element.d.ts"/>
 /// <reference path="./abstractgraphics.d.ts"/>
 
+declare module 'goog:goog.graphics.GroupElement' {
+    import alias = goog.graphics.GroupElement;
+    export default alias;
+}
+
 declare namespace goog.graphics {
     /**
      * Interface for a graphics group element.

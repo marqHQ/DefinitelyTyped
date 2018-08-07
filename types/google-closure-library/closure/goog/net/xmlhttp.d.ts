@@ -2,6 +2,31 @@
 /// <reference path="./xmlhttpfactory.d.ts"/>
 /// <reference path="./xhrlike.d.ts"/>
 
+declare module 'goog:goog.net.XmlHttpDefines' {
+    import alias = goog.net.XmlHttpDefines;
+    export default alias;
+}
+
+declare module 'goog:goog.net.XmlHttp' {
+    import alias = goog.net.XmlHttp;
+    export default alias;
+}
+
+declare module 'goog:goog.net.XmlHttp.ReadyState' {
+    import alias = goog.net.XmlHttp.ReadyState;
+    export default alias;
+}
+
+declare module 'goog:goog.net.XmlHttp.OptionType' {
+    import alias = goog.net.XmlHttp.OptionType;
+    export default alias;
+}
+
+declare module 'goog:goog.net.DefaultXmlHttpFactory' {
+    import alias = goog.net.DefaultXmlHttpFactory;
+    export default alias;
+}
+
 declare namespace goog.net {
     /**
      * Default factory to use when creating xhr objects.  You probably shouldn't be

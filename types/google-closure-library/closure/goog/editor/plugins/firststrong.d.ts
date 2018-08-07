@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="../plugin.d.ts"/>
 
+declare module 'goog:goog.editor.plugins.FirstStrong' {
+    import alias = goog.editor.plugins.FirstStrong;
+    export default alias;
+}
+
 declare namespace goog.editor.plugins {
     /**
      * First Strong plugin.

@@ -3,6 +3,11 @@
 /// <reference path="./events.d.ts"/>
 /// <reference path="./eventhandler.d.ts"/>
 
+declare module 'goog:goog.events.actionEventWrapper' {
+    import alias = goog.events.actionEventWrapper;
+    export default alias;
+}
+
 declare namespace goog.events {
     /**
      * Event wrapper for action handling. Fires when an element is activated either

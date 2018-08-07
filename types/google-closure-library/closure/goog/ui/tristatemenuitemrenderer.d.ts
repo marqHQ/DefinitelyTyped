@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./menuitemrenderer.d.ts"/>
 
+declare module 'goog:goog.ui.TriStateMenuItemRenderer' {
+    import alias = goog.ui.TriStateMenuItemRenderer;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Default renderer for {@link goog.ui.TriStateMenuItemRenderer}s. Each item has

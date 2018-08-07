@@ -3,6 +3,11 @@
 /// <reference path="./propertyreplacer.d.ts"/>
 /// <reference path="../promise/thenable.d.ts"/>
 
+declare module 'goog:goog.testing.MockClock' {
+    import alias = goog.testing.MockClock;
+    export default alias;
+}
+
 declare namespace goog.testing {
     /**
      * Class for unit testing code that uses setTimeout and clearTimeout.

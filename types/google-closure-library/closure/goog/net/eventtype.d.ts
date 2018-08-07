@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.net.EventType' {
+    import alias = goog.net.EventType;
+    export default alias;
+}
+
 declare namespace goog.net {
     /**
      * Event names for network events

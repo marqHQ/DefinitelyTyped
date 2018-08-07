@@ -1,6 +1,26 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./logrecord.d.ts"/>
 
+declare module 'goog:goog.debug.Logger' {
+    import alias = goog.debug.Logger;
+    export default alias;
+}
+
+declare module 'goog:goog.debug.Logger.Level' {
+    import alias = goog.debug.Logger.Level;
+    export default alias;
+}
+
+declare module 'goog:goog.debug.Loggable' {
+    import alias = goog.debug.Loggable;
+    export default alias;
+}
+
+declare module 'goog:goog.debug.LogManager' {
+    import alias = goog.debug.LogManager;
+    export default alias;
+}
+
 declare namespace goog.debug {
     /**
      * The Logger is an object used for logging debug messages. Loggers are

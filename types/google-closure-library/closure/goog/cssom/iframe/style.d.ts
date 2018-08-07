@@ -1,5 +1,9 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.cssom.iframe.style' {
+    export = goog.cssom.iframe.style;
+}
+
 declare namespace goog.cssom.iframe.style {
     /**
      * Class representing a CSS rule set. A rule set is something like this:

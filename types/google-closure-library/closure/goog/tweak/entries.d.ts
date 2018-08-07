@@ -1,6 +1,51 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../log/log.d.ts"/>
 
+declare module 'goog:goog.tweak.StringSetting' {
+    import alias = goog.tweak.StringSetting;
+    export default alias;
+}
+
+declare module 'goog:goog.tweak.NumericSetting' {
+    import alias = goog.tweak.NumericSetting;
+    export default alias;
+}
+
+declare module 'goog:goog.tweak.ButtonAction' {
+    import alias = goog.tweak.ButtonAction;
+    export default alias;
+}
+
+declare module 'goog:goog.tweak.BooleanSetting' {
+    import alias = goog.tweak.BooleanSetting;
+    export default alias;
+}
+
+declare module 'goog:goog.tweak.BooleanInGroupSetting' {
+    import alias = goog.tweak.BooleanInGroupSetting;
+    export default alias;
+}
+
+declare module 'goog:goog.tweak.BooleanGroup' {
+    import alias = goog.tweak.BooleanGroup;
+    export default alias;
+}
+
+declare module 'goog:goog.tweak.BaseSetting' {
+    import alias = goog.tweak.BaseSetting;
+    export default alias;
+}
+
+declare module 'goog:goog.tweak.BasePrimitiveSetting' {
+    import alias = goog.tweak.BasePrimitiveSetting;
+    export default alias;
+}
+
+declare module 'goog:goog.tweak.BaseEntry' {
+    import alias = goog.tweak.BaseEntry;
+    export default alias;
+}
+
 declare namespace goog.tweak {
     /**
      * Base class for all Registry entries.

@@ -1,5 +1,9 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.testing.ui.style' {
+    export = goog.testing.ui.style;
+}
+
 declare namespace goog.testing.ui.style {
     /**
      * Uses document.write to add an iFrame to the page with the reference path in

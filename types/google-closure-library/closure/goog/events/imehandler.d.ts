@@ -4,6 +4,21 @@
 /// <reference path="./browserevent.d.ts"/>
 /// <reference path="./event.d.ts"/>
 
+declare module 'goog:goog.events.ImeHandler' {
+    import alias = goog.events.ImeHandler;
+    export default alias;
+}
+
+declare module 'goog:goog.events.ImeHandler.EventType' {
+    import alias = goog.events.ImeHandler.EventType;
+    export default alias;
+}
+
+declare module 'goog:goog.events.ImeHandler.Event' {
+    import alias = goog.events.ImeHandler.Event;
+    export default alias;
+}
+
 declare namespace goog.events {
     /**
      * Dispatches high-level events for IMEs.

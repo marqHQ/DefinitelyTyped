@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.graphics.Fill' {
+    import alias = goog.graphics.Fill;
+    export default alias;
+}
+
 declare namespace goog.graphics {
     /**
      * Creates a fill object

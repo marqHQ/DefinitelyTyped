@@ -1,5 +1,20 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.labs.i18n.ListFormat' {
+    import alias = goog.labs.i18n.ListFormat;
+    export default alias;
+}
+
+declare module 'goog:goog.labs.i18n.GenderInfo' {
+    import alias = goog.labs.i18n.GenderInfo;
+    export default alias;
+}
+
+declare module 'goog:goog.labs.i18n.GenderInfo.Gender' {
+    import alias = goog.labs.i18n.GenderInfo.Gender;
+    export default alias;
+}
+
 declare namespace goog.labs.i18n {
     /**
      * ListFormat provides a method to format a list/array of objects to a string,

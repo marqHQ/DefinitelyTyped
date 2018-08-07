@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.math.ExponentialBackoff' {
+    import alias = goog.math.ExponentialBackoff;
+    export default alias;
+}
+
 declare namespace goog.math {
     /**
      * @struct

@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.crypt.baseN' {
+    import alias = goog.crypt.baseN;
+    export default alias;
+}
+
 declare namespace goog.crypt.baseN {
     /**
      * Base-2, i.e. '01'.

@@ -1,5 +1,10 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.net.streams.NodeReadableStream' {
+    import alias = goog.net.streams.NodeReadableStream;
+    export default alias;
+}
+
 declare namespace goog.net.streams {
     interface NodeReadableStream {
         /**

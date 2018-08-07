@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./tag.d.ts"/>
 
+declare module 'goog:goog.dom.pattern.EndTag' {
+    import alias = goog.dom.pattern.EndTag;
+    export default alias;
+}
+
 declare namespace goog.dom.pattern {
     /**
      * Pattern object that matches a closing tag.

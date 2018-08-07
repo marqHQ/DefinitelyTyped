@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.locale.timeZoneDetection' {
+    import alias = goog.locale.timeZoneDetection;
+    export default alias;
+}
+
 declare namespace goog.locale.timeZoneDetection {
     /**
      * Calculates time zone fingerprint by poking time zone offsets for 13

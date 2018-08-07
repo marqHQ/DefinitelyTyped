@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.math.Coordinate3' {
+    import alias = goog.math.Coordinate3;
+    export default alias;
+}
+
 declare namespace goog.math {
     /**
      * Class for representing coordinates and positions in 3 dimensions.

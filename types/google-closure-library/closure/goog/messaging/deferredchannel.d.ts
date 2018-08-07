@@ -3,6 +3,11 @@
 /// <reference path="./messagechannel.d.ts"/>
 /// <reference path="../../../third_party/closure/goog/mochikit/async/deferred.d.ts"/>
 
+declare module 'goog:goog.messaging.DeferredChannel' {
+    import alias = goog.messaging.DeferredChannel;
+    export default alias;
+}
+
 declare namespace goog.messaging {
     /**
      * Creates a new DeferredChannel, which wraps a deferred MessageChannel and

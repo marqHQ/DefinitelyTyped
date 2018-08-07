@@ -1,5 +1,10 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.ui.ac.RenderOptions' {
+    import alias = goog.ui.ac.RenderOptions;
+    export default alias;
+}
+
 declare namespace goog.ui.ac {
     /**
      * A simple class that contains options for rendering a set of autocomplete

@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./hash.d.ts"/>
 
+declare module 'goog:goog.crypt.hashTester' {
+    import alias = goog.crypt.hashTester;
+    export default alias;
+}
+
 declare namespace goog.crypt.hashTester {
     /**
      * Runs basic tests.

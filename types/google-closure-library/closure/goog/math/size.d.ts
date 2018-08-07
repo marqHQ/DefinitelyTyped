@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.math.Size' {
+    import alias = goog.math.Size;
+    export default alias;
+}
+
 declare namespace goog.math {
     /**
      * Class for representing sizes consisting of a width and height. Undefined

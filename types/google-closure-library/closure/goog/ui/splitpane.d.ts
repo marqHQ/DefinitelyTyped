@@ -6,6 +6,16 @@
 /// <reference path="../math/size.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.SplitPane' {
+    import alias = goog.ui.SplitPane;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.SplitPane.Orientation' {
+    import alias = goog.ui.SplitPane.Orientation;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * A left/right up/down Container SplitPane.

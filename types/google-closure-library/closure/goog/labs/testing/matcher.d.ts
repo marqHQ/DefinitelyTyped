@@ -1,5 +1,10 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.labs.testing.Matcher' {
+    import alias = goog.labs.testing.Matcher;
+    export default alias;
+}
+
 declare namespace goog.labs.testing {
     interface Matcher {
         /**

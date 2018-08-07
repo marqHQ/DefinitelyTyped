@@ -1,6 +1,16 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./mockinterface.d.ts"/>
 
+declare module 'goog:goog.testing.MockExpectation' {
+    import alias = goog.testing.MockExpectation;
+    export default alias;
+}
+
+declare module 'goog:goog.testing.Mock' {
+    import alias = goog.testing.Mock;
+    export default alias;
+}
+
 declare namespace goog.testing {
     /**
      * This is a class that represents an expectation.

@@ -7,6 +7,21 @@
 /// <reference path="../events/event.d.ts"/>
 /// <reference path="./eventtype.d.ts"/>
 
+declare module 'goog:goog.net.XhrManager' {
+    import alias = goog.net.XhrManager;
+    export default alias;
+}
+
+declare module 'goog:goog.net.XhrManager.Request' {
+    import alias = goog.net.XhrManager.Request;
+    export default alias;
+}
+
+declare module 'goog:goog.net.XhrManager.Event' {
+    import alias = goog.net.XhrManager.Event;
+    export default alias;
+}
+
 declare namespace goog.net {
     /**
      * A manager of an XhrIoPool.

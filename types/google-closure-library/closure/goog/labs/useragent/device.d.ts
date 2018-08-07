@@ -1,5 +1,9 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.labs.userAgent.device' {
+    export = goog.labs.userAgent.device;
+}
+
 declare namespace goog.labs.userAgent.device {
     /**
      * Currently we detect the iPhone, iPod and Android mobiles (devices that have

@@ -1,5 +1,10 @@
 /// <reference path="../../../../../globals.d.ts"/>
 
+declare module 'goog:goog.dom.pattern.callback.Test' {
+    import alias = goog.dom.pattern.callback.Test;
+    export default alias;
+}
+
 declare namespace goog.dom.pattern.callback {
     /**
      * Callback class for testing for at least one match.

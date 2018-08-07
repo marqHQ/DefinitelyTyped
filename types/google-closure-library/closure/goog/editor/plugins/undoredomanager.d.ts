@@ -3,6 +3,16 @@
 /// <reference path="./undoredostate.d.ts"/>
 /// <reference path="../../events/events.d.ts"/>
 
+declare module 'goog:goog.editor.plugins.UndoRedoManager' {
+    import alias = goog.editor.plugins.UndoRedoManager;
+    export default alias;
+}
+
+declare module 'goog:goog.editor.plugins.UndoRedoManager.EventType' {
+    import alias = goog.editor.plugins.UndoRedoManager.EventType;
+    export default alias;
+}
+
 declare namespace goog.editor.plugins {
     /**
      * Manages undo and redo operations through a series of `UndoRedoState`s

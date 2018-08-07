@@ -1,5 +1,10 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.ui.ac.CachingMatcher' {
+    import alias = goog.ui.ac.CachingMatcher;
+    export default alias;
+}
+
 declare namespace goog.ui.ac {
     /**
      * A matcher which wraps another (typically slow) matcher and

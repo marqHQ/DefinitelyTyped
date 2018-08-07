@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.math.IRect' {
+    import alias = goog.math.IRect;
+    export default alias;
+}
+
 declare namespace goog.math {
     /**
      * Record for representing rectangular regions, allows compatibility between

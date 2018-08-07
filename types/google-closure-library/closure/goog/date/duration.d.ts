@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.date.duration' {
+    export = goog.date.duration;
+}
+
 declare namespace goog.date.duration {
     /**
      * Accepts a duration in milliseconds and outputs an absolute duration time in

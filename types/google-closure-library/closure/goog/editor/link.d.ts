@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./field.d.ts"/>
 
+declare module 'goog:goog.editor.Link' {
+    import alias = goog.editor.Link;
+    export default alias;
+}
+
 declare namespace goog.editor {
     /**
      * Wrap an editable link.

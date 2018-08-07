@@ -3,6 +3,11 @@
 /// <reference path="../dom/dom.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.CookieEditor' {
+    import alias = goog.ui.CookieEditor;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Displays and edits the value of a cookie.

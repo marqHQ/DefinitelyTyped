@@ -4,6 +4,30 @@
 /// <reference path="../math/size.d.ts"/>
 /// <reference path="../math/rect.d.ts"/>
 
+declare module 'goog:goog.positioning' {
+    export = goog.positioning;
+}
+
+declare module 'goog:goog.positioning.OverflowStatus' {
+    import alias = goog.positioning.OverflowStatus;
+    export default alias;
+}
+
+declare module 'goog:goog.positioning.Overflow' {
+    import alias = goog.positioning.Overflow;
+    export default alias;
+}
+
+declare module 'goog:goog.positioning.CornerBit' {
+    import alias = goog.positioning.CornerBit;
+    export default alias;
+}
+
+declare module 'goog:goog.positioning.Corner' {
+    import alias = goog.positioning.Corner;
+    export default alias;
+}
+
 declare namespace goog.positioning {
     /**
      * Enum for bits in the {@see goog.positioning.Corner) bitmap.

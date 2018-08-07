@@ -1,6 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./component.d.ts"/>
 
+declare module 'goog:goog.ui.decorate' {
+    export = goog.ui.decorate;
+}
+
 declare namespace goog.ui {
     /**
      * Decorates the element with a suitable {@link goog.ui.Component} instance, if

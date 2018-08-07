@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.style.bidi' {
+    export = goog.style.bidi;
+}
+
 declare namespace goog.style.bidi {
     /**
      * Returns the normalized scrollLeft position for a scrolled element.

@@ -4,6 +4,11 @@
 /// <reference path="../math/rect.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.HsvaPalette' {
+    import alias = goog.ui.HsvaPalette;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Creates an HSVA palette. Allows a user to select the hue, saturation,

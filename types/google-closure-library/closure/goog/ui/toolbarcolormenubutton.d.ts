@@ -5,6 +5,11 @@
 /// <reference path="./colormenubuttonrenderer.d.ts"/>
 /// <reference path="../dom/dom.d.ts"/>
 
+declare module 'goog:goog.ui.ToolbarColorMenuButton' {
+    import alias = goog.ui.ToolbarColorMenuButton;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * A color menu button control for a toolbar.

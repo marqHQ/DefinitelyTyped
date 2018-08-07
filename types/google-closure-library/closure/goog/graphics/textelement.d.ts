@@ -4,6 +4,11 @@
 /// <reference path="./stroke.d.ts"/>
 /// <reference path="./fill.d.ts"/>
 
+declare module 'goog:goog.graphics.TextElement' {
+    import alias = goog.graphics.TextElement;
+    export default alias;
+}
+
 declare namespace goog.graphics {
     /**
      * Interface for a graphics text element.

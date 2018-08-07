@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.structs.CircularBuffer' {
+    import alias = goog.structs.CircularBuffer;
+    export default alias;
+}
+
 declare namespace goog.structs {
     /**
      * Class for CircularBuffer.

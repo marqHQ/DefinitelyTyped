@@ -4,6 +4,21 @@
 /// <reference path="../fx/transition.d.ts"/>
 /// <reference path="../events/browserevent.d.ts"/>
 
+declare module 'goog:goog.ui.PopupBase' {
+    import alias = goog.ui.PopupBase;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.PopupBase.Type' {
+    import alias = goog.ui.PopupBase.Type;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.PopupBase.EventType' {
+    import alias = goog.ui.PopupBase.EventType;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * The PopupBase class provides functionality for showing and hiding a generic

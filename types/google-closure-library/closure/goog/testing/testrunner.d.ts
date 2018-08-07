@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./testcase.d.ts"/>
 
+declare module 'goog:goog.testing.TestRunner' {
+    import alias = goog.testing.TestRunner;
+    export default alias;
+}
+
 declare namespace goog.testing {
     /**
      * Construct a test runner.

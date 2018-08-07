@@ -4,6 +4,11 @@
 /// <reference path="./multichannel.d.ts"/>
 /// <reference path="../log/log.d.ts"/>
 
+declare module 'goog:goog.messaging.RespondingChannel' {
+    import alias = goog.messaging.RespondingChannel;
+    export default alias;
+}
+
 declare namespace goog.messaging {
     /**
      * Creates a new RespondingChannel wrapping a single MessageChannel.

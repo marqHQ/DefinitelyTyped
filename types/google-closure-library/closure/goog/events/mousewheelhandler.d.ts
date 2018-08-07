@@ -3,6 +3,21 @@
 /// <reference path="./events.d.ts"/>
 /// <reference path="./browserevent.d.ts"/>
 
+declare module 'goog:goog.events.MouseWheelHandler' {
+    import alias = goog.events.MouseWheelHandler;
+    export default alias;
+}
+
+declare module 'goog:goog.events.MouseWheelHandler.EventType' {
+    import alias = goog.events.MouseWheelHandler.EventType;
+    export default alias;
+}
+
+declare module 'goog:goog.events.MouseWheelEvent' {
+    import alias = goog.events.MouseWheelEvent;
+    export default alias;
+}
+
 declare namespace goog.events {
     /**
      * This event handler allows you to catch mouse wheel events in a consistent

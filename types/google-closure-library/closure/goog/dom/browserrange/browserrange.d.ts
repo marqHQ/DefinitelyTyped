@@ -1,6 +1,15 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./abstractrange.d.ts"/>
 
+declare module 'goog:goog.dom.browserrange' {
+    export = goog.dom.browserrange;
+}
+
+declare module 'goog:goog.dom.browserrange.Error' {
+    import alias = goog.dom.browserrange.Error;
+    export default alias;
+}
+
 declare namespace goog.dom.browserrange {
     /**
      * Common error constants.

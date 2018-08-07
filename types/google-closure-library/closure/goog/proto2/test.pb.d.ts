@@ -1,6 +1,41 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./message.d.ts"/>
 
+declare module 'goog:proto2.TestDefaultParent' {
+    import alias = proto2.TestDefaultParent;
+    export default alias;
+}
+
+declare module 'goog:proto2.TestDefaultChild' {
+    import alias = proto2.TestDefaultChild;
+    export default alias;
+}
+
+declare module 'goog:proto2.TestAllTypes' {
+    import alias = proto2.TestAllTypes;
+    export default alias;
+}
+
+declare module 'goog:proto2.TestAllTypes.RepeatedGroup' {
+    import alias = proto2.TestAllTypes.RepeatedGroup;
+    export default alias;
+}
+
+declare module 'goog:proto2.TestAllTypes.OptionalGroup' {
+    import alias = proto2.TestAllTypes.OptionalGroup;
+    export default alias;
+}
+
+declare module 'goog:proto2.TestAllTypes.NestedMessage' {
+    import alias = proto2.TestAllTypes.NestedMessage;
+    export default alias;
+}
+
+declare module 'goog:proto2.TestAllTypes.NestedEnum' {
+    import alias = proto2.TestAllTypes.NestedEnum;
+    export default alias;
+}
+
 declare namespace goog {
     /*
      */

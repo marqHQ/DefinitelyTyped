@@ -4,6 +4,16 @@
 /// <reference path="../math/rect.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.ScrollFloater' {
+    import alias = goog.ui.ScrollFloater;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.ScrollFloater.EventType' {
+    import alias = goog.ui.ScrollFloater.EventType;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Creates a ScrollFloater; see file overview for details.

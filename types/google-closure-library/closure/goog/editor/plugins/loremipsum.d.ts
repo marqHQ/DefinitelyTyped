@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="../plugin.d.ts"/>
 
+declare module 'goog:goog.editor.plugins.LoremIpsum' {
+    import alias = goog.editor.plugins.LoremIpsum;
+    export default alias;
+}
+
 declare namespace goog.editor.plugins {
     /**
      * A plugin that manages lorem ipsum state of editable fields.

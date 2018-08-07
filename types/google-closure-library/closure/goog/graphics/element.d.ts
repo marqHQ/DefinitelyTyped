@@ -3,6 +3,11 @@
 /// <reference path="./abstractgraphics.d.ts"/>
 /// <reference path="./affinetransform.d.ts"/>
 
+declare module 'goog:goog.graphics.Element' {
+    import alias = goog.graphics.Element;
+    export default alias;
+}
+
 declare namespace goog.graphics {
     /**
      * Base class for a thin wrapper around the DOM element returned from

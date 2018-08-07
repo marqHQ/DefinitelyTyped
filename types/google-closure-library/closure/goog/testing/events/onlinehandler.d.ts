@@ -2,6 +2,11 @@
 /// <reference path="../../events/eventtarget.d.ts"/>
 /// <reference path="../../net/networkstatusmonitor.d.ts"/>
 
+declare module 'goog:goog.testing.events.OnlineHandler' {
+    import alias = goog.testing.events.OnlineHandler;
+    export default alias;
+}
+
 declare namespace goog.testing.events {
     /**
      * NetworkStatusMonitor test double.

@@ -1,5 +1,9 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.labs.userAgent.browser' {
+    export = goog.labs.userAgent.browser;
+}
+
 declare namespace goog.labs.userAgent.browser {
     /**
      * @return {boolean} Whether the user's browser is Opera.

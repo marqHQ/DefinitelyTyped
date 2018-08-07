@@ -4,6 +4,11 @@
 /// <reference path="../html/safehtml.d.ts"/>
 /// <reference path="../html/safestylesheet.d.ts"/>
 
+declare module 'goog:goog.debug.DebugWindow' {
+    import alias = goog.debug.DebugWindow;
+    export default alias;
+}
+
 declare namespace goog.debug {
     /**
      * Provides a debug DebugWindow that is bound to the goog.debug.Logger.

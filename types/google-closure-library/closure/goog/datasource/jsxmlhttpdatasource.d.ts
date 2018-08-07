@@ -3,6 +3,11 @@
 /// <reference path="../uri/uri.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.ds.JsXmlHttpDataSource' {
+    import alias = goog.ds.JsXmlHttpDataSource;
+    export default alias;
+}
+
 declare namespace goog.ds {
     /**
      * Similar to JsonDataSource, with using XMLHttpRequest for transport

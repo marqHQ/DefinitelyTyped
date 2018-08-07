@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../disposable/disposable.d.ts"/>
 
+declare module 'goog:goog.module.BaseModule' {
+    import alias = goog.module.BaseModule;
+    export default alias;
+}
+
 declare namespace goog.module {
     /**
      * A basic module object that represents a module of Javascript code that can

@@ -4,6 +4,11 @@
 /// <reference path="../dom/dom.d.ts"/>
 /// <reference path="./menuheaderrenderer.d.ts"/>
 
+declare module 'goog:goog.ui.MenuHeader' {
+    import alias = goog.ui.MenuHeader;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Class representing a menu header.

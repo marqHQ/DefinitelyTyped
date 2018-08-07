@@ -4,6 +4,31 @@
 /// <reference path="../events/browserevent.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.TabPaneEvent' {
+    import alias = goog.ui.TabPaneEvent;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.TabPane' {
+    import alias = goog.ui.TabPane;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.TabPane.TabPage' {
+    import alias = goog.ui.TabPane.TabPage;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.TabPane.TabLocation' {
+    import alias = goog.ui.TabPane.TabLocation;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.TabPane.Events' {
+    import alias = goog.ui.TabPane.Events;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * TabPane widget. All children already inside the tab pane container element

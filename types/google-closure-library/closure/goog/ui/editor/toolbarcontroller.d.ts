@@ -5,6 +5,11 @@
 /// <reference path="../../events/eventhandler.d.ts"/>
 /// <reference path="../../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.editor.ToolbarController' {
+    import alias = goog.ui.editor.ToolbarController;
+    export default alias;
+}
+
 declare namespace goog.ui.editor {
     /**
      * A class for managing the editor toolbar.  Acts as a bridge between

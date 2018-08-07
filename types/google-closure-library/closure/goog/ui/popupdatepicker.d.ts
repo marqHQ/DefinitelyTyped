@@ -6,6 +6,11 @@
 /// <reference path="../date/date.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.PopupDatePicker' {
+    import alias = goog.ui.PopupDatePicker;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Popup date picker widget. Fires goog.ui.PopupBase.EventType.SHOW or HIDE

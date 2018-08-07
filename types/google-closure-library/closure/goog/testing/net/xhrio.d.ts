@@ -6,6 +6,11 @@
 /// <reference path="../../net/xhrio.d.ts"/>
 /// <reference path="../../net/xhrlike.d.ts"/>
 
+declare module 'goog:goog.testing.net.XhrIo' {
+    import alias = goog.testing.net.XhrIo;
+    export default alias;
+}
+
 declare namespace goog.testing.net {
     /**
      * Mock implementation of goog.net.XhrIo. This doesn't provide a mock

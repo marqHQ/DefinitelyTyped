@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.testing.PropertyReplacer' {
+    import alias = goog.testing.PropertyReplacer;
+    export default alias;
+}
+
 declare namespace goog.testing {
     /**
      * Helper class for stubbing out variables and object properties for unit tests.

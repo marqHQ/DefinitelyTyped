@@ -1,5 +1,14 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.testing.stacktrace' {
+    export = goog.testing.stacktrace;
+}
+
+declare module 'goog:goog.testing.stacktrace.Frame' {
+    import alias = goog.testing.stacktrace.Frame;
+    export default alias;
+}
+
 declare namespace goog.testing.stacktrace {
     /**
      * Class representing one stack frame.

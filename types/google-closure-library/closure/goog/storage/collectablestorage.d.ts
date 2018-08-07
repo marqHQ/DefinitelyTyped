@@ -3,6 +3,11 @@
 /// <reference path="./mechanism/iterablemechanism.d.ts"/>
 /// <reference path="../iter/iter.d.ts"/>
 
+declare module 'goog:goog.storage.CollectableStorage' {
+    import alias = goog.storage.CollectableStorage;
+    export default alias;
+}
+
 declare namespace goog.storage {
     /**
      * Provides a storage with expiring keys and a collection method.

@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../date/datelike.d.ts"/>
 
+declare module 'goog:goog.i18n.TimeZone' {
+    import alias = goog.i18n.TimeZone;
+    export default alias;
+}
+
 declare namespace goog.i18n {
     /**
      * TimeZone class implemented a time zone resolution and name information

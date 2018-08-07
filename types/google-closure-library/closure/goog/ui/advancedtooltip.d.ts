@@ -4,6 +4,11 @@
 /// <reference path="../math/box.d.ts"/>
 /// <reference path="../math/coordinate.d.ts"/>
 
+declare module 'goog:goog.ui.AdvancedTooltip' {
+    import alias = goog.ui.AdvancedTooltip;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Advanced tooltip widget with cursor tracking abilities. Works like a regular

@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.locale' {
+    export = goog.locale;
+}
+
 declare namespace goog.locale {
     /**
      * Set current locale to the specified one.

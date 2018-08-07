@@ -1,6 +1,10 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./transition.d.ts"/>
 
+declare module 'goog:goog.fx.css3' {
+    export = goog.fx.css3;
+}
+
 declare namespace goog.fx.css3 {
     /**
      * Creates a transition to fade the element.

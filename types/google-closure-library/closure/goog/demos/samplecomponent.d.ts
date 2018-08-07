@@ -4,6 +4,11 @@
 /// <reference path="../events/keyhandler.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.demos.SampleComponent' {
+    import alias = goog.demos.SampleComponent;
+    export default alias;
+}
+
 declare namespace goog.demos {
     /**
      * A simple box that changes colour when clicked. This class demonstrates the

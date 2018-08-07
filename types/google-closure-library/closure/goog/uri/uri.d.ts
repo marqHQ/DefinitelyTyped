@@ -1,6 +1,16 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../structs/map.d.ts"/>
 
+declare module 'goog:goog.Uri' {
+    import alias = goog.Uri;
+    export default alias;
+}
+
+declare module 'goog:goog.Uri.QueryData' {
+    import alias = goog.Uri.QueryData;
+    export default alias;
+}
+
 declare namespace goog {
     /**
      * This class contains setters and getters for the parts of the URI.

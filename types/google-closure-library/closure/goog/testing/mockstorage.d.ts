@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../structs/map.d.ts"/>
 
+declare module 'goog:goog.testing.MockStorage' {
+    import alias = goog.testing.MockStorage;
+    export default alias;
+}
+
 declare namespace goog.testing {
     /**
      * A JS storage instance, implementing the HTML5 Storage interface.

@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./xhrlike.d.ts"/>
 
+declare module 'goog:goog.net.XmlHttpFactory' {
+    import alias = goog.net.XmlHttpFactory;
+    export default alias;
+}
+
 declare namespace goog.net {
     /**
      * Abstract base class for an XmlHttpRequest factory.

@@ -2,6 +2,41 @@
 /// <reference path="../safeurl.d.ts"/>
 /// <reference path="../safehtml.d.ts"/>
 
+declare module 'goog:goog.html.sanitizer.HtmlSanitizerUrlPolicy' {
+    import alias = goog.html.sanitizer.HtmlSanitizerUrlPolicy;
+    export default alias;
+}
+
+declare module 'goog:goog.html.sanitizer.HtmlSanitizerPolicyHints' {
+    import alias = goog.html.sanitizer.HtmlSanitizerPolicyHints;
+    export default alias;
+}
+
+declare module 'goog:goog.html.sanitizer.HtmlSanitizerPolicyContext' {
+    import alias = goog.html.sanitizer.HtmlSanitizerPolicyContext;
+    export default alias;
+}
+
+declare module 'goog:goog.html.sanitizer.HtmlSanitizerPolicy' {
+    import alias = goog.html.sanitizer.HtmlSanitizerPolicy;
+    export default alias;
+}
+
+declare module 'goog:goog.html.sanitizer.HtmlSanitizerAttributePolicy' {
+    import alias = goog.html.sanitizer.HtmlSanitizerAttributePolicy;
+    export default alias;
+}
+
+declare module 'goog:goog.html.sanitizer.HtmlSanitizer' {
+    import alias = goog.html.sanitizer.HtmlSanitizer;
+    export default alias;
+}
+
+declare module 'goog:goog.html.sanitizer.HtmlSanitizer.Builder' {
+    import alias = goog.html.sanitizer.HtmlSanitizer.Builder;
+    export default alias;
+}
+
 declare namespace goog.html.sanitizer {
     /**
      * Type for optional hints to policy handler functions.

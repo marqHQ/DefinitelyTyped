@@ -2,6 +2,11 @@
 /// <reference path="../disposable/disposable.d.ts"/>
 /// <reference path="../uri/uri.d.ts"/>
 
+declare module 'goog:goog.net.BulkLoaderHelper' {
+    import alias = goog.net.BulkLoaderHelper;
+    export default alias;
+}
+
 declare namespace goog.net {
     /**
      * Helper class used to load multiple URIs.

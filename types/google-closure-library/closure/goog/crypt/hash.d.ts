@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.crypt.Hash' {
+    import alias = goog.crypt.Hash;
+    export default alias;
+}
+
 declare namespace goog.crypt {
     /**
      * Create a cryptographic hash instance.

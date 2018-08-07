@@ -1,6 +1,15 @@
 /// <reference path="../../../globals.d.ts"/>
 
-declare namespace goog._string {
+declare module 'goog:goog.string' {
+    export = goog.string;
+}
+
+declare module 'goog:goog.string.Unicode' {
+    import alias = goog.string.Unicode;
+    export default alias;
+}
+
+declare namespace goog.string {
     /**
      * Common Unicode string characters.
      * @enum {string}

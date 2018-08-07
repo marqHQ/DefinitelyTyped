@@ -3,6 +3,16 @@
 /// <reference path="./event.d.ts"/>
 /// <reference path="./eventtarget.d.ts"/>
 
+declare module 'goog:goog.events.ListenableKey' {
+    import alias = goog.events.ListenableKey;
+    export default alias;
+}
+
+declare module 'goog:goog.events.Listenable' {
+    import alias = goog.events.Listenable;
+    export default alias;
+}
+
 declare namespace goog.events {
     interface Listenable {
         /**

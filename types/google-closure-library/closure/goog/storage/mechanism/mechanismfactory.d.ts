@@ -1,6 +1,10 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./iterablemechanism.d.ts"/>
 
+declare module 'goog:goog.storage.mechanism.mechanismfactory' {
+    export = goog.storage.mechanism.mechanismfactory;
+}
+
 declare namespace goog.storage.mechanism.mechanismfactory {
     /**
      * The key to shared userData storage.

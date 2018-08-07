@@ -2,6 +2,11 @@
 /// <reference path="./hash.d.ts"/>
 /// <reference path="../math/long.d.ts"/>
 
+declare module 'goog:goog.crypt.Sha2_64bit' {
+    import alias = goog.crypt.Sha2_64bit;
+    export default alias;
+}
+
 declare namespace goog.crypt {
     /**
      * Constructs a SHA-2 64-bit cryptographic hash.

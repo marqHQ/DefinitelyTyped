@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.ui.IdGenerator' {
+    import alias = goog.ui.IdGenerator;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Creates a new id generator.

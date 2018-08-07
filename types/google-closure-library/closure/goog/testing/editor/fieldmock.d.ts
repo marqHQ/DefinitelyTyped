@@ -2,6 +2,11 @@
 /// <reference path="../loosemock.d.ts"/>
 /// <reference path="../../dom/abstractrange.d.ts"/>
 
+declare module 'goog:goog.testing.editor.FieldMock' {
+    import alias = goog.testing.editor.FieldMock;
+    export default alias;
+}
+
 declare namespace goog.testing.editor {
     /**
      * Mock of goog.editor.Field.

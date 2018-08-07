@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./interpolator1.d.ts"/>
 
+declare module 'goog:goog.math.interpolator.Linear1' {
+    import alias = goog.math.interpolator.Linear1;
+    export default alias;
+}
+
 declare namespace goog.math.interpolator {
     /**
      * A one dimensional linear interpolator.

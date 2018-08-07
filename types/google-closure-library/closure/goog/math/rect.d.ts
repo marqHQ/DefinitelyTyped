@@ -4,6 +4,11 @@
 /// <reference path="./coordinate.d.ts"/>
 /// <reference path="./size.d.ts"/>
 
+declare module 'goog:goog.math.Rect' {
+    import alias = goog.math.Rect;
+    export default alias;
+}
+
 declare namespace goog.math {
     /**
      * Class for representing rectangular regions.

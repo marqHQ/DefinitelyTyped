@@ -1,6 +1,16 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../disposable/disposable.d.ts"/>
 
+declare module 'goog:goog.async.Throttle' {
+    import alias = goog.async.Throttle;
+    export default alias;
+}
+
+declare module 'goog:goog.Throttle' {
+    import alias = goog.Throttle;
+    export default alias;
+}
+
 declare namespace goog.async {
     /**
      * Throttle will perform an action that is passed in no more than once

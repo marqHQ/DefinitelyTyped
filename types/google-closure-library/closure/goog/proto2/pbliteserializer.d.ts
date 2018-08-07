@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./lazydeserializer.d.ts"/>
 
+declare module 'goog:goog.proto2.PbLiteSerializer' {
+    import alias = goog.proto2.PbLiteSerializer;
+    export default alias;
+}
+
 declare namespace goog.proto2 {
     /**
      * PB-Lite serializer.

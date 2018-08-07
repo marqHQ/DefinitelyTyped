@@ -4,6 +4,11 @@
 /// <reference path="../positioning/positioning.d.ts"/>
 /// <reference path="../math/box.d.ts"/>
 
+declare module 'goog:goog.ui.Popup' {
+    import alias = goog.ui.Popup;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * The Popup class provides functionality for displaying an absolutely

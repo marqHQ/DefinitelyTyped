@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./messagechannel.d.ts"/>
 
+declare module 'goog:goog.messaging.PortNetwork' {
+    import alias = goog.messaging.PortNetwork;
+    export default alias;
+}
+
 declare namespace goog.messaging {
     interface PortNetwork {
         /**

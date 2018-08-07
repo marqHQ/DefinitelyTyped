@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./matcher.d.ts"/>
 
+declare module 'goog:goog.labs.testing.AnythingMatcher' {
+    import alias = goog.labs.testing.AnythingMatcher;
+    export default alias;
+}
+
 declare namespace goog.labs.testing {
     /**
      * The Anything matcher. Matches all possible inputs.

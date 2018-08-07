@@ -1,5 +1,10 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.ui.ac.ArrayMatcher' {
+    import alias = goog.ui.ac.ArrayMatcher;
+    export default alias;
+}
+
 declare namespace goog.ui.ac {
     /**
      * Basic class for matching words in an array

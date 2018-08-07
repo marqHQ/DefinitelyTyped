@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.vec.Float32Array' {
+    import alias = goog.vec.Float32Array;
+    export default alias;
+}
+
 declare namespace goog.vec {
     /**
      * Constructs a new Float32Array. The new array is initialized to all zeros.

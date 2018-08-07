@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./hash.d.ts"/>
 
+declare module 'goog:goog.crypt.Sha2' {
+    import alias = goog.crypt.Sha2;
+    export default alias;
+}
+
 declare namespace goog.crypt {
     /**
      * SHA-2 cryptographic hash constructor.

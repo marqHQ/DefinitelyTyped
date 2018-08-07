@@ -3,6 +3,11 @@
 /// <reference path="../testing/mockclock.d.ts"/>
 /// <reference path="./collectablestorage.d.ts"/>
 
+declare module 'goog:goog.storage.collectableStorageTester' {
+    import alias = goog.storage.collectableStorageTester;
+    export default alias;
+}
+
 declare namespace goog.storage.collectableStorageTester {
     /**
      * Tests basic operation: expiration and collection of collectable storage.

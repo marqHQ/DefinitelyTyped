@@ -1,6 +1,16 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./streamparser.d.ts"/>
 
+declare module 'goog:goog.net.streams.JsonStreamParser' {
+    import alias = goog.net.streams.JsonStreamParser;
+    export default alias;
+}
+
+declare module 'goog:goog.net.streams.JsonStreamParser.Options' {
+    import alias = goog.net.streams.JsonStreamParser.Options;
+    export default alias;
+}
+
 declare namespace goog.net.streams {
     /**
      * The default JSON stream parser.

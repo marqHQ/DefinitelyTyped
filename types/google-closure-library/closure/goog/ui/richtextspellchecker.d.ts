@@ -6,6 +6,11 @@
 /// <reference path="../events/event.d.ts"/>
 /// <reference path="../events/browserevent.d.ts"/>
 
+declare module 'goog:goog.ui.RichTextSpellChecker' {
+    import alias = goog.ui.RichTextSpellChecker;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Rich text spell checker implementation.

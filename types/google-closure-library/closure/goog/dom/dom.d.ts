@@ -5,6 +5,20 @@
 /// <reference path="../math/coordinate.d.ts"/>
 /// <reference path="../string/const.d.ts"/>
 
+declare module 'goog:goog.dom' {
+    export = goog.dom;
+}
+
+declare module 'goog:goog.dom.DomHelper' {
+    import alias = goog.dom.DomHelper;
+    export default alias;
+}
+
+declare module 'goog:goog.dom.Appendable' {
+    import alias = goog.dom.Appendable;
+    export default alias;
+}
+
 declare namespace goog.dom {
     /**
      * Create an instance of a DOM helper with a new document object.

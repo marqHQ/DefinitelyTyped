@@ -1,6 +1,15 @@
 /// <reference path="../../../globals.d.ts"/>
 
-declare namespace goog._string.newlines {
+declare module 'goog:goog.string.newlines' {
+    export = goog.string.newlines;
+}
+
+declare module 'goog:goog.string.newlines.Line' {
+    import alias = goog.string.newlines.Line;
+    export default alias;
+}
+
+declare namespace goog.string.newlines {
     /**
      * Line metadata class that records the start/end indicies of lines
      * in a string.  Can be used to implement common newline use cases such as

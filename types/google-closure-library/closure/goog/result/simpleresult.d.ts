@@ -3,6 +3,16 @@
 /// <reference path="../debug/error.d.ts"/>
 /// <reference path="../promise/promise.d.ts"/>
 
+declare module 'goog:goog.result.SimpleResult' {
+    import alias = goog.result.SimpleResult;
+    export default alias;
+}
+
+declare module 'goog:goog.result.SimpleResult.StateError' {
+    import alias = goog.result.SimpleResult.StateError;
+    export default alias;
+}
+
 declare namespace goog.result {
     /**
      * A SimpleResult object is a basic implementation of the

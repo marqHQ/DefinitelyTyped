@@ -1,6 +1,11 @@
 /// <reference path="../../../../../globals.d.ts"/>
 /// <reference path="./deferred.d.ts"/>
 
+declare module 'goog:goog.async.DeferredList' {
+    import alias = goog.async.DeferredList;
+    export default alias;
+}
+
 declare namespace goog.async {
     /**
      * Constructs an object that waits on the results of multiple asynchronous

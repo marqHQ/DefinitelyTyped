@@ -1,6 +1,21 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../log/log.d.ts"/>
 
+declare module 'goog:goog.editor.TableRow' {
+    import alias = goog.editor.TableRow;
+    export default alias;
+}
+
+declare module 'goog:goog.editor.TableCell' {
+    import alias = goog.editor.TableCell;
+    export default alias;
+}
+
+declare module 'goog:goog.editor.Table' {
+    import alias = goog.editor.Table;
+    export default alias;
+}
+
 declare namespace goog.editor {
     /**
      * Class providing high level table editing functions.

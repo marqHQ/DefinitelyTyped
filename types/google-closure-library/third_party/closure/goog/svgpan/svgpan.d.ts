@@ -2,6 +2,11 @@
 /// <reference path="../../../../closure/goog/disposable/disposable.d.ts"/>
 /// <reference path="../../../../closure/goog/events/event.d.ts"/>
 
+declare module 'goog:svgpan.SvgPan' {
+    import alias = svgpan.SvgPan;
+    export default alias;
+}
+
 declare namespace svgpan {
     /**
      * Instantiates an SvgPan object.

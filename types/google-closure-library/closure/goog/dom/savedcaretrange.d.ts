@@ -3,6 +3,11 @@
 /// <reference path="./abstractrange.d.ts"/>
 /// <reference path="./dom.d.ts"/>
 
+declare module 'goog:goog.dom.SavedCaretRange' {
+    import alias = goog.dom.SavedCaretRange;
+    export default alias;
+}
+
 declare namespace goog.dom {
     /**
      * A struct for holding context about saved selections.

@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./blockcipher.d.ts"/>
 
+declare module 'goog:goog.crypt.Ctr' {
+    import alias = goog.crypt.Ctr;
+    export default alias;
+}
+
 declare namespace goog.crypt {
     /**
      * Implementation of Ctr mode for block ciphers.  See

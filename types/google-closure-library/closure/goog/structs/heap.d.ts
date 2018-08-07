@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./node.d.ts"/>
 
+declare module 'goog:goog.structs.Heap' {
+    import alias = goog.structs.Heap;
+    export default alias;
+}
+
 declare namespace goog.structs {
     /**
      * Class for a Heap datastructure.

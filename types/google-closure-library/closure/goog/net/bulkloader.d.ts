@@ -7,6 +7,11 @@
 /// <reference path="../events/event.d.ts"/>
 /// <reference path="./xhrio.d.ts"/>
 
+declare module 'goog:goog.net.BulkLoader' {
+    import alias = goog.net.BulkLoader;
+    export default alias;
+}
+
 declare namespace goog.net {
     /**
      * Class used to load multiple URIs.

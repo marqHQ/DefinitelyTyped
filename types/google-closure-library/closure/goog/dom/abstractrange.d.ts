@@ -5,6 +5,21 @@
 /// <reference path="./savedcaretrange.d.ts"/>
 /// <reference path="./tagiterator.d.ts"/>
 
+declare module 'goog:goog.dom.RangeType' {
+    import alias = goog.dom.RangeType;
+    export default alias;
+}
+
+declare module 'goog:goog.dom.RangeIterator' {
+    import alias = goog.dom.RangeIterator;
+    export default alias;
+}
+
+declare module 'goog:goog.dom.AbstractRange' {
+    import alias = goog.dom.AbstractRange;
+    export default alias;
+}
+
 declare namespace goog.dom {
     /**
      * Creates a new selection with no properties.  Do not use this constructor -

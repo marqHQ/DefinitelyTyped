@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.ui.DatePickerRenderer' {
+    import alias = goog.ui.DatePickerRenderer;
+    export default alias;
+}
+
 declare namespace goog.ui {
     interface DatePickerRenderer {
         /**

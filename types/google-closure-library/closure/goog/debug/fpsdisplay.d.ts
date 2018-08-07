@@ -2,6 +2,11 @@
 /// <reference path="../ui/component.d.ts"/>
 /// <reference path="../dom/dom.d.ts"/>
 
+declare module 'goog:goog.debug.FpsDisplay' {
+    import alias = goog.debug.FpsDisplay;
+    export default alias;
+}
+
 declare namespace goog.debug {
     /**
      * Displays frames per seconds that the window this component is

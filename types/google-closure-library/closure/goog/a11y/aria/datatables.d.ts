@@ -1,6 +1,10 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./attributes.d.ts"/>
 
+declare module 'goog:goog.a11y.aria.datatables' {
+    export = goog.a11y.aria.datatables;
+}
+
 declare namespace goog.a11y.aria {
     /**
      * A map that contains mapping between an ARIA state and the default value

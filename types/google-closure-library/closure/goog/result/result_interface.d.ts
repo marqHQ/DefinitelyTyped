@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../promise/thenable.d.ts"/>
 
+declare module 'goog:goog.result.Result' {
+    import alias = goog.result.Result;
+    export default alias;
+}
+
 declare namespace goog.result {
     interface Result extends goog.Thenable<any> {
         /**

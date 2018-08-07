@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.userAgent.product.isVersion' {
+    import alias = goog.userAgent.product.isVersion;
+    export default alias;
+}
+
 declare namespace goog.userAgent.product {
     /**
      * The version of the user agent. This is a string because it might contain

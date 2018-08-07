@@ -3,6 +3,11 @@
 /// <reference path="./inputhandler.d.ts"/>
 /// <reference path="../../structs/map.d.ts"/>
 
+declare module 'goog:goog.ui.ac.Remote' {
+    import alias = goog.ui.ac.Remote;
+    export default alias;
+}
+
 declare namespace goog.ui.ac {
     /**
      * Factory class for building a remote autocomplete widget that autocompletes

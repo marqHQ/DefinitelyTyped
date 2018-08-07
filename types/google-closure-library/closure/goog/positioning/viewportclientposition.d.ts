@@ -2,6 +2,11 @@
 /// <reference path="./clientposition.d.ts"/>
 /// <reference path="../math/coordinate.d.ts"/>
 
+declare module 'goog:goog.positioning.ViewportClientPosition' {
+    import alias = goog.positioning.ViewportClientPosition;
+    export default alias;
+}
+
 declare namespace goog.positioning {
     /**
      * Encapsulates a popup position where the popup is positioned relative to the

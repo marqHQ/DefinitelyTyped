@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.userAgent.product' {
+    export = goog.userAgent.product;
+}
+
 declare namespace goog.userAgent.product {
     /**
      * Whether the code is running on the Opera web browser.

@@ -1,6 +1,50 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../log/log.d.ts"/>
 
+declare module 'goog:goog.ds.logger' {
+    export = goog.ds.logger;
+}
+
+declare module 'goog:goog.ds.Util' {
+    import alias = goog.ds.Util;
+    export default alias;
+}
+
+declare module 'goog:goog.ds.SortedNodeList' {
+    import alias = goog.ds.SortedNodeList;
+    export default alias;
+}
+
+declare module 'goog:goog.ds.LoadState' {
+    import alias = goog.ds.LoadState;
+    export default alias;
+}
+
+declare module 'goog:goog.ds.EmptyNodeList' {
+    import alias = goog.ds.EmptyNodeList;
+    export default alias;
+}
+
+declare module 'goog:goog.ds.DataNodeList' {
+    import alias = goog.ds.DataNodeList;
+    export default alias;
+}
+
+declare module 'goog:goog.ds.DataNode' {
+    import alias = goog.ds.DataNode;
+    export default alias;
+}
+
+declare module 'goog:goog.ds.BasicNodeList' {
+    import alias = goog.ds.BasicNodeList;
+    export default alias;
+}
+
+declare module 'goog:goog.ds.BaseDataNode' {
+    import alias = goog.ds.BaseDataNode;
+    export default alias;
+}
+
 declare namespace goog.ds {
     /**
      * Interface for node in rich data tree.

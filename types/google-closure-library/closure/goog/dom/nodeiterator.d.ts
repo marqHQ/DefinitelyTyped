@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./tagiterator.d.ts"/>
 
+declare module 'goog:goog.dom.NodeIterator' {
+    import alias = goog.dom.NodeIterator;
+    export default alias;
+}
+
 declare namespace goog.dom {
     /**
      * A DOM tree traversal iterator.

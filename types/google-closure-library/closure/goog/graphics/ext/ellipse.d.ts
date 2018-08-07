@@ -2,6 +2,11 @@
 /// <reference path="./strokeandfillelement.d.ts"/>
 /// <reference path="./group.d.ts"/>
 
+declare module 'goog:goog.graphics.ext.Ellipse' {
+    import alias = goog.graphics.ext.Ellipse;
+    export default alias;
+}
+
 declare namespace goog.graphics.ext {
     /**
      * Wrapper for a graphics ellipse element.

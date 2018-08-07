@@ -3,6 +3,11 @@
 /// <reference path="../../dom/dom.d.ts"/>
 /// <reference path="./spriteinfo.d.ts"/>
 
+declare module 'goog:goog.ui.emoji.EmojiPaletteRenderer' {
+    import alias = goog.ui.emoji.EmojiPaletteRenderer;
+    export default alias;
+}
+
 declare namespace goog.ui.emoji {
     /**
      * Renders an emoji palette.

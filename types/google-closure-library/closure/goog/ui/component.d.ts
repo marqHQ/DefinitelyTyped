@@ -4,6 +4,26 @@
 /// <reference path="./idgenerator.d.ts"/>
 /// <reference path="../events/eventhandler.d.ts"/>
 
+declare module 'goog:goog.ui.Component' {
+    import alias = goog.ui.Component;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.Component.State' {
+    import alias = goog.ui.Component.State;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.Component.EventType' {
+    import alias = goog.ui.Component.EventType;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.Component.Error' {
+    import alias = goog.ui.Component.Error;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Default implementation of UI component.

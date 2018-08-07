@@ -2,6 +2,16 @@
 /// <reference path="./mock.d.ts"/>
 /// <reference path="../structs/map.d.ts"/>
 
+declare module 'goog:goog.testing.LooseMock' {
+    import alias = goog.testing.LooseMock;
+    export default alias;
+}
+
+declare module 'goog:goog.testing.LooseExpectationCollection' {
+    import alias = goog.testing.LooseExpectationCollection;
+    export default alias;
+}
+
 declare namespace goog.testing {
     /**
      * This class is an ordered collection of expectations for one method. Since

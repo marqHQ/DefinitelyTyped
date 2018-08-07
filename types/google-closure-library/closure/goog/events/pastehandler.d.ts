@@ -5,6 +5,21 @@
 /// <reference path="../log/log.d.ts"/>
 /// <reference path="./browserevent.d.ts"/>
 
+declare module 'goog:goog.events.PasteHandler' {
+    import alias = goog.events.PasteHandler;
+    export default alias;
+}
+
+declare module 'goog:goog.events.PasteHandler.State' {
+    import alias = goog.events.PasteHandler.State;
+    export default alias;
+}
+
+declare module 'goog:goog.events.PasteHandler.EventType' {
+    import alias = goog.events.PasteHandler.EventType;
+    export default alias;
+}
+
 declare namespace goog.events {
     /**
      * A paste event detector. Gets an `element` as parameter and fires

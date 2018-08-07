@@ -2,6 +2,11 @@
 /// <reference path="../disposable/disposable.d.ts"/>
 /// <reference path="./abstractrange.d.ts"/>
 
+declare module 'goog:goog.dom.SavedRange' {
+    import alias = goog.dom.SavedRange;
+    export default alias;
+}
+
 declare namespace goog.dom {
     /**
      * Abstract interface for a saved range.

@@ -2,6 +2,16 @@
 /// <reference path="./vec.d.ts"/>
 /// <reference path="./vec4.d.ts"/>
 
+declare module 'goog:goog.vec.Quaternion' {
+    import alias = goog.vec.Quaternion;
+    export default alias;
+}
+
+declare module 'goog:goog.vec.Quaternion.AnyType' {
+    import alias = goog.vec.Quaternion.AnyType;
+    export default alias;
+}
+
 declare namespace goog.vec.Quaternion {
     /** @typedef {goog.vec.Float32} */
     type Float32 = goog.vec.Float32;

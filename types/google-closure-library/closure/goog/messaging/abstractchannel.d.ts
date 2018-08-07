@@ -3,6 +3,11 @@
 /// <reference path="./messagechannel.d.ts"/>
 /// <reference path="../log/log.d.ts"/>
 
+declare module 'goog:goog.messaging.AbstractChannel' {
+    import alias = goog.messaging.AbstractChannel;
+    export default alias;
+}
+
 declare namespace goog.messaging {
     /**
      * Creates an abstract message channel.

@@ -4,6 +4,21 @@
 /// <reference path="../../events/browserevent.d.ts"/>
 /// <reference path="../../events/event.d.ts"/>
 
+declare module 'goog:goog.labs.dom.PageVisibilityState' {
+    import alias = goog.labs.dom.PageVisibilityState;
+    export default alias;
+}
+
+declare module 'goog:goog.labs.dom.PageVisibilityMonitor' {
+    import alias = goog.labs.dom.PageVisibilityMonitor;
+    export default alias;
+}
+
+declare module 'goog:goog.labs.dom.PageVisibilityEvent' {
+    import alias = goog.labs.dom.PageVisibilityEvent;
+    export default alias;
+}
+
 declare namespace goog.labs.dom {
     /**
      * This event handler allows you to catch page visibility change events.

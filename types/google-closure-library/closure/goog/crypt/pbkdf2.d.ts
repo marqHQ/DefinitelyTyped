@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.crypt.pbkdf2' {
+    export = goog.crypt.pbkdf2;
+}
+
 declare namespace goog.crypt.pbkdf2 {
     /**
      * Derives key from password using PBKDF2-SHA1

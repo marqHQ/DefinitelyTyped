@@ -2,6 +2,15 @@
 /// <reference path="../../events/browserevent.d.ts"/>
 /// <reference path="../../math/coordinate.d.ts"/>
 
+declare module 'goog:goog.testing.events' {
+    export = goog.testing.events;
+}
+
+declare module 'goog:goog.testing.events.Event' {
+    import alias = goog.testing.events.Event;
+    export default alias;
+}
+
 declare namespace goog.testing._events {
     class GlobalEvent extends Event {}
 }

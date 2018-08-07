@@ -4,6 +4,61 @@
 /// <reference path="../uri/uri.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.ServerChart' {
+    import alias = goog.ui.ServerChart;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.ServerChart.UriTooLongEvent' {
+    import alias = goog.ui.ServerChart.UriTooLongEvent;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.ServerChart.UriParam' {
+    import alias = goog.ui.ServerChart.UriParam;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.ServerChart.MultiAxisType' {
+    import alias = goog.ui.ServerChart.MultiAxisType;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.ServerChart.MultiAxisAlignment' {
+    import alias = goog.ui.ServerChart.MultiAxisAlignment;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.ServerChart.MaximumValue' {
+    import alias = goog.ui.ServerChart.MaximumValue;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.ServerChart.LegendPosition' {
+    import alias = goog.ui.ServerChart.LegendPosition;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.ServerChart.Event' {
+    import alias = goog.ui.ServerChart.Event;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.ServerChart.EncodingType' {
+    import alias = goog.ui.ServerChart.EncodingType;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.ServerChart.ChartType' {
+    import alias = goog.ui.ServerChart.ChartType;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.ServerChart.AxisDisplayType' {
+    import alias = goog.ui.ServerChart.AxisDisplayType;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Will construct a chart using Google's chartserver.

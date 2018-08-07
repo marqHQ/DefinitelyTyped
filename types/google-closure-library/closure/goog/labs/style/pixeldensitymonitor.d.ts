@@ -2,6 +2,21 @@
 /// <reference path="../../events/eventtarget.d.ts"/>
 /// <reference path="../../dom/dom.d.ts"/>
 
+declare module 'goog:goog.labs.style.PixelDensityMonitor' {
+    import alias = goog.labs.style.PixelDensityMonitor;
+    export default alias;
+}
+
+declare module 'goog:goog.labs.style.PixelDensityMonitor.EventType' {
+    import alias = goog.labs.style.PixelDensityMonitor.EventType;
+    export default alias;
+}
+
+declare module 'goog:goog.labs.style.PixelDensityMonitor.Density' {
+    import alias = goog.labs.style.PixelDensityMonitor.Density;
+    export default alias;
+}
+
 declare namespace goog.labs.style {
     /**
      * Monitors the window for changes to the ratio between device and screen

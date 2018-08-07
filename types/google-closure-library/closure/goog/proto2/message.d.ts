@@ -3,6 +3,11 @@
 /// <reference path="./lazydeserializer.d.ts"/>
 /// <reference path="./descriptor.d.ts"/>
 
+declare module 'goog:goog.proto2.Message' {
+    import alias = goog.proto2.Message;
+    export default alias;
+}
+
 declare namespace goog.proto2 {
     /**
      * Abstract base class for all Protocol Buffer 2 messages. It will be

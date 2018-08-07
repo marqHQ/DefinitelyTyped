@@ -2,6 +2,11 @@
 /// <reference path="./range.d.ts"/>
 /// <reference path="../iter/iter.d.ts"/>
 
+declare module 'goog:goog.math.RangeSet' {
+    import alias = goog.math.RangeSet;
+    export default alias;
+}
+
 declare namespace goog.math {
     /**
      * Constructs a new RangeSet, which can store numeric ranges.

@@ -8,6 +8,11 @@
 /// <reference path="./xpc.d.ts"/>
 /// <reference path="../../uri/uri.d.ts"/>
 
+declare module 'goog:goog.net.xpc.CrossPageChannel' {
+    import alias = goog.net.xpc.CrossPageChannel;
+    export default alias;
+}
+
 declare namespace goog.net.xpc {
     /**
      * A communication channel between two documents from different domains.

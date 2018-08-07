@@ -4,6 +4,11 @@
 /// <reference path="../math/size.d.ts"/>
 /// <reference path="../events/events.d.ts"/>
 
+declare module 'goog:goog.dom.BufferedViewportSizeMonitor' {
+    import alias = goog.dom.BufferedViewportSizeMonitor;
+    export default alias;
+}
+
 declare namespace goog.dom {
     /**
      * Creates a new BufferedViewportSizeMonitor.

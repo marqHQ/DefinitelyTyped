@@ -3,6 +3,21 @@
 /// <reference path="./crosspagechannel.d.ts"/>
 /// <reference path="../../dom/dom.d.ts"/>
 
+declare module 'goog:goog.net.xpc.IframePollingTransport' {
+    import alias = goog.net.xpc.IframePollingTransport;
+    export default alias;
+}
+
+declare module 'goog:goog.net.xpc.IframePollingTransport.Sender' {
+    import alias = goog.net.xpc.IframePollingTransport.Sender;
+    export default alias;
+}
+
+declare module 'goog:goog.net.xpc.IframePollingTransport.Receiver' {
+    import alias = goog.net.xpc.IframePollingTransport.Receiver;
+    export default alias;
+}
+
 declare namespace goog.net.xpc {
     /**
      * Iframe polling transport. Uses hidden iframes to transfer data

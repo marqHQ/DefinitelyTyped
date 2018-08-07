@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../promise/promise.d.ts"/>
 
+declare module 'goog:goog.testing.JsTdAsyncWrapper' {
+    import alias = goog.testing.JsTdAsyncWrapper;
+    export default alias;
+}
+
 declare namespace goog.testing.JsTdAsyncWrapper {
     /**
      * A queue that mirrors the JSTD Async Queue api but exposes a promise that

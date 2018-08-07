@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 
-declare namespace goog._string {
+declare module 'goog:goog.string.TypedString' {
+    import alias = goog.string.TypedString;
+    export default alias;
+}
+
+declare namespace goog.string {
     interface TypedString {
         /**
          * Interface marker of the TypedString interface.

@@ -4,6 +4,16 @@
 /// <reference path="./checkboxrenderer.d.ts"/>
 /// <reference path="../events/browserevent.d.ts"/>
 
+declare module 'goog:goog.ui.Checkbox' {
+    import alias = goog.ui.Checkbox;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.Checkbox.State' {
+    import alias = goog.ui.Checkbox.State;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * 3-state checkbox widget. Fires CHECK or UNCHECK events before toggled and

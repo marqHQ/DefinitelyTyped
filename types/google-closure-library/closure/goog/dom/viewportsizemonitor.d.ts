@@ -3,6 +3,11 @@
 /// <reference path="../math/size.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.dom.ViewportSizeMonitor' {
+    import alias = goog.dom.ViewportSizeMonitor;
+    export default alias;
+}
+
 declare namespace goog.dom {
     /**
      * This class can be used to monitor changes in the viewport size.  Instances

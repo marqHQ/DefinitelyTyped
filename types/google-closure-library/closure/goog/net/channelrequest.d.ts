@@ -9,6 +9,16 @@
 /// <reference path="../async/throttle.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.net.ChannelRequest' {
+    import alias = goog.net.ChannelRequest;
+    export default alias;
+}
+
+declare module 'goog:goog.net.ChannelRequest.Error' {
+    import alias = goog.net.ChannelRequest.Error;
+    export default alias;
+}
+
 declare namespace goog.net {
     /**
      * Creates a ChannelRequest object which encapsulates a request to the server.

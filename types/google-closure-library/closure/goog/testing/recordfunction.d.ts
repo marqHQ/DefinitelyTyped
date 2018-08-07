@@ -1,5 +1,20 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.testing.recordFunction' {
+    import alias = goog.testing.recordFunction;
+    export default alias;
+}
+
+declare module 'goog:goog.testing.recordConstructor' {
+    import alias = goog.testing.recordConstructor;
+    export default alias;
+}
+
+declare module 'goog:goog.testing.FunctionCall' {
+    import alias = goog.testing.FunctionCall;
+    export default alias;
+}
+
 declare namespace goog.testing {
     /**
      * Struct for a single function call.

@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./menubuttonrenderer.d.ts"/>
 
+declare module 'goog:goog.ui.Css3MenuButtonRenderer' {
+    import alias = goog.ui.Css3MenuButtonRenderer;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Custom renderer for {@link goog.ui.MenuButton}s. Css3 buttons can contain

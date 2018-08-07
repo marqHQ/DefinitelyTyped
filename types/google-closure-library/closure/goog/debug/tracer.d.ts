@@ -1,6 +1,16 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./debug.d.ts"/>
 
+declare module 'goog:goog.debug.Trace' {
+    import alias = goog.debug.Trace;
+    export default alias;
+}
+
+declare module 'goog:goog.debug.StopTraceDetail' {
+    import alias = goog.debug.StopTraceDetail;
+    export default alias;
+}
+
 declare namespace goog.debug {
     /**
      * Class used for singleton goog.debug.Trace.  Used for timing slow points in

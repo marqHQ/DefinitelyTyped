@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.math.tdma' {
+    export = goog.math.tdma;
+}
+
 declare namespace goog.math.tdma {
     /**
      * Solves a linear system where the matrix is square tri-diagonal. That is,

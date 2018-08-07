@@ -3,6 +3,11 @@
 /// <reference path="./menuseparatorrenderer.d.ts"/>
 /// <reference path="../dom/dom.d.ts"/>
 
+declare module 'goog:goog.ui.Separator' {
+    import alias = goog.ui.Separator;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Class representing a separator.  Although it extends {@link goog.ui.Control},

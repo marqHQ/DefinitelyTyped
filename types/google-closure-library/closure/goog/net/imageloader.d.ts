@@ -1,4 +1,9 @@
 
+declare module 'goog:goog.net.ImageLoader' {
+    import alias = goog.net.ImageLoader;
+    export default alias;
+}
+
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../events/eventtarget.d.ts"/>
 /// <reference path="../events/eventhandler.d.ts"/>

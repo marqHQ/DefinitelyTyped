@@ -7,6 +7,11 @@
 /// <reference path="./imageelement.d.ts"/>
 /// <reference path="./path.d.ts"/>
 
+declare module 'goog:goog.graphics.SvgGraphics' {
+    import alias = goog.graphics.SvgGraphics;
+    export default alias;
+}
+
 declare namespace goog.graphics {
     /**
      * A Graphics implementation for drawing using SVG.

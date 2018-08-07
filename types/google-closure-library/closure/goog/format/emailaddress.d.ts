@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.format.EmailAddress' {
+    import alias = goog.format.EmailAddress;
+    export default alias;
+}
+
 declare namespace goog.format {
     /**
      * Formats an email address string for display, and allows for extraction of

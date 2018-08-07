@@ -3,6 +3,11 @@
 /// <reference path="./keyrange.d.ts"/>
 /// <reference path="./cursor.d.ts"/>
 
+declare module 'goog:goog.db.Index' {
+    import alias = goog.db.Index;
+    export default alias;
+}
+
 declare namespace goog.db {
     /**
      * Creates an IDBIndex wrapper object. Indexes are associated with object

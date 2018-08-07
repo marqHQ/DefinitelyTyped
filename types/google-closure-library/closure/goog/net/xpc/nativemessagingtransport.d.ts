@@ -6,6 +6,11 @@
 /// <reference path="../../timer/timer.d.ts"/>
 /// <reference path="../../../../third_party/closure/goog/mochikit/async/deferred.d.ts"/>
 
+declare module 'goog:goog.net.xpc.NativeMessagingTransport' {
+    import alias = goog.net.xpc.NativeMessagingTransport;
+    export default alias;
+}
+
 declare namespace goog.net.xpc {
     /**
      * The native messaging transport

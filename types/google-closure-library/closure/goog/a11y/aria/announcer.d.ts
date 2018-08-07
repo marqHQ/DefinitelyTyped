@@ -3,6 +3,11 @@
 /// <reference path="../../dom/dom.d.ts"/>
 /// <reference path="./attributes.d.ts"/>
 
+declare module 'goog:goog.a11y.aria.Announcer' {
+    import alias = goog.a11y.aria.Announcer;
+    export default alias;
+}
+
 declare namespace goog.a11y.aria {
     /**
      * Class that allows messages to be spoken by assistive technologies that the

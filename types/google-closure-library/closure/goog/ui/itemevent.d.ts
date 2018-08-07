@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.ItemEvent' {
+    import alias = goog.ui.ItemEvent;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Generic ui event class for events that take a single item like a menu click

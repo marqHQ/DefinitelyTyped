@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./streamparser.d.ts"/>
 
+declare module 'goog:goog.net.streams.PbStreamParser' {
+    import alias = goog.net.streams.PbStreamParser;
+    export default alias;
+}
+
 declare namespace goog.net.streams {
     /**
      * The default Protobuf stream parser.

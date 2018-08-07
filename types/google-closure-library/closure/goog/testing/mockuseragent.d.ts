@@ -2,6 +2,11 @@
 /// <reference path="../disposable/disposable.d.ts"/>
 /// <reference path="./propertyreplacer.d.ts"/>
 
+declare module 'goog:goog.testing.MockUserAgent' {
+    import alias = goog.testing.MockUserAgent;
+    export default alias;
+}
+
 declare namespace goog.testing {
     /**
      * Class for unit testing code that uses goog.userAgent.

@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./containerrenderer.d.ts"/>
 
+declare module 'goog:goog.ui.MenuBarRenderer' {
+    import alias = goog.ui.MenuBarRenderer;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Default renderer for {@link goog.ui.menuBar}s, based on {@link

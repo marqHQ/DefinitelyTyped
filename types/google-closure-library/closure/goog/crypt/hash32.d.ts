@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.crypt.hash32' {
+    export = goog.crypt.hash32;
+}
+
 declare namespace goog.crypt.hash32 {
     /**
      * Default seed used during hashing, digits of pie.

@@ -2,6 +2,11 @@
 /// <reference path="./remote.d.ts"/>
 /// <reference path="./richremotearraymatcher.d.ts"/>
 
+declare module 'goog:goog.ui.ac.RichRemote' {
+    import alias = goog.ui.ac.RichRemote;
+    export default alias;
+}
+
 declare namespace goog.ui.ac {
     /**
      * Factory class to create a rich autocomplete widget that autocompletes an

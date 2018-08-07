@@ -1,5 +1,9 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.testing.style' {
+    export = goog.testing.style;
+}
+
 declare namespace goog.testing.style {
     /**
      * Determines whether the bounding rectangles of the given elements intersect.

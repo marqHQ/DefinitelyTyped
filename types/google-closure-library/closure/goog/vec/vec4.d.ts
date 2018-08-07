@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./vec.d.ts"/>
 
+declare module 'goog:goog.vec.Vec4' {
+    import alias = goog.vec.Vec4;
+    export default alias;
+}
+
 declare namespace goog.vec.Vec4 {
     /** @typedef {goog.vec.Float32} */
     type Float32 = goog.vec.Float32;

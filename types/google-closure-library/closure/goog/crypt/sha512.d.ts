@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./sha2_64bit.d.ts"/>
 
+declare module 'goog:goog.crypt.Sha512' {
+    import alias = goog.crypt.Sha512;
+    export default alias;
+}
+
 declare namespace goog.crypt {
     /**
      * Constructs a SHA-512 cryptographic hash.

@@ -2,6 +2,11 @@
 /// <reference path="./date.d.ts"/>
 /// <reference path="./datelike.d.ts"/>
 
+declare module 'goog:goog.date.UtcDateTime' {
+    import alias = goog.date.UtcDateTime;
+    export default alias;
+}
+
 declare namespace goog.date {
     /**
      * Class representing a date/time in GMT+0 time zone, without daylight saving.

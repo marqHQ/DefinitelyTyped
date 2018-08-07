@@ -6,6 +6,16 @@
 /// <reference path="../events/event.d.ts"/>
 /// <reference path="../events/browserevent.d.ts"/>
 
+declare module 'goog:goog.ui.Textarea' {
+    import alias = goog.ui.Textarea;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.Textarea.EventType' {
+    import alias = goog.ui.Textarea.EventType;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * A textarea control to handle growing/shrinking with textarea.value.

@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.structs.InversionMap' {
+    import alias = goog.structs.InversionMap;
+    export default alias;
+}
+
 declare namespace goog.structs {
     /**
      * Maps ranges to values.

@@ -1,5 +1,9 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.i18n.collation' {
+    export = goog.i18n.collation;
+}
+
 declare namespace goog.i18n.collation {
     /**
      * Returns the comparator for a locale. If a locale is not explicitly specified,

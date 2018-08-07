@@ -3,6 +3,20 @@
 /// <reference path="./transaction.d.ts"/>
 /// <reference path="../../../third_party/closure/goog/mochikit/async/deferred.d.ts"/>
 
+declare module 'goog:goog.db' {
+    export = goog.db;
+}
+
+declare module 'goog:goog.db.UpgradeNeededCallback' {
+    import alias = goog.db.UpgradeNeededCallback;
+    export default alias;
+}
+
+declare module 'goog:goog.db.BlockedCallback' {
+    import alias = goog.db.BlockedCallback;
+    export default alias;
+}
+
 declare namespace goog.db {
     /**
      * A callback that's called if a blocked event is received. When a database is

@@ -3,6 +3,11 @@
 /// <reference path="../string/const.d.ts"/>
 /// <reference path="./safeurl.d.ts"/>
 
+declare module 'goog:goog.html.SafeStyle' {
+    import alias = goog.html.SafeStyle;
+    export default alias;
+}
+
 declare namespace goog.html {
     /**
      * A string-like object which represents a sequence of CSS declarations

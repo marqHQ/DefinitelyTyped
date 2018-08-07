@@ -3,6 +3,11 @@
 /// <reference path="./paletterenderer.d.ts"/>
 /// <reference path="../dom/dom.d.ts"/>
 
+declare module 'goog:goog.ui.CustomColorPalette' {
+    import alias = goog.ui.CustomColorPalette;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * A custom color palette is a grid of color swatches and a button that allows

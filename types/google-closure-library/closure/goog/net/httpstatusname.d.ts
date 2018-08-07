@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.net.HttpStatusName' {
+    import alias = goog.net.HttpStatusName;
+    export default alias;
+}
+
 declare namespace goog.net {
     /**
      * HTTP Status Code Names defined in RFC 2616 and RFC 6585.

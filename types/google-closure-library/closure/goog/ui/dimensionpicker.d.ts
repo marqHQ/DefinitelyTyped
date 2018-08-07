@@ -6,6 +6,11 @@
 /// <reference path="../events/browserevent.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.DimensionPicker' {
+    import alias = goog.ui.DimensionPicker;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * A dimension picker allows the user to visually select a row and column

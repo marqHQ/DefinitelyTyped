@@ -4,6 +4,11 @@
 /// <reference path="./component.d.ts"/>
 /// <reference path="./controlcontent.d.ts"/>
 
+declare module 'goog:goog.ui.ControlRenderer' {
+    import alias = goog.ui.ControlRenderer;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Default renderer for {@link goog.ui.Control}s.  Can be used as-is, but

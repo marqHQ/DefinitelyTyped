@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.i18n.uChar' {
+    import alias = goog.i18n.uChar;
+    export default alias;
+}
+
 declare namespace goog.i18n.uChar {
     /**
      * Gets the U+ notation string of a Unicode character. Ex: 'U+0041' for 'A'.

@@ -1,6 +1,20 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./date.d.ts"/>
 
+declare module 'goog:goog.date.relative' {
+    export = goog.date.relative;
+}
+
+declare module 'goog:goog.date.relative.Unit' {
+    import alias = goog.date.relative.Unit;
+    export default alias;
+}
+
+declare module 'goog:goog.date.relative.TimeDeltaFormatter' {
+    import alias = goog.date.relative.TimeDeltaFormatter;
+    export default alias;
+}
+
 declare namespace goog.date.relative {
     /**
      * Enumeration used to identify time units internally.

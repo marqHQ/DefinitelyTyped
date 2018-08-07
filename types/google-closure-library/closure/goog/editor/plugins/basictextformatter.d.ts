@@ -4,6 +4,16 @@
 /// <reference path="../link.d.ts"/>
 /// <reference path="../../dom/tagname.d.ts"/>
 
+declare module 'goog:goog.editor.plugins.BasicTextFormatter' {
+    import alias = goog.editor.plugins.BasicTextFormatter;
+    export default alias;
+}
+
+declare module 'goog:goog.editor.plugins.BasicTextFormatter.COMMAND' {
+    import alias = goog.editor.plugins.BasicTextFormatter.COMMAND;
+    export default alias;
+}
+
 declare namespace goog.editor.plugins {
     /**
      * Functions to style text (e.g. underline, make bold, etc.)

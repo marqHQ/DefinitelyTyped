@@ -3,6 +3,16 @@
 /// <reference path="../../dom/dom.d.ts"/>
 /// <reference path="../../events/event.d.ts"/>
 
+declare module 'goog:goog.demos.editor.HelloWorldDialog' {
+    import alias = goog.demos.editor.HelloWorldDialog;
+    export default alias;
+}
+
+declare module 'goog:goog.demos.editor.HelloWorldDialog.OkEvent' {
+    import alias = goog.demos.editor.HelloWorldDialog.OkEvent;
+    export default alias;
+}
+
 declare namespace goog.demos.editor {
     /**
      * Creates a dialog to let the user enter a customized hello world message.

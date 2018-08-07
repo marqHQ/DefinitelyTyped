@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.dom.NodeType' {
+    import alias = goog.dom.NodeType;
+    export default alias;
+}
+
 declare namespace goog.dom {
     /**
      * Constants for the nodeType attribute in the Node interface.

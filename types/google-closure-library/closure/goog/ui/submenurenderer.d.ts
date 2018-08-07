@@ -2,6 +2,11 @@
 /// <reference path="./menuitemrenderer.d.ts"/>
 /// <reference path="./submenu.d.ts"/>
 
+declare module 'goog:goog.ui.SubMenuRenderer' {
+    import alias = goog.ui.SubMenuRenderer;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Default renderer for {@link goog.ui.SubMenu}s.  Each item has the following

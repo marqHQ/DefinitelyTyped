@@ -1,6 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../structs/map.d.ts"/>
 
+declare module 'goog:goog.dom.forms' {
+    export = goog.dom.forms;
+}
+
 declare namespace goog.dom.forms {
     /**
      * Submits form data via a new window. This hides references to the parent

@@ -4,6 +4,16 @@
 /// <reference path="../../dom/dom.d.ts"/>
 /// <reference path="../../html/trustedresourceurl.d.ts"/>
 
+declare module 'goog:goog.ui.media.YoutubeModel' {
+    import alias = goog.ui.media.YoutubeModel;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.media.Youtube' {
+    import alias = goog.ui.media.Youtube;
+    export default alias;
+}
+
 declare namespace goog.ui.media {
     /**
      * Subclasses a goog.ui.media.MediaRenderer to provide a Youtube specific media

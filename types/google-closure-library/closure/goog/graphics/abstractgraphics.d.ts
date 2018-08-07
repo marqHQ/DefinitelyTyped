@@ -16,6 +16,11 @@
 /// <reference path="./path.d.ts"/>
 /// <reference path="./pathelement.d.ts"/>
 
+declare module 'goog:goog.graphics.AbstractGraphics' {
+    import alias = goog.graphics.AbstractGraphics;
+    export default alias;
+}
+
 declare namespace goog.graphics {
     /**
      * Base class for the different graphics. You should never construct objects

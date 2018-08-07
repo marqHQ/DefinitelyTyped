@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./promise.d.ts"/>
 
+declare module 'goog:goog.promise.Resolver' {
+    import alias = goog.promise.Resolver;
+    export default alias;
+}
+
 declare namespace goog.promise {
     interface Resolver<TYPE> {
         /**

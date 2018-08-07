@@ -2,6 +2,11 @@
 /// <reference path="./message.d.ts"/>
 /// <reference path="./test.pb.d.ts"/>
 
+declare module 'goog:someprotopackage.TestPackageTypes' {
+    import alias = someprotopackage.TestPackageTypes;
+    export default alias;
+}
+
 declare namespace someprotopackage {
     /**
      * Message TestPackageTypes.

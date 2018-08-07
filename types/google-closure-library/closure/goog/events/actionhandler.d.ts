@@ -2,6 +2,26 @@
 /// <reference path="./eventtarget.d.ts"/>
 /// <reference path="./browserevent.d.ts"/>
 
+declare module 'goog:goog.events.BeforeActionEvent' {
+    import alias = goog.events.BeforeActionEvent;
+    export default alias;
+}
+
+declare module 'goog:goog.events.ActionHandler' {
+    import alias = goog.events.ActionHandler;
+    export default alias;
+}
+
+declare module 'goog:goog.events.ActionHandler.EventType' {
+    import alias = goog.events.ActionHandler.EventType;
+    export default alias;
+}
+
+declare module 'goog:goog.events.ActionEvent' {
+    import alias = goog.events.ActionEvent;
+    export default alias;
+}
+
 declare namespace goog.events {
     /**
      * A wrapper around an element that you want to listen to ACTION events on.

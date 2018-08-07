@@ -1,6 +1,16 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./collection.d.ts"/>
 
+declare module 'goog:goog.structs.AvlTree' {
+    import alias = goog.structs.AvlTree;
+    export default alias;
+}
+
+declare module 'goog:goog.structs.AvlTree.Node' {
+    import alias = goog.structs.AvlTree.Node;
+    export default alias;
+}
+
 declare namespace goog.structs {
     /**
      * Constructs an AVL-Tree, which uses the specified comparator to order its

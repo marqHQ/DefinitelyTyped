@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../events/event.d.ts"/>
 
+declare module 'goog:goog.fs.ProgressEvent' {
+    import alias = goog.fs.ProgressEvent;
+    export default alias;
+}
+
 declare namespace goog.fs {
     /**
      * A wrapper for the progress events emitted by the File APIs.

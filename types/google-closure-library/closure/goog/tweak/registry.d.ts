@@ -2,6 +2,11 @@
 /// <reference path="./entries.d.ts"/>
 /// <reference path="../log/log.d.ts"/>
 
+declare module 'goog:goog.tweak.Registry' {
+    import alias = goog.tweak.Registry;
+    export default alias;
+}
+
 declare namespace goog.tweak {
     /**
      * Singleton that manages all tweaks. This should be instantiated only from

@@ -4,6 +4,11 @@
 /// <reference path="../dom/dom.d.ts"/>
 /// <reference path="./palette.d.ts"/>
 
+declare module 'goog:goog.ui.PaletteRenderer' {
+    import alias = goog.ui.PaletteRenderer;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Default renderer for {@link goog.ui.Palette}s.  Renders the palette as an

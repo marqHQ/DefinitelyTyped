@@ -4,6 +4,11 @@
 /// <reference path="./eventid.d.ts"/>
 /// <reference path="./event.d.ts"/>
 
+declare module 'goog:goog.events.EventTarget' {
+    import alias = goog.events.EventTarget;
+    export default alias;
+}
+
 declare namespace goog.events {
     /**
      * An implementation of `goog.events.Listenable` with full W3C

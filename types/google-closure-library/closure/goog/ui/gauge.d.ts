@@ -7,6 +7,16 @@
 /// <reference path="../graphics/groupelement.d.ts"/>
 /// <reference path="../fx/animation.d.ts"/>
 
+declare module 'goog:goog.ui.GaugeColoredRange' {
+    import alias = goog.ui.GaugeColoredRange;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.Gauge' {
+    import alias = goog.ui.Gauge;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Information on how to decorate a range in the gauge.

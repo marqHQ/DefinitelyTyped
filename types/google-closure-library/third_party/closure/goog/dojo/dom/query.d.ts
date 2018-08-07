@@ -1,5 +1,9 @@
 /// <reference path="../../../../../globals.d.ts"/>
 
+declare module 'goog:goog.dom.query' {
+    export = goog.dom.query;
+}
+
 declare namespace goog.dom {
     /**
      * Returns nodes which match the given CSS3 selector, searching the

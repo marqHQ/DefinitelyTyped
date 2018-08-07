@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./iterablemechanism.d.ts"/>
 
+declare module 'goog:goog.storage.mechanism.IEUserData' {
+    import alias = goog.storage.mechanism.IEUserData;
+    export default alias;
+}
+
 declare namespace goog.storage.mechanism {
     /**
      * Provides a storage mechanism using IE userData.

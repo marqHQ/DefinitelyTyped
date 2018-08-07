@@ -5,6 +5,11 @@
 /// <reference path="./basemodule.d.ts"/>
 /// <reference path="../loader/abstractmodulemanager.d.ts"/>
 
+declare module 'goog:goog.module.ModuleInfo' {
+    import alias = goog.module.ModuleInfo;
+    export default alias;
+}
+
 declare namespace goog.module {
     /**
      * A ModuleInfo object is used by the ModuleManager to hold information about a

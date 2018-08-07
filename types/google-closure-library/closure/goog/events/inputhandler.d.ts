@@ -3,6 +3,16 @@
 /// <reference path="./eventhandler.d.ts"/>
 /// <reference path="./browserevent.d.ts"/>
 
+declare module 'goog:goog.events.InputHandler' {
+    import alias = goog.events.InputHandler;
+    export default alias;
+}
+
+declare module 'goog:goog.events.InputHandler.EventType' {
+    import alias = goog.events.InputHandler.EventType;
+    export default alias;
+}
+
 declare namespace goog.events {
     /**
      * This event handler will dispatch events when the user types into a text

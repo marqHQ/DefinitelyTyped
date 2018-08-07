@@ -2,6 +2,11 @@
 /// <reference path="./listenable.d.ts"/>
 /// <reference path="./eventtarget.d.ts"/>
 
+declare module 'goog:goog.events.Listener' {
+    import alias = goog.events.Listener;
+    export default alias;
+}
+
 declare namespace goog.events {
     /**
      * Simple class that stores information about a listener

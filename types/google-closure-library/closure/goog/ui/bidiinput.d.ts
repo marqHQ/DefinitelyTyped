@@ -3,6 +3,11 @@
 /// <reference path="../dom/dom.d.ts"/>
 /// <reference path="../events/inputhandler.d.ts"/>
 
+declare module 'goog:goog.ui.BidiInput' {
+    import alias = goog.ui.BidiInput;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Default implementation of BidiInput.

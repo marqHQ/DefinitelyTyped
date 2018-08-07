@@ -2,6 +2,11 @@
 /// <reference path="./channel.d.ts"/>
 /// <reference path="../webchannel.d.ts"/>
 
+declare module 'goog:goog.labs.net.webChannel.WebChannelBase' {
+    import alias = goog.labs.net.webChannel.WebChannelBase;
+    export default alias;
+}
+
 declare namespace goog.labs.net.webChannel {
     /**
      * This WebChannel implementation is branched off goog.net.BrowserChannel

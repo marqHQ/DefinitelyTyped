@@ -4,6 +4,11 @@
 /// <reference path="./stroke.d.ts"/>
 /// <reference path="./fill.d.ts"/>
 
+declare module 'goog:goog.graphics.EllipseElement' {
+    import alias = goog.graphics.EllipseElement;
+    export default alias;
+}
+
 declare namespace goog.graphics {
     /**
      * Interface for a graphics ellipse element.

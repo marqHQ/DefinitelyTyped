@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 
-declare namespace goog._string {
+declare module 'goog:goog.string.Parser' {
+    import alias = goog.string.Parser;
+    export default alias;
+}
+
+declare namespace goog.string {
     interface Parser {
         /**
          * Parses a string into an object and returns the result.

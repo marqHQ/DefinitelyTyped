@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.Thenable' {
+    import alias = goog.Thenable;
+    export default alias;
+}
+
 declare namespace goog {
     interface Thenable<TYPE> extends IThenable<TYPE> {
         /**

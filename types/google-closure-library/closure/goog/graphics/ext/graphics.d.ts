@@ -5,6 +5,11 @@
 /// <reference path="../../math/size.d.ts"/>
 /// <reference path="../../math/coordinate.d.ts"/>
 
+declare module 'goog:goog.graphics.ext.Graphics' {
+    import alias = goog.graphics.ext.Graphics;
+    export default alias;
+}
+
 declare namespace goog.graphics.ext {
     /**
      * Wrapper for a graphics surface.

@@ -2,6 +2,11 @@
 /// <reference path="../events/eventtarget.d.ts"/>
 /// <reference path="../events/events.d.ts"/>
 
+declare module 'goog:goog.net.IframeLoadMonitor' {
+    import alias = goog.net.IframeLoadMonitor;
+    export default alias;
+}
+
 declare namespace goog.net {
     /**
      * The correct way to determine whether a same-domain iframe has completed

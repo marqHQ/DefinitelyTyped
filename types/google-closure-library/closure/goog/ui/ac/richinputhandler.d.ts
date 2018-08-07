@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="./inputhandler.d.ts"/>
 
+declare module 'goog:goog.ui.ac.RichInputHandler' {
+    import alias = goog.ui.ac.RichInputHandler;
+    export default alias;
+}
+
 declare namespace goog.ui.ac {
     /**
      * Class for managing the interaction between an autocomplete object and a

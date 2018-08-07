@@ -2,6 +2,11 @@
 /// <reference path="./datepickerrenderer.d.ts"/>
 /// <reference path="../dom/dom.d.ts"/>
 
+declare module 'goog:goog.ui.DefaultDatePickerRenderer' {
+    import alias = goog.ui.DefaultDatePickerRenderer;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Default renderer for {@link goog.ui.DatePicker}. Renders the date picker's

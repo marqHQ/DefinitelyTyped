@@ -1,6 +1,11 @@
 /// <reference path="../../../../globals.d.ts"/>
 /// <reference path="../plugin.d.ts"/>
 
+declare module 'goog:goog.editor.plugins.Blockquote' {
+    import alias = goog.editor.plugins.Blockquote;
+    export default alias;
+}
+
 declare namespace goog.editor.plugins {
     /**
      * Plugin to handle splitting block quotes.  This plugin does nothing on its

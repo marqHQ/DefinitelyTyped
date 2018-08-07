@@ -8,6 +8,26 @@
 /// <reference path="./tabpane.d.ts"/>
 /// <reference path="../../events/event.d.ts"/>
 
+declare module 'goog:goog.ui.editor.LinkDialog' {
+    import alias = goog.ui.editor.LinkDialog;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.editor.LinkDialog.OkEvent' {
+    import alias = goog.ui.editor.LinkDialog.OkEvent;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.editor.LinkDialog.EventType' {
+    import alias = goog.ui.editor.LinkDialog.EventType;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.editor.LinkDialog.BeforeTestLinkEvent' {
+    import alias = goog.ui.editor.LinkDialog.BeforeTestLinkEvent;
+    export default alias;
+}
+
 declare namespace goog.ui.editor {
     /**
      * A type of goog.ui.editor.AbstractDialog for editing/creating a link.

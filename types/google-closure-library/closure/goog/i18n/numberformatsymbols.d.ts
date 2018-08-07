@@ -1,5 +1,590 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.i18n.NumberFormatSymbols_zu' {
+    import alias = goog.i18n.NumberFormatSymbols_zu;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_zh_TW' {
+    import alias = goog.i18n.NumberFormatSymbols_zh_TW;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_zh_HK' {
+    import alias = goog.i18n.NumberFormatSymbols_zh_HK;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_zh_CN' {
+    import alias = goog.i18n.NumberFormatSymbols_zh_CN;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_zh' {
+    import alias = goog.i18n.NumberFormatSymbols_zh;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_vi' {
+    import alias = goog.i18n.NumberFormatSymbols_vi;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_uz' {
+    import alias = goog.i18n.NumberFormatSymbols_uz;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_ur' {
+    import alias = goog.i18n.NumberFormatSymbols_ur;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_uk' {
+    import alias = goog.i18n.NumberFormatSymbols_uk;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_tr' {
+    import alias = goog.i18n.NumberFormatSymbols_tr;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_tl' {
+    import alias = goog.i18n.NumberFormatSymbols_tl;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_th' {
+    import alias = goog.i18n.NumberFormatSymbols_th;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_te' {
+    import alias = goog.i18n.NumberFormatSymbols_te;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_ta' {
+    import alias = goog.i18n.NumberFormatSymbols_ta;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_sw' {
+    import alias = goog.i18n.NumberFormatSymbols_sw;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_sv' {
+    import alias = goog.i18n.NumberFormatSymbols_sv;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_sr_Latn' {
+    import alias = goog.i18n.NumberFormatSymbols_sr_Latn;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_sr' {
+    import alias = goog.i18n.NumberFormatSymbols_sr;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_sq' {
+    import alias = goog.i18n.NumberFormatSymbols_sq;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_sl' {
+    import alias = goog.i18n.NumberFormatSymbols_sl;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_sk' {
+    import alias = goog.i18n.NumberFormatSymbols_sk;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_si' {
+    import alias = goog.i18n.NumberFormatSymbols_si;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_sh' {
+    import alias = goog.i18n.NumberFormatSymbols_sh;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_ru' {
+    import alias = goog.i18n.NumberFormatSymbols_ru;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_ro' {
+    import alias = goog.i18n.NumberFormatSymbols_ro;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_pt_PT' {
+    import alias = goog.i18n.NumberFormatSymbols_pt_PT;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_pt_BR' {
+    import alias = goog.i18n.NumberFormatSymbols_pt_BR;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_pt' {
+    import alias = goog.i18n.NumberFormatSymbols_pt;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_pl' {
+    import alias = goog.i18n.NumberFormatSymbols_pl;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_pa' {
+    import alias = goog.i18n.NumberFormatSymbols_pa;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_or' {
+    import alias = goog.i18n.NumberFormatSymbols_or;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_no_NO' {
+    import alias = goog.i18n.NumberFormatSymbols_no_NO;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_no' {
+    import alias = goog.i18n.NumberFormatSymbols_no;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_nl' {
+    import alias = goog.i18n.NumberFormatSymbols_nl;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_ne_u_nu_latn' {
+    import alias = goog.i18n.NumberFormatSymbols_ne_u_nu_latn;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_ne' {
+    import alias = goog.i18n.NumberFormatSymbols_ne;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_nb' {
+    import alias = goog.i18n.NumberFormatSymbols_nb;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_my_u_nu_latn' {
+    import alias = goog.i18n.NumberFormatSymbols_my_u_nu_latn;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_my' {
+    import alias = goog.i18n.NumberFormatSymbols_my;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_mt' {
+    import alias = goog.i18n.NumberFormatSymbols_mt;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_ms' {
+    import alias = goog.i18n.NumberFormatSymbols_ms;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_mr_u_nu_latn' {
+    import alias = goog.i18n.NumberFormatSymbols_mr_u_nu_latn;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_mr' {
+    import alias = goog.i18n.NumberFormatSymbols_mr;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_mo' {
+    import alias = goog.i18n.NumberFormatSymbols_mo;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_mn' {
+    import alias = goog.i18n.NumberFormatSymbols_mn;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_ml' {
+    import alias = goog.i18n.NumberFormatSymbols_ml;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_mk' {
+    import alias = goog.i18n.NumberFormatSymbols_mk;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_lv' {
+    import alias = goog.i18n.NumberFormatSymbols_lv;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_lt' {
+    import alias = goog.i18n.NumberFormatSymbols_lt;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_lo' {
+    import alias = goog.i18n.NumberFormatSymbols_lo;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_ln' {
+    import alias = goog.i18n.NumberFormatSymbols_ln;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_ky' {
+    import alias = goog.i18n.NumberFormatSymbols_ky;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_ko' {
+    import alias = goog.i18n.NumberFormatSymbols_ko;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_kn' {
+    import alias = goog.i18n.NumberFormatSymbols_kn;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_km' {
+    import alias = goog.i18n.NumberFormatSymbols_km;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_kk' {
+    import alias = goog.i18n.NumberFormatSymbols_kk;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_ka' {
+    import alias = goog.i18n.NumberFormatSymbols_ka;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_ja' {
+    import alias = goog.i18n.NumberFormatSymbols_ja;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_iw' {
+    import alias = goog.i18n.NumberFormatSymbols_iw;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_it' {
+    import alias = goog.i18n.NumberFormatSymbols_it;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_is' {
+    import alias = goog.i18n.NumberFormatSymbols_is;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_in' {
+    import alias = goog.i18n.NumberFormatSymbols_in;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_id' {
+    import alias = goog.i18n.NumberFormatSymbols_id;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_hy' {
+    import alias = goog.i18n.NumberFormatSymbols_hy;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_hu' {
+    import alias = goog.i18n.NumberFormatSymbols_hu;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_hr' {
+    import alias = goog.i18n.NumberFormatSymbols_hr;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_hi' {
+    import alias = goog.i18n.NumberFormatSymbols_hi;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_he' {
+    import alias = goog.i18n.NumberFormatSymbols_he;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_haw' {
+    import alias = goog.i18n.NumberFormatSymbols_haw;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_gu' {
+    import alias = goog.i18n.NumberFormatSymbols_gu;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_gsw' {
+    import alias = goog.i18n.NumberFormatSymbols_gsw;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_gl' {
+    import alias = goog.i18n.NumberFormatSymbols_gl;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_ga' {
+    import alias = goog.i18n.NumberFormatSymbols_ga;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_fr_CA' {
+    import alias = goog.i18n.NumberFormatSymbols_fr_CA;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_fr' {
+    import alias = goog.i18n.NumberFormatSymbols_fr;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_fil' {
+    import alias = goog.i18n.NumberFormatSymbols_fil;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_fi' {
+    import alias = goog.i18n.NumberFormatSymbols_fi;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_fa_u_nu_latn' {
+    import alias = goog.i18n.NumberFormatSymbols_fa_u_nu_latn;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_fa' {
+    import alias = goog.i18n.NumberFormatSymbols_fa;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_eu' {
+    import alias = goog.i18n.NumberFormatSymbols_eu;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_et' {
+    import alias = goog.i18n.NumberFormatSymbols_et;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_es_US' {
+    import alias = goog.i18n.NumberFormatSymbols_es_US;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_es_MX' {
+    import alias = goog.i18n.NumberFormatSymbols_es_MX;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_es_ES' {
+    import alias = goog.i18n.NumberFormatSymbols_es_ES;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_es_419' {
+    import alias = goog.i18n.NumberFormatSymbols_es_419;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_es' {
+    import alias = goog.i18n.NumberFormatSymbols_es;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_en_ZA' {
+    import alias = goog.i18n.NumberFormatSymbols_en_ZA;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_en_US' {
+    import alias = goog.i18n.NumberFormatSymbols_en_US;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_en_SG' {
+    import alias = goog.i18n.NumberFormatSymbols_en_SG;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_en_IN' {
+    import alias = goog.i18n.NumberFormatSymbols_en_IN;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_en_IE' {
+    import alias = goog.i18n.NumberFormatSymbols_en_IE;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_en_GB' {
+    import alias = goog.i18n.NumberFormatSymbols_en_GB;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_en_CA' {
+    import alias = goog.i18n.NumberFormatSymbols_en_CA;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_en_AU' {
+    import alias = goog.i18n.NumberFormatSymbols_en_AU;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_en' {
+    import alias = goog.i18n.NumberFormatSymbols_en;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_el' {
+    import alias = goog.i18n.NumberFormatSymbols_el;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_de_CH' {
+    import alias = goog.i18n.NumberFormatSymbols_de_CH;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_de_AT' {
+    import alias = goog.i18n.NumberFormatSymbols_de_AT;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_de' {
+    import alias = goog.i18n.NumberFormatSymbols_de;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_da' {
+    import alias = goog.i18n.NumberFormatSymbols_da;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_cy' {
+    import alias = goog.i18n.NumberFormatSymbols_cy;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_cs' {
+    import alias = goog.i18n.NumberFormatSymbols_cs;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_chr' {
+    import alias = goog.i18n.NumberFormatSymbols_chr;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_ca' {
+    import alias = goog.i18n.NumberFormatSymbols_ca;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_bs' {
+    import alias = goog.i18n.NumberFormatSymbols_bs;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_br' {
+    import alias = goog.i18n.NumberFormatSymbols_br;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_bn_u_nu_latn' {
+    import alias = goog.i18n.NumberFormatSymbols_bn_u_nu_latn;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_bn' {
+    import alias = goog.i18n.NumberFormatSymbols_bn;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_bg' {
+    import alias = goog.i18n.NumberFormatSymbols_bg;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_be' {
+    import alias = goog.i18n.NumberFormatSymbols_be;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_az' {
+    import alias = goog.i18n.NumberFormatSymbols_az;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_ar_u_nu_latn' {
+    import alias = goog.i18n.NumberFormatSymbols_ar_u_nu_latn;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_ar_DZ' {
+    import alias = goog.i18n.NumberFormatSymbols_ar_DZ;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_ar' {
+    import alias = goog.i18n.NumberFormatSymbols_ar;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_am' {
+    import alias = goog.i18n.NumberFormatSymbols_am;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols_af' {
+    import alias = goog.i18n.NumberFormatSymbols_af;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.NumberFormatSymbols' {
+    import alias = goog.i18n.NumberFormatSymbols;
+    export default alias;
+}
+
 declare namespace goog.i18n {
     /**
      * Number formatting symbols for locale af.

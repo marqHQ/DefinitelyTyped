@@ -4,6 +4,16 @@
 /// <reference path="../../dom/dom.d.ts"/>
 /// <reference path="../../html/trustedresourceurl.d.ts"/>
 
+declare module 'goog:goog.ui.media.GoogleVideoModel' {
+    import alias = goog.ui.media.GoogleVideoModel;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.media.GoogleVideo' {
+    import alias = goog.ui.media.GoogleVideo;
+    export default alias;
+}
+
 declare namespace goog.ui.media {
     /**
      * Subclasses a goog.ui.media.MediaRenderer to provide a GoogleVideo specific

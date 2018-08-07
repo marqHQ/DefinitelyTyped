@@ -6,6 +6,11 @@
 /// <reference path="./groupelement.d.ts"/>
 /// <reference path="./imageelement.d.ts"/>
 
+declare module 'goog:goog.graphics.CanvasGraphics' {
+    import alias = goog.graphics.CanvasGraphics;
+    export default alias;
+}
+
 declare namespace goog.graphics {
     /**
      * A Graphics implementation for drawing using canvas.

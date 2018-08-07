@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.pubsub.TopicId' {
+    import alias = goog.pubsub.TopicId;
+    export default alias;
+}
+
 declare namespace goog.pubsub {
     /**
      * A templated class that is used to register `goog.pubsub.PubSub`

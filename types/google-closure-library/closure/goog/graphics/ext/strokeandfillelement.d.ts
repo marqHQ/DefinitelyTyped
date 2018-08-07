@@ -5,6 +5,11 @@
 /// <reference path="../fill.d.ts"/>
 /// <reference path="../stroke.d.ts"/>
 
+declare module 'goog:goog.graphics.ext.StrokeAndFillElement' {
+    import alias = goog.graphics.ext.StrokeAndFillElement;
+    export default alias;
+}
+
 declare namespace goog.graphics.ext {
     /**
      * Interface for a graphics element that has a stroke and fill.

@@ -3,6 +3,11 @@
 /// <reference path="./crosspagechannel.d.ts"/>
 /// <reference path="../../dom/dom.d.ts"/>
 
+declare module 'goog:goog.net.xpc.IframeRelayTransport' {
+    import alias = goog.net.xpc.IframeRelayTransport;
+    export default alias;
+}
+
 declare namespace goog.net.xpc {
     /**
      * Iframe relay transport. Creates hidden iframes containing a document

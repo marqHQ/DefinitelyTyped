@@ -3,6 +3,11 @@
 /// <reference path="./fielddescriptor.d.ts"/>
 /// <reference path="./descriptor.d.ts"/>
 
+declare module 'goog:goog.proto2.Serializer' {
+    import alias = goog.proto2.Serializer;
+    export default alias;
+}
+
 declare namespace goog.proto2 {
     /**
      * Abstract base class for PB2 serializers. A serializer is a class which

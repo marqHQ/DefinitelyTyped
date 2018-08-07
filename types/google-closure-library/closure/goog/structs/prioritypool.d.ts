@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="./pool.d.ts"/>
 
+declare module 'goog:goog.structs.PriorityPool' {
+    import alias = goog.structs.PriorityPool;
+    export default alias;
+}
+
 declare namespace goog.structs {
     /**
      * A generic pool class. If min is greater than max, an error is thrown.

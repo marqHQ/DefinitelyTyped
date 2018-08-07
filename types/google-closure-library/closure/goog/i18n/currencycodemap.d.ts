@@ -1,5 +1,15 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.i18n.currencyCodeMapTier2' {
+    import alias = goog.i18n.currencyCodeMapTier2;
+    export default alias;
+}
+
+declare module 'goog:goog.i18n.currencyCodeMap' {
+    import alias = goog.i18n.currencyCodeMap;
+    export default alias;
+}
+
 declare namespace goog.i18n {
     /**
      * Deprecated, this data is not being updated. Please use

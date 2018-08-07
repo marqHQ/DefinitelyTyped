@@ -2,6 +2,11 @@
 /// <reference path="../disposable/disposable.d.ts"/>
 /// <reference path="./messagechannel.d.ts"/>
 
+declare module 'goog:goog.messaging.LoggerServer' {
+    import alias = goog.messaging.LoggerServer;
+    export default alias;
+}
+
 declare namespace goog.messaging {
     /**
      * Creates a logger server that logs messages on behalf of the remote end of a

@@ -5,16 +5,11 @@ declare const COMPILED: boolean;
 type WorkerGlobalScope = any;
 
 declare namespace goog {
-    export import string = _string;
-
     type GlobalDate = Date;
 
     type GlobalEvent = Event;
 
     type GlobalEventTarget = EventTarget;
-}
-
-declare namespace goog._string {
 }
 
 type IArrayLike<V> = object&{

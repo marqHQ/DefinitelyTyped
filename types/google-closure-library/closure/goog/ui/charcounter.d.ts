@@ -3,6 +3,16 @@
 /// <reference path="../events/inputhandler.d.ts"/>
 /// <reference path="../events/browserevent.d.ts"/>
 
+declare module 'goog:goog.ui.CharCounter' {
+    import alias = goog.ui.CharCounter;
+    export default alias;
+}
+
+declare module 'goog:goog.ui.CharCounter.Display' {
+    import alias = goog.ui.CharCounter.Display;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * CharCounter widget. Counts the number of characters in a input field or a

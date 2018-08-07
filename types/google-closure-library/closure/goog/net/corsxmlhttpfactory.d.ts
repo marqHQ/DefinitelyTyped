@@ -2,6 +2,16 @@
 /// <reference path="./xmlhttpfactory.d.ts"/>
 /// <reference path="./xhrlike.d.ts"/>
 
+declare module 'goog:goog.net.IeCorsXhrAdapter' {
+    import alias = goog.net.IeCorsXhrAdapter;
+    export default alias;
+}
+
+declare module 'goog:goog.net.CorsXmlHttpFactory' {
+    import alias = goog.net.CorsXmlHttpFactory;
+    export default alias;
+}
+
 declare namespace goog.net {
     /**
      * A factory of XML http request objects that supports cross domain requests.

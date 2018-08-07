@@ -1,5 +1,10 @@
 /// <reference path="../../../globals.d.ts"/>
 
+declare module 'goog:goog.ui.ControlContent' {
+    import alias = goog.ui.ControlContent;
+    export default alias;
+}
+
 declare namespace goog.ui {
     /**
      * Type declaration for text caption or DOM structure to be used as the content

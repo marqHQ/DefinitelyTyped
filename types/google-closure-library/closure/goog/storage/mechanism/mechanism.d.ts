@@ -1,5 +1,10 @@
 /// <reference path="../../../../globals.d.ts"/>
 
+declare module 'goog:goog.storage.mechanism.Mechanism' {
+    import alias = goog.storage.mechanism.Mechanism;
+    export default alias;
+}
+
 declare namespace goog.storage.mechanism {
     /**
      * Basic interface for all storage mechanisms.

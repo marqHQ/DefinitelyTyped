@@ -3,6 +3,11 @@
 /// <reference path="./positioning.d.ts"/>
 /// <reference path="../math/box.d.ts"/>
 
+declare module 'goog:goog.positioning.AnchoredViewportPosition' {
+    import alias = goog.positioning.AnchoredViewportPosition;
+    export default alias;
+}
+
 declare namespace goog.positioning {
     /**
      * Encapsulates a popup position where the popup is anchored at a corner of

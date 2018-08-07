@@ -3,6 +3,16 @@
 /// <reference path="./dom.d.ts"/>
 /// <reference path="../events/browserevent.d.ts"/>
 
+declare module 'goog:goog.dom.FontSizeMonitor' {
+    import alias = goog.dom.FontSizeMonitor;
+    export default alias;
+}
+
+declare module 'goog:goog.dom.FontSizeMonitor.EventType' {
+    import alias = goog.dom.FontSizeMonitor.EventType;
+    export default alias;
+}
+
 declare namespace goog.dom {
     /**
      * This class can be used to monitor changes in font size.  Instances will

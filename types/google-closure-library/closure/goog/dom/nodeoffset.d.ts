@@ -1,6 +1,11 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../disposable/disposable.d.ts"/>
 
+declare module 'goog:goog.dom.NodeOffset' {
+    import alias = goog.dom.NodeOffset;
+    export default alias;
+}
+
 declare namespace goog.dom {
     /**
      * Object to store the offset from one node to another in a way that works on

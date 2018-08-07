@@ -1,6 +1,21 @@
 /// <reference path="../../../globals.d.ts"/>
 /// <reference path="../debug/error.d.ts"/>
 
+declare module 'goog:goog.fs.Error' {
+    import alias = goog.fs.Error;
+    export default alias;
+}
+
+declare module 'goog:goog.fs.Error.ErrorCode' {
+    import alias = goog.fs.Error.ErrorCode;
+    export default alias;
+}
+
+declare module 'goog:goog.fs.DOMErrorLike' {
+    import alias = goog.fs.DOMErrorLike;
+    export default alias;
+}
+
 declare namespace goog.fs {
     /**
      * A filesystem error. Since the filesystem API is asynchronous, stack traces

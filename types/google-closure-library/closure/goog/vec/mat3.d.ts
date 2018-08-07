@@ -2,6 +2,11 @@
 /// <reference path="./vec.d.ts"/>
 /// <reference path="./vec3.d.ts"/>
 
+declare module 'goog:goog.vec.Mat3' {
+    import alias = goog.vec.Mat3;
+    export default alias;
+}
+
 declare namespace goog.vec.Mat3 {
     /** @typedef {goog.vec.Float32} */
     type Float32 = goog.vec.Float32;
