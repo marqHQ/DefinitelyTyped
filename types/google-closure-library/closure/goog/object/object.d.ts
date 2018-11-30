@@ -30,7 +30,7 @@ declare namespace goog.object {
      * @template T,K,V
      */
     function forEach<T, O extends {[key: string]: any}>(
-        obj: O, f: (this: T, _0: O[typeof _1], _1: keyof O, _2: O) => any, opt_obj?: T
+        obj: O, f: (this: T, _0: O[typeof _1], _1: string&keyof O, _2: O) => any, opt_obj?: T
     ): void;
     function forEach<T>(obj: object, f: (this: T, _0: any, _1: string, _2: typeof obj) => any, obt_obj?: T): void;
 
@@ -74,7 +74,7 @@ declare namespace goog.object {
      * @template T,K,V,R
      */
     function map<T, O extends {[key: string]: any}, R>(
-        obj: O|null|undefined, f: (this: T, _0: O[typeof _1], _1: keyof O, _2: O) => R, opt_obj?: T
+        obj: O|null|undefined, f: (this: T, _0: O[typeof _1], _1: string&keyof O, _2: O) => R, opt_obj?: T
     ): {[key: string]: R};
     function map<T, R>(
         obj: object|null|undefined, f: (this: T, _0: any, _1: any, _2: object) => R, opt_obj?: T
