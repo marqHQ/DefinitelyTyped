@@ -85,7 +85,7 @@ declare namespace goog.net {
          *
          * @param {string} name  The cookie name.
          * @param {string} value  The cookie value.
-         * @param {number=} opt_maxAge  The max age in seconds (from now). Use -1 to
+         * @param {number|!goog.net.Cookies.SetOptions=} opt_maxAge  The max age in seconds (from now). Use -1 to
          *     set a session cookie. If not provided, the default is -1
          *     (i.e. set a session cookie).
          * @param {?string=} opt_path  The path of the cookie. If not present then this
@@ -99,7 +99,7 @@ declare namespace goog.net {
          */
         set(name: string,
             value: string,
-            opt_maxAge?: number,
+            opt_maxAge?: number|goog.net.Cookies.SetOptions,
             opt_path?: string|null,
             opt_domain?: string|null,
             opt_secure?: boolean): void;
@@ -225,6 +225,74 @@ declare namespace goog.net.Cookies {
      * @type {number}
      */
     var MAX_COOKIE_LENGTH: number;
+
+    /**
+     * Valid values for the SameSite cookie attribute.  In 2019, browsers began the
+     * process of changing the default from NONE to LAX.
+     *
+     * @see https://web.dev/samesite-cookies-explained
+     * @see https://tools.ietf.org/html/draft-ietf-httpbis-rfc6265bis-03#section-5.3.7
+     * @enum {string}
+     */
+    enum SameSite {
+        /**
+         * The cookie will be sent in first-party contexts, including initial
+         * navigation from external referrers.
+         */
+        LAX = 'lax',
+        /**
+         * The cookie will be sent in all first-party or third-party contexts. This
+         * was the original default behavior of the web, but will need to be set
+         * explicitly starting in 2020.
+         */
+        NONE = 'none',
+        /**
+         * The cookie will only be sent in first-party contexts. It will not be sent
+         * on initial navigation from external referrers.
+         */
+        STRICT = 'strict',
+    }
+
+
+    /**
+     * Options object for calls to Cookies.prototype.set.
+     * @record
+     */
+    class SetOptions {
+        /**
+         * The max age in seconds (from now). Use -1 to set a session cookie. If not
+         * provided, the default is -1 (i.e. set a session cookie).
+         * @type {number|undefined}
+         */
+        public maxAge?: number;
+
+        /**
+         * The path of the cookie. If not present then this uses the full request
+         * path.
+         * @type {?string|undefined}
+         */
+        public path?: string;
+
+        /**
+         * The domain of the cookie, or null to not specify a domain attribute
+         * (browser will use the full request host name). If not provided, the default
+         * is null (i.e. let browser use full request host name).
+         * @type {?string|undefined}
+         */
+        public domain?: string;
+
+        /**
+         * Whether the cookie should only be sent over a secure channel.
+         * @type {boolean|undefined}
+         */
+        public secure?: boolean;
+
+        /**
+         * The SameSite attribute for the cookie (default is NONE).
+         * @type {!goog.net.Cookies.SameSite|undefined}
+         */
+        public sameSite?: SameSite;
+    }
 
     /**
      * Getter for the static instance of goog.net.Cookies.

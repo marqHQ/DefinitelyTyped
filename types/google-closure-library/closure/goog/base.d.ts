@@ -105,35 +105,6 @@ declare module goog {
     const global: any;
 
     /**
-     * Returns true if the specified value is not undefined.
-     *
-     * @param {?} val Variable to test.
-     * @return {boolean} Whether variable is defined.
-     */
-    function isDef<T>(val: T|undefined): val is T;
-
-    /**
-     * Returns true if the specified value is a string.
-     * @param {?} val Variable to test.
-     * @return {boolean} Whether variable is a string.
-     */
-    function isString(val: any): val is string;
-
-    /**
-     * Returns true if the specified value is a boolean.
-     * @param {?} val Variable to test.
-     * @return {boolean} Whether variable is boolean.
-     */
-    function isBoolean(val: any): val is boolean;
-
-    /**
-     * Returns true if the specified value is a number.
-     * @param {?} val Variable to test.
-     * @return {boolean} Whether variable is a number.
-     */
-    function isNumber(val: any): val is number;
-
-    /**
      * Defines a named value. In uncompiled mode, the value is retrieved from
      * CLOSURE_DEFINES or CLOSURE_UNCOMPILED_DEFINES if the object is defined and
      * has the property specified, and otherwise used the defined defaultValue.
@@ -358,20 +329,6 @@ declare module goog {
      * @return {string} The name of the type.
      */
     function typeOf(value: any): string;
-
-    /**
-     * Returns true if the specified value is null.
-     * @param {?} val Variable to test.
-     * @return {boolean} Whether variable is null.
-     */
-    function isNull(val: any): val is null;
-
-    /**
-     * Returns true if the specified value is defined and not null.
-     * @param {?} val Variable to test.
-     * @return {boolean} Whether variable is defined and not null.
-     */
-    function isDefAndNotNull<T>(val: T|null|undefined): val is T;
 
     /**
      * Returns true if the specified value is an array.
