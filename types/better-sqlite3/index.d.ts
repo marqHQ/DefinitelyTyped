@@ -16,24 +16,6 @@ type VariableArgFunction = (...params: any[]) => any;
 type ArgumentTypes<F extends VariableArgFunction> = F extends (...args: infer A) => any ? A : never;
 
 declare namespace BetterSqlite3 {
-    interface Statement<BindParameters extends any[]> {
-        database: Database;
-        source: string;
-        reader: boolean;
-        busy: boolean;
-
-        run(...params: BindParameters): Database.RunResult;
-        get(...params: BindParameters): any;
-        all(...params: BindParameters): any[];
-        iterate(...params: BindParameters): IterableIterator<any>;
-        pluck(toggleState?: boolean): this;
-        expand(toggleState?: boolean): this;
-        raw(toggleState?: boolean): this;
-        bind(...params: BindParameters): this;
-        columns(): ColumnDefinition[];
-        safeIntegers(toggleState?: boolean): this;
-    }
-
     interface ColumnDefinition {
         name: string;
         column: string | null;
@@ -56,39 +38,6 @@ declare namespace BetterSqlite3 {
         parameters?: string[] | undefined;
         safeIntegers?: boolean | undefined;
         directOnly?: boolean | undefined;
-    }
-
-    interface Database {
-        memory: boolean;
-        readonly: boolean;
-        name: string;
-        open: boolean;
-        inTransaction: boolean;
-
-        prepare<BindParameters extends any[] | {} = any[]>(
-            source: string,
-        ): BindParameters extends any[] ? Statement<BindParameters> : Statement<[BindParameters]>;
-        transaction<F extends VariableArgFunction>(fn: F): Transaction<F>;
-        exec(source: string): this;
-        pragma(source: string, options?: Database.PragmaOptions): any;
-        function(name: string, cb: (...params: any[]) => any): this;
-        function(name: string, options: Database.RegistrationOptions, cb: (...params: any[]) => any): this;
-        aggregate(name: string, options: Database.AggregateOptions): this;
-        loadExtension(path: string): this;
-        close(): this;
-        defaultSafeIntegers(toggleState?: boolean): this;
-        backup(destinationFile: string, options?: Database.BackupOptions): Promise<Database.BackupMetadata>;
-        table(name: string, options: VirtualTableOptions): this;
-        unsafeMode(unsafe?: boolean): this;
-        serialize(options?: Database.SerializeOptions): Buffer;
-    }
-
-    interface DatabaseConstructor {
-        new (filename: string, options?: Database.Options): Database;
-        (filename: string, options?: Database.Options): Database;
-        prototype: Database;
-
-        SqliteError: typeof SqliteError;
     }
 }
 
@@ -143,14 +92,64 @@ declare namespace Database {
         progress: (info: BackupMetadata) => number;
     }
 
+    interface AbstractStatement<BindParameters extends any[]> {
+        database: Database;
+        source: string;
+        reader: boolean;
+        busy: boolean;
+
+        run(...params: BindParameters): Database.RunResult;
+        get(...params: BindParameters): any;
+        all(...params: BindParameters): any[];
+        iterate(...params: BindParameters): IterableIterator<any>;
+        pluck(toggleState?: boolean): this;
+        expand(toggleState?: boolean): this;
+        raw(toggleState?: boolean): this;
+        bind(...params: BindParameters): this;
+        columns(): ColumnDefinition[];
+        safeIntegers(toggleState?: boolean): this;
+    }
+
     type SqliteError = typeof SqliteError;
     type Statement<BindParameters extends any[] | {} = any[]> = BindParameters extends any[]
-        ? BetterSqlite3.Statement<BindParameters>
-        : BetterSqlite3.Statement<[BindParameters]>;
+        ? AbstractStatement<BindParameters>
+        : AbstractStatement<[BindParameters]>;
     type ColumnDefinition = BetterSqlite3.ColumnDefinition;
     type Transaction = BetterSqlite3.Transaction<VariableArgFunction>;
-    type Database = BetterSqlite3.Database;
+
+    interface Database {
+        memory: boolean;
+        readonly: boolean;
+        name: string;
+        open: boolean;
+        inTransaction: boolean;
+
+        prepare<BindParameters extends any[] | {} = any[]>(
+            source: string,
+        ): BindParameters extends any[] ? Statement<BindParameters> : Statement<[BindParameters]>;
+        transaction<F extends VariableArgFunction>(fn: F): BetterSqlite3.Transaction<F>;
+        exec(source: string): this;
+        pragma(source: string, options?: Database.PragmaOptions): any;
+        function(name: string, cb: (...params: any[]) => any): this;
+        function(name: string, options: Database.RegistrationOptions, cb: (...params: any[]) => any): this;
+        aggregate(name: string, options: Database.AggregateOptions): this;
+        loadExtension(path: string): this;
+        close(): this;
+        defaultSafeIntegers(toggleState?: boolean): this;
+        backup(destinationFile: string, options?: Database.BackupOptions): Promise<Database.BackupMetadata>;
+        table(name: string, options: BetterSqlite3.VirtualTableOptions): this;
+        unsafeMode(unsafe?: boolean): this;
+        serialize(options?: Database.SerializeOptions): Buffer;
+    }
+
+    interface DatabaseConstructor {
+        new (filename: string, options?: Database.Options): Database;
+        (filename: string, options?: Database.Options): Database;
+        prototype: Database;
+
+        SqliteError: typeof SqliteError;
+    }
 }
 
-declare const Database: BetterSqlite3.DatabaseConstructor;
+declare const Database: Database.DatabaseConstructor;
 export = Database;
